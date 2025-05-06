@@ -4,11 +4,25 @@
   <subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
   <link href="https://example.com/feed.xml" rel="self" />
   <link href="https://example.com/" />
-  <updated>2025-05-05T12:28:18Z</updated>
+  <updated>2025-05-06T15:03:10Z</updated>
   <id>https://example.com/</id>
   <author>
     <name>Boaty McBoatFace</name>
   </author>
+  <entry>
+    <title>Post V</title>
+    <link href="https://example.com/posts/post-5/" />
+    <updated>2025-05-06T15:03:10Z</updated>
+    <id>https://example.com/posts/post-5/</id>
+    <content type="html">&lt;p&gt;This will be a long one!&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Post number four</title>
+    <link href="https://example.com/posts/post-4/" />
+    <updated>2025-05-06T14:42:37Z</updated>
+    <id>https://example.com/posts/post-4/</id>
+    <content type="html">&lt;p&gt;Will this update RSS?&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Post three</title>
     <link href="https://example.com/posts/post-3/" />
@@ -30,4 +44,4 @@
     <id>https://example.com/posts/post-1/</id>
     <content type="html">&lt;p&gt;Post one content.&lt;/p&gt;</content>
   </entry>
-</feed> 
+</feed>

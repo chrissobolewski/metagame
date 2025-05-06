@@ -1,17 +1,17 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>{{ title | default: "Metagame | Homepage" }}</title>
-		<link rel="stylesheet" href="/style.css">
+		{% include  "head.html" %}
 	</head>
 	<body>
 		<header>
-			<h1>{{ title | default: "Metagame | Homepage" }}</h1>
+			{% include  "header.html" %}
 		</header>
 		<main>
 			{{ content }}
 		</main>
+		<footer>
+			{% include  "footer.html" %}
+		</footer>
 	</body>
 </html>

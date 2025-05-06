@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		{% include  "head.html" %}
+	</head>
+	<body>
+		<header>
+			{% include  "header.html" %}
+		</header>
+        <main>
+            <h1>{{ title }}</h1>
+            Published or last updated: {{ page.date | date: "%d %B %Y" }}
+            {{ content }}
+        </main>
+		<footer>
+			{% include  "footer.html" %}
+		</footer>
+	</body>
+</html>

@@ -1,13 +1,31 @@
-const pluginRss = require("@11ty/eleventy-plugin-rss");
+/*
+import pluginRss from "@11ty/eleventy-plugin-rss";
 
 module.exports = function(eleventyConfig) {
-  // Including style.css in the final build
-  eleventyConfig.addPassthroughCopy("src/style.css");
-
-  // Adding RSS feed plugin
+  // Add the RSS plugin
   eleventyConfig.addPlugin(pluginRss);
 
-  // Defining the directory structure
+  // Add passthrough copy for static files
+  eleventyConfig.addPassthroughCopy("src/style.css");
+
+  return {
+    dir: {
+      input: "src",
+      output: "_site",
+      includes: "_includes",
+      data: "_data",
+    },
+    templateFormats: ["html", "liquid", "njk", "md"],
+  };
+};
+
+*/
+
+import pluginRss from "@11ty/eleventy-plugin-rss";
+
+export default async function (eleventyConfig) {
+	eleventyConfig.addPlugin(pluginRss);
+  eleventyConfig.addPassthroughCopy("src/style.css");
   return {
     dir: {
       input: "src",
