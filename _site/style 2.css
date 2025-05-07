@@ -1,0 +1,43 @@
+p {
+    color: blue;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 24px;
+    font-family: KHInterference, sans-serif;
+    color: black;
+}
+
+
+/* side by side display of short and long blog posts */
+.blog-feed-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .blog-feed {
+    flex: 1;
+  }
+
+  /* Style for the navigation bar */
+.nav {
+    display: flex; /* Use Flexbox to align items horizontally */
+    list-style: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.nav li {
+    margin-right: 20px; /* Add spacing between items */
+}
+
+.nav li:last-child {
+    margin-right: 0; /* Remove margin from the last item */
+}
+
+.nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* Set link color */
+    font-weight: bold; /* Optional: Make links bold */
+}
