@@ -1,114 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="https://example.com/metagame/" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="https://example.com/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog Title</title>
-    <link>https://example.com/metagame/</link>
-    <atom:link href="https://example.com/metagame/feed/feed.xml" rel="self" type="application/rss+xml" />
+    <link>https://example.com/</link>
+    <atom:link href="https://example.com/feed/feed.xml" rel="self" type="application/rss+xml" />
     <description>This is a longer description about your blog.</description>
     <language>en</language>
     <item>
       <title></title>
-      <link>https://example.com/metagame/posts/2025-05-08pm/</link>
+      <link>https://example.com/posts/2025-05-08pm/</link>
       <description>&lt;p&gt;Vibe-coding my way through setting up a static HTML blog on &lt;a href=&quot;https://www.11ty.dev&quot;&gt;11ty&lt;/a&gt;. I have time until October to migrate away from Ghost.&lt;/p&gt;
+&lt;p&gt;Now how do I publish this on GitHub pages?&lt;/p&gt;
 </description>
       <pubDate>Fri, 09 May 2025 03:46:00 GMT</pubDate>
       <dc:creator>Your Name</dc:creator>
-      <guid>https://example.com/metagame/posts/2025-05-08pm/</guid>
+      <guid>https://example.com/posts/2025-05-08pm/</guid>
     </item>
     <item>
       <title>Post se7ven</title>
-      <link>https://example.com/metagame/posts/post-7/</link>
+      <link>https://example.com/posts/post-7/</link>
       <description>&lt;p&gt;this will cause overflow&lt;/p&gt;</description>
       <pubDate>Thu, 08 May 2025 13:57:54 GMT</pubDate>
       <dc:creator>Your Name</dc:creator>
-      <guid>https://example.com/metagame/posts/post-7/</guid>
+      <guid>https://example.com/posts/post-7/</guid>
     </item>
     <item>
       <title>Post VI</title>
-      <link>https://example.com/metagame/posts/post-6/</link>
+      <link>https://example.com/posts/post-6/</link>
       <description>&lt;p&gt;another short one&lt;/p&gt;
 &lt;p&gt;with &lt;strong&gt;markdown&lt;/strong&gt;&lt;/p&gt;
 </description>
       <pubDate>Thu, 08 May 2025 13:35:10 GMT</pubDate>
       <dc:creator>Your Name</dc:creator>
-      <guid>https://example.com/metagame/posts/post-6/</guid>
+      <guid>https://example.com/posts/post-6/</guid>
     </item>
     <item>
       <title>Post V</title>
-      <link>https://example.com/metagame/posts/post-5/</link>
+      <link>https://example.com/posts/post-5/</link>
       <description>&lt;p&gt;This will be a long one!&lt;/p&gt;</description>
       <pubDate>Thu, 08 May 2025 13:35:10 GMT</pubDate>
       <dc:creator>Your Name</dc:creator>
-      <guid>https://example.com/metagame/posts/post-5/</guid>
+      <guid>https://example.com/posts/post-5/</guid>
     </item>
     <item>
       <title>Post number four</title>
-      <link>https://example.com/metagame/posts/post-4/</link>
+      <link>https://example.com/posts/post-4/</link>
       <description>&lt;p&gt;I’m amazed by how friendly the people here are. I mean — you just walk around, point your camera and random stuff, and a lady at a shop across the street just starts posing for you.&lt;/p&gt;
 &lt;p&gt;I wasn’t sure how Craig Mod does it, but I start to get it now. People are nice here and approaching them feels less scary — even for an introvert.&lt;/p&gt;
 </description>
       <pubDate>Thu, 08 May 2025 13:35:10 GMT</pubDate>
       <dc:creator>Your Name</dc:creator>
-      <guid>https://example.com/metagame/posts/post-4/</guid>
+      <guid>https://example.com/posts/post-4/</guid>
     </item>
     <item>
       <title>Post three</title>
-      <link>https://example.com/metagame/posts/post-3/</link>
+      <link>https://example.com/posts/post-3/</link>
       <description>&lt;p&gt;I&#39;m the latest post!&lt;/p&gt;</description>
       <pubDate>Thu, 08 May 2025 13:35:10 GMT</pubDate>
       <dc:creator>Your Name</dc:creator>
-      <guid>https://example.com/metagame/posts/post-3/</guid>
+      <guid>https://example.com/posts/post-3/</guid>
     </item>
     <item>
       <title>Post 1</title>
-      <link>https://example.com/metagame/posts/post-1/</link>
+      <link>https://example.com/posts/post-1/</link>
       <description>&lt;p&gt;Post one content.&lt;/p&gt;</description>
       <pubDate>Thu, 08 May 2025 13:35:10 GMT</pubDate>
       <dc:creator>Your Name</dc:creator>
-      <guid>https://example.com/metagame/posts/post-1/</guid>
+      <guid>https://example.com/posts/post-1/</guid>
     </item>
     <item>
       <title>Post 2</title>
-      <link>https://example.com/metagame/posts/post-2/</link>
+      <link>https://example.com/posts/post-2/</link>
       <description>&lt;p&gt;Post 2 content.&lt;/p&gt;</description>
       <pubDate>Tue, 06 May 2025 08:00:00 GMT</pubDate>
       <dc:creator>Your Name</dc:creator>
-      <guid>https://example.com/metagame/posts/post-2/</guid>
+      <guid>https://example.com/posts/post-2/</guid>
     </item>
     <item>
       <title>Friday Night, Good Time</title>
-      <link>https://example.com/metagame/posts/friday-night-good-time/</link>
+      <link>https://example.com/posts/friday-night-good-time/</link>
       <description>&lt;p&gt;&lt;em&gt;Day 2&lt;/em&gt;
 &lt;em&gt;Tokyo, Matsumoto, 21,757 steps, 17.4 kilometers&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;I want to write about the amazing buffet breakfast at The Tokyo Hotel. And about Glitch that serves gesha variety coffee almost exclusively. And about how I got on the train to Matsumoto literally at the very last minute (so unlike me!)&lt;/p&gt;
-&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/metagame/posts/friday-night-good-time/_O2bNEKqS1-2000.avif 2000w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/metagame/posts/friday-night-good-time/_O2bNEKqS1-2000.webp 2000w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/metagame/posts/friday-night-good-time/_O2bNEKqS1-2000.jpeg&quot; alt=&quot;Glitch coffee in Tokyo&quot; width=&quot;2000&quot; height=&quot;1328&quot;&gt;&lt;/picture&gt;
+&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/.11ty/image/?src=src%2Fposts%2Ffriday-night-good-time%2Ffngt1.jpeg&amp;width=2000&amp;format=avif&amp;via=transform 2000w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/.11ty/image/?src=src%2Fposts%2Ffriday-night-good-time%2Ffngt1.jpeg&amp;width=2000&amp;format=webp&amp;via=transform 2000w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/.11ty/image/?src=src%2Fposts%2Ffriday-night-good-time%2Ffngt1.jpeg&amp;width=2000&amp;format=jpeg&amp;via=transform&quot; alt=&quot;Glitch coffee in Tokyo&quot; width=&quot;2000&quot; height=&quot;1328&quot;&gt;&lt;/picture&gt;
 &lt;p&gt;But the only thing on my mind right now is this random encounter on Nawate-dori in Matsumoto.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;This trip, for me, is all about serendipity. I don’t have a lot of things planned. Three, maybe four spots marked on the map in each city, but that’s about it. Leaving the rest to chance.&lt;/p&gt;
 &lt;p&gt;One day, someone will randomly start posing for a picture. The next day, I’ll get called over and brought into a “conversation” with three folks that are definitely having a very good time on a Friday night.&lt;/p&gt;
-&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/metagame/posts/friday-night-good-time/NIiZRbYAlD-2000.avif 2000w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/metagame/posts/friday-night-good-time/NIiZRbYAlD-2000.webp 2000w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/metagame/posts/friday-night-good-time/NIiZRbYAlD-2000.jpeg&quot; alt=&quot;Yakuzaaaa!&quot; width=&quot;2000&quot; height=&quot;1500&quot;&gt;&lt;/picture&gt;
+&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/.11ty/image/?src=src%2Fposts%2Ffriday-night-good-time%2Ffngt2.jpeg&amp;width=2000&amp;format=avif&amp;via=transform 2000w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/.11ty/image/?src=src%2Fposts%2Ffriday-night-good-time%2Ffngt2.jpeg&amp;width=2000&amp;format=webp&amp;via=transform 2000w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/.11ty/image/?src=src%2Fposts%2Ffriday-night-good-time%2Ffngt2.jpeg&amp;width=2000&amp;format=jpeg&amp;via=transform&quot; alt=&quot;Yakuzaaaa!&quot; width=&quot;2000&quot; height=&quot;1500&quot;&gt;&lt;/picture&gt;
 &lt;p&gt;“Conversation” is, of course, overselling it. I was speaking in English, the two guys were speaking in Japanese, and the lady tried her best to translate. We &lt;em&gt;kind of&lt;/em&gt; communicated, but not quite. But the gist of it was that the other two were trying to convince me that the bald guy was yakuza. “Yakuza! Mafia!” they kept repeating in between laughs.&lt;/p&gt;
 &lt;p&gt;They also tried to invite me for yakitori. But I was already full — had ramen at Menshu Takenaka just a moment before.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;Chicken-based soy-sauce broth with two thin slices of smoked duck meat. When the owner served it, he looked proud. As he should be! — man, this was one delicious bowl of noodles.&lt;/p&gt;
-&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/metagame/posts/friday-night-good-time/5RetkixDzT-2000.avif 2000w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/metagame/posts/friday-night-good-time/5RetkixDzT-2000.webp 2000w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/metagame/posts/friday-night-good-time/5RetkixDzT-2000.jpeg&quot; alt=&quot;Menshu Takenaka&quot; width=&quot;2000&quot; height=&quot;1500&quot;&gt;&lt;/picture&gt;
+&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/.11ty/image/?src=src%2Fposts%2Ffriday-night-good-time%2Ffngt3.jpeg&amp;width=2000&amp;format=avif&amp;via=transform 2000w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/.11ty/image/?src=src%2Fposts%2Ffriday-night-good-time%2Ffngt3.jpeg&amp;width=2000&amp;format=webp&amp;via=transform 2000w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/.11ty/image/?src=src%2Fposts%2Ffriday-night-good-time%2Ffngt3.jpeg&amp;width=2000&amp;format=jpeg&amp;via=transform&quot; alt=&quot;Menshu Takenaka&quot; width=&quot;2000&quot; height=&quot;1500&quot;&gt;&lt;/picture&gt;
 &lt;p&gt;The broth: clear mountain water infused with lots of local vegetables. So different than that salty, MSG-y soup you can often get in Hong Kong (in HK, it’s considered natural to not finish the soup in a bowl of ramen — but at &lt;em&gt;Menshu Takenaka&lt;/em&gt; I finished it all and immediately wanted more). The meat: gently seared with a gas torch. Garnish: very little.&lt;/p&gt;
-&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/metagame/posts/friday-night-good-time/FzryLtaXC7-2000.avif 2000w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/metagame/posts/friday-night-good-time/FzryLtaXC7-2000.webp 2000w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/metagame/posts/friday-night-good-time/FzryLtaXC7-2000.jpeg&quot; alt=&quot;Ramen ordering machine&quot; width=&quot;2000&quot; height=&quot;1500&quot;&gt;&lt;/picture&gt;
+&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/.11ty/image/?src=src%2Fposts%2Ffriday-night-good-time%2Ffngt4.jpeg&amp;width=2000&amp;format=avif&amp;via=transform 2000w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/.11ty/image/?src=src%2Fposts%2Ffriday-night-good-time%2Ffngt4.jpeg&amp;width=2000&amp;format=webp&amp;via=transform 2000w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/.11ty/image/?src=src%2Fposts%2Ffriday-night-good-time%2Ffngt4.jpeg&amp;width=2000&amp;format=jpeg&amp;via=transform&quot; alt=&quot;Ramen ordering machine&quot; width=&quot;2000&quot; height=&quot;1500&quot;&gt;&lt;/picture&gt;
 &lt;p&gt;A hot bowl of noodly goodness. What more can a weary traveler ask for on a cold autumn evening?&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;I’m trying to work on my fear of asking people if I can take a photo. Tried my luck in Matsumoto twice already, and it worked!&lt;/p&gt;
 &lt;p&gt;People I ask seem surprised — “why would you want to take a photo of &lt;em&gt;me&lt;/em&gt;?” — but I’m surprised even more that they agree!&lt;/p&gt;
 &lt;p&gt;I’m letting myself be surprised. That’s my theme for this trip.&lt;/p&gt;
-&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/metagame/posts/friday-night-good-time/KPtykkqD1x-2000.avif 2000w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/metagame/posts/friday-night-good-time/KPtykkqD1x-2000.webp 2000w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/metagame/posts/friday-night-good-time/KPtykkqD1x-2000.jpeg&quot; alt=&quot;Just a random shop&quot; width=&quot;2000&quot; height=&quot;1125&quot;&gt;&lt;/picture&gt;
+&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/.11ty/image/?src=src%2Fposts%2Ffriday-night-good-time%2Ffngt5.jpeg&amp;width=2000&amp;format=avif&amp;via=transform 2000w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/.11ty/image/?src=src%2Fposts%2Ffriday-night-good-time%2Ffngt5.jpeg&amp;width=2000&amp;format=webp&amp;via=transform 2000w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/.11ty/image/?src=src%2Fposts%2Ffriday-night-good-time%2Ffngt5.jpeg&amp;width=2000&amp;format=jpeg&amp;via=transform&quot; alt=&quot;Just a random shop&quot; width=&quot;2000&quot; height=&quot;1125&quot;&gt;&lt;/picture&gt;
 &lt;p&gt;Tomorrow — a full day in Matsumoto. I’m going to walk my feet off.&lt;/p&gt;
 </description>
       <pubDate>Sat, 22 Oct 2022 08:00:00 GMT</pubDate>
       <dc:creator>Your Name</dc:creator>
-      <guid>https://example.com/metagame/posts/friday-night-good-time/</guid>
+      <guid>https://example.com/posts/friday-night-good-time/</guid>
     </item>
     <item>
       <title>It Feels Different</title>
-      <link>https://example.com/metagame/posts/it-feels-different/</link>
+      <link>https://example.com/posts/it-feels-different/</link>
       <description>&lt;p&gt;Hello! I’m Chris and I walk in &lt;a href=&quot;https://craigmod.com/about/&quot;&gt;Craig Mod’s&lt;/a&gt; footsteps — by eating pizza toast, walking for hours, and taking photos on my trip around small cities in Japan.&lt;/p&gt;
 &lt;p&gt;A word of warning. My writing is rusty (last time I wrote something longform-ish for the people on the internet to read, was &lt;a href=&quot;https://metafinanse.pl/rok-tygrysa/&quot;&gt;almost a year ago&lt;/a&gt;). My photography skills I’m not too confident in. But hey, at least I’m trying.&lt;/p&gt;
 &lt;hr&gt;
@@ -123,12 +124,12 @@
 &lt;hr&gt;
 &lt;p&gt;Big city energy, but different.&lt;/p&gt;
 &lt;p&gt;I’m amazed by how friendly the people here are. I mean — you just walk around, point your camera and random stuff, and a lady at a shop across the street just starts posing for you. I wasn’t sure how Craig Mod does it, but I start to get it now. People are nice here and approaching them feels less scary — even for an introvert.&lt;/p&gt;
-&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/metagame/posts/it-feels-different/MjG_b9wpym-2000.avif 2000w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/metagame/posts/it-feels-different/MjG_b9wpym-2000.webp 2000w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/metagame/posts/it-feels-different/MjG_b9wpym-2000.jpeg&quot; alt=&quot;a cheerful shop manager&quot; width=&quot;2000&quot; height=&quot;1500&quot;&gt;&lt;/picture&gt;
+&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/.11ty/image/?src=src%2Fposts%2Fit-feels-different%2Fifd1.jpeg&amp;width=2000&amp;format=avif&amp;via=transform 2000w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/.11ty/image/?src=src%2Fposts%2Fit-feels-different%2Fifd1.jpeg&amp;width=2000&amp;format=webp&amp;via=transform 2000w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/.11ty/image/?src=src%2Fposts%2Fit-feels-different%2Fifd1.jpeg&amp;width=2000&amp;format=jpeg&amp;via=transform&quot; alt=&quot;a cheerful shop manager&quot; width=&quot;2000&quot; height=&quot;1500&quot;&gt;&lt;/picture&gt;
 &lt;p&gt;Speaking of Craig, the pizza place &lt;a href=&quot;https://www.eater.com/2017/2/21/14670944/best-pizza-tokyo-guide&quot;&gt;he featured on Eater&lt;/a&gt; — Pizza Studio Tamaki — kind of off the beaten path, but so &lt;em&gt;so&lt;/em&gt; good. Just as advertised. What got me was the Okinawa salt massaged into the underside of the pie. That + the smokiness it got from the Japanese wood (oak, cherry blossom, and beech) burned in the oven — trust me, it’s not your usual pizza. I was sold after the first bite. What a delicious treat after a long trip. Definitely a highlight of the day.&lt;/p&gt;
 &lt;p&gt;Not far from PST, Tokyo Tower is making its Eiffel Tower impression.&lt;/p&gt;
-&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/metagame/posts/it-feels-different/w9eZa7rKLo-2000.avif 2000w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/metagame/posts/it-feels-different/w9eZa7rKLo-2000.webp 2000w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/metagame/posts/it-feels-different/w9eZa7rKLo-2000.jpeg&quot; alt=&quot;Pizza Studio Tamaki from the outside, at night&quot; width=&quot;2000&quot; height=&quot;1500&quot;&gt;&lt;/picture&gt;
+&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/.11ty/image/?src=src%2Fposts%2Fit-feels-different%2Fifd2.jpeg&amp;width=2000&amp;format=avif&amp;via=transform 2000w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/.11ty/image/?src=src%2Fposts%2Fit-feels-different%2Fifd2.jpeg&amp;width=2000&amp;format=webp&amp;via=transform 2000w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/.11ty/image/?src=src%2Fposts%2Fit-feels-different%2Fifd2.jpeg&amp;width=2000&amp;format=jpeg&amp;via=transform&quot; alt=&quot;Pizza Studio Tamaki from the outside, at night&quot; width=&quot;2000&quot; height=&quot;1500&quot;&gt;&lt;/picture&gt;
 &lt;p&gt;Next stop: Shinjuku. Got a bit lost while looking for the famous Golden Gai — and I paused and cherished that feeling. Getting lost, trying to get my bearings while GPS/Google Maps acted all confused among the tall buildings. Exploring on my own, following my gut without smartphone’s help for a change.&lt;/p&gt;
-&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/metagame/posts/it-feels-different/ZNZ6PejC0b-2000.avif 2000w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/metagame/posts/it-feels-different/ZNZ6PejC0b-2000.webp 2000w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/metagame/posts/it-feels-different/ZNZ6PejC0b-2000.jpeg&quot; alt=&quot;a brightly-lit alleyway&quot; width=&quot;2000&quot; height=&quot;1328&quot;&gt;&lt;/picture&gt;
+&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/.11ty/image/?src=src%2Fposts%2Fit-feels-different%2Fifd3.jpeg&amp;width=2000&amp;format=avif&amp;via=transform 2000w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/.11ty/image/?src=src%2Fposts%2Fit-feels-different%2Fifd3.jpeg&amp;width=2000&amp;format=webp&amp;via=transform 2000w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/.11ty/image/?src=src%2Fposts%2Fit-feels-different%2Fifd3.jpeg&amp;width=2000&amp;format=jpeg&amp;via=transform&quot; alt=&quot;a brightly-lit alleyway&quot; width=&quot;2000&quot; height=&quot;1328&quot;&gt;&lt;/picture&gt;
 &lt;p&gt;Spoiler alert: I eventually found it.&lt;/p&gt;
 &lt;p&gt;A peculiar vibe I found over there. A small grid of narrow streets — well, not even &lt;em&gt;streets&lt;/em&gt; but &lt;em&gt;pathways&lt;/em&gt;. All of them filled to the brim with the tiniest bars and pubs and shops I’ve ever seen. Some of them looked like they can’t fit more than two or three patrons at the same time. Some of them are open to members only.&lt;/p&gt;
 &lt;p&gt;I return to my hotel room exhausted. Not bad for a first day of my first ever (/in a very long time?) solo trip. My first ever one-bag-travel sort of trip. My first trip with a new camera. Everything’s different this time.&lt;/p&gt;
@@ -137,7 +138,7 @@
 </description>
       <pubDate>Fri, 21 Oct 2022 08:00:00 GMT</pubDate>
       <dc:creator>Your Name</dc:creator>
-      <guid>https://example.com/metagame/posts/it-feels-different/</guid>
+      <guid>https://example.com/posts/it-feels-different/</guid>
     </item>
   </channel>
 </rss>
