@@ -1,0 +1,28 @@
+---
+layout: layouts/layout.html
+title: Season One Archive
+---
+<h2>Season One // Hokuriku Arch</h2>
+
+<p>Newsletter entries from my walk across eight cities in Japan located roughly in the area covered by the Hokuriku Arch JR Pass.</p>
+<ul>
+<li>8 cities in Japan + Hong Kong</li>
+<li>14 days, from 20 October to 2 November 2022</li>
+<li>310,250 steps</li>
+<li>253.2 kilometers</li>
+<li>8,584 words</li>
+<li>1 backpack, 1 camera, 1 lens</li>
+<li>4 pizza toasts</li>
+<li>and more...</li>
+</ul>
+
+<figure>
+<img src="/assets/images/s01map.jpeg" alt="Full map of the trip">
+<figcaption>This map shows the major stations and the distance traveled by train. Within the cities, I walked.</figcaption>
+</figure>
+
+<h3>Newsletter dispatches</h3>
+
+{% set showYear = false %}
+{% set postslist = collections.s01 %}
+{% include "postslist.njk" %} 

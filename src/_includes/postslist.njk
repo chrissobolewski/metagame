@@ -1,0 +1,26 @@
+<ul reversed>
+{% set currentYear = "" %}
+{% for post in postslist | reverse %}
+{% if showYear %}
+      {% set postYear = post.date.getFullYear() %}
+      {% if currentYear != postYear %}
+      {% set currentYear = postYear %}
+      <h3>{{ postYear }}</h3>
+      {% endif %}
+{% endif %}
+  <li>
+
+    {% if "short" in post.data.tags %}
+      <a class="postlist-url" href="{{ post.url | url }}"><time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("dd LLLL yyyy") }}</time></a>
+      <div class="short-feed-item">{{ post.templateContent | safe }}</div>
+    {% endif %}
+
+    {% if "long" in post.data.tags %}
+      <a class="postlist-url" href="{{ post.url | url }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a><br/>
+      <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("dd LLLL yyyy") }}</time><br/>
+      <div class="short-feed-item">{{ post.data.excerpt }}</div>
+    {% endif %}
+
+  </li>
+{% endfor %}
+</ul>
