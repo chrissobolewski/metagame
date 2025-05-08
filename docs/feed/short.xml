@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="https://example.com/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Short Articles</title>
+    <link>https://example.com/</link>
+    <atom:link href="https://example.com/feed/short.xml" rel="self" type="application/rss+xml" />
+    <description>A collection of short articles.</description>
+    <language>en</language>
+    <item>
+      <title></title>
+      <link>https://example.com/posts/2025-05-08pm/</link>
+      <description>&lt;p&gt;Vibe-coding my way through setting up a static HTML blog on &lt;a href=&quot;https://www.11ty.dev&quot;&gt;11ty&lt;/a&gt;. I have time until October to migrate away from Ghost.&lt;/p&gt;
+&lt;p&gt;Now how do I publish this on GitHub pages? Oh my!&lt;/p&gt;
+</description>
+      <pubDate>Fri, 09 May 2025 03:46:00 GMT</pubDate>
+      <dc:creator>Your Name</dc:creator>
+      <guid>https://example.com/posts/2025-05-08pm/</guid>
+    </item>
+    <item>
+      <title>Post VI</title>
+      <link>https://example.com/posts/post-6/</link>
+      <description>&lt;p&gt;another short one&lt;/p&gt;
+&lt;p&gt;with &lt;strong&gt;markdown&lt;/strong&gt;&lt;/p&gt;
+</description>
+      <pubDate>Thu, 08 May 2025 13:35:10 GMT</pubDate>
+      <dc:creator>Your Name</dc:creator>
+      <guid>https://example.com/posts/post-6/</guid>
+    </item>
+    <item>
+      <title>Post number four</title>
+      <link>https://example.com/posts/post-4/</link>
+      <description>&lt;p&gt;I’m amazed by how friendly the people here are. I mean — you just walk around, point your camera and random stuff, and a lady at a shop across the street just starts posing for you.&lt;/p&gt;
+&lt;p&gt;I wasn’t sure how Craig Mod does it, but I start to get it now. People are nice here and approaching them feels less scary — even for an introvert.&lt;/p&gt;
+</description>
+      <pubDate>Thu, 08 May 2025 13:35:10 GMT</pubDate>
+      <dc:creator>Your Name</dc:creator>
+      <guid>https://example.com/posts/post-4/</guid>
+    </item>
+    <item>
+      <title>Post 2</title>
+      <link>https://example.com/posts/post-2/</link>
+      <description>&lt;p&gt;Post 2 content.&lt;/p&gt;</description>
+      <pubDate>Tue, 06 May 2025 08:00:00 GMT</pubDate>
+      <dc:creator>Your Name</dc:creator>
+      <guid>https://example.com/posts/post-2/</guid>
+    </item>
+  </channel>
+</rss>
