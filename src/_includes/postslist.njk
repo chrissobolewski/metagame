@@ -11,7 +11,7 @@
   <li>
 
     {% if "short" in post.data.tags %}
-      <a class="postlist-url" href=".{{ post.url | url }}"><time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("dd LLLL yyyy") }}</time></a>
+      <a class="postlist-url" href="{{ post.url | url }}"><time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("dd LLLL yyyy") }}</time></a>
       <div class="short-feed-item">{{ post.templateContent | safe }}</div>
     {% endif %}
 
