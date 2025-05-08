@@ -10,6 +10,7 @@
       <title></title>
       <link>https://example.com/metagame/posts/2025-05-08pm/</link>
       <description>&lt;p&gt;Vibe-coding my way through setting up a static HTML blog on &lt;a href=&quot;https://www.11ty.dev&quot;&gt;11ty&lt;/a&gt;. I have time until October to migrate away from Ghost.&lt;/p&gt;
+&lt;p&gt;Now how do I publish this on GitHub pages?&lt;/p&gt;
 </description>
       <pubDate>Thu, 08 May 2025 19:46:00 GMT</pubDate>
       <dc:creator>Your Name</dc:creator>
@@ -21,7 +22,7 @@
       <description>&lt;p&gt;another short one&lt;/p&gt;
 &lt;p&gt;with &lt;strong&gt;markdown&lt;/strong&gt;&lt;/p&gt;
 </description>
-      <pubDate>Thu, 08 May 2025 13:14:46 GMT</pubDate>
+      <pubDate>Thu, 08 May 2025 13:18:03 GMT</pubDate>
       <dc:creator>Your Name</dc:creator>
       <guid>https://example.com/metagame/posts/post-6/</guid>
     </item>
@@ -31,7 +32,7 @@
       <description>&lt;p&gt;I’m amazed by how friendly the people here are. I mean — you just walk around, point your camera and random stuff, and a lady at a shop across the street just starts posing for you.&lt;/p&gt;
 &lt;p&gt;I wasn’t sure how Craig Mod does it, but I start to get it now. People are nice here and approaching them feels less scary — even for an introvert.&lt;/p&gt;
 </description>
-      <pubDate>Thu, 08 May 2025 13:14:46 GMT</pubDate>
+      <pubDate>Thu, 08 May 2025 13:18:03 GMT</pubDate>
       <dc:creator>Your Name</dc:creator>
       <guid>https://example.com/metagame/posts/post-4/</guid>
     </item>
