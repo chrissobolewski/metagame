@@ -23,7 +23,7 @@ module.exports = function(eleventyConfig) {
 
 import  { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
-
+import pluginFilters from "./_config/filters.js";
 
 
 export default async function (eleventyConfig) {
@@ -50,7 +50,9 @@ export default async function (eleventyConfig) {
 		},
 	});
 
-  eleventyConfig.addPlugin(feedPlugin, {
+	eleventyConfig.addPlugin(pluginFilters);
+	
+	eleventyConfig.addPlugin(feedPlugin, {
 		type: "atom", // or "rss", "json"
 		outputPath: "/feed/feed.xml",
 		templateData: {
@@ -73,17 +75,18 @@ export default async function (eleventyConfig) {
 			}
 		}
 	});
+/*	
 	eleventyConfig.addCollection("long", function (collectionApi) {
 		return collectionApi.getFilteredByTag("long").reverse(); // Ensure it's sorted in reverse order
-	  });
-	  eleventyConfig.addCollection("short", function (collectionApi) {
+	 });
+	eleventyConfig.addCollection("short", function (collectionApi) {
 		return collectionApi.getFilteredByTag("short").reverse(); // Ensure it's sorted in reverse order
-	  });
-	  eleventyConfig.addCollection("post", function (collectionApi) {
-		return collectionApi.getFilteredByTag("post").reverse(); // Ensure it's sorted in reverse order
-	  });
-
-
+	});
+	eleventyConfig.addCollection("posts", function (collectionApi) {
+		return collectionApi.getFilteredByTag("posts").reverse(); // Ensure it's sorted in reverse order
+	});
+*/
+	
 
   return {
     dir: {
