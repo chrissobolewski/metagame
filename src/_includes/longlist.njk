@@ -1,0 +1,14 @@
+{% set  numberOfLatestPostsToShow = 6 %}
+
+{% set postsCount = collections.long | length %}
+{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
+<h1>Longform Articles</h1>
+
+{% set postslist = collections.long | head(-1 * numberOfLatestPostsToShow) %}
+{% set postslistCounter = postsCount %}
+{% include "postslist.njk" %}
+
+{% set morePosts = postsCount - numberOfLatestPostsToShow %}
+{% if morePosts > 0 %}
+<p>More articles can be found in <a href="long-archive.njk">the archive</a>.</p>
+{% endif %}

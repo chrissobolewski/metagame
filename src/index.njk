@@ -1,20 +1,12 @@
----js
-const eleventyNavigation = {
-	key: "Home",
-	order: 1
-};
-
-const numberOfLatestPostsToShow = 3;
 ---
-{% set postsCount = collections.long | length %}
-{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-<h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
+layout: layouts/layout.html
+---
+<div class="blog-feed-container">
+    <div class="blog-feed">
+        {% include "longlist.njk" %}
+    </div>
 
-{% set postslist = collections.long | head(-1 * numberOfLatestPostsToShow) %}
-{% set postslistCounter = postsCount %}
-{% include "postslist.njk" %}
-
-{% set morePosts = postsCount - numberOfLatestPostsToShow %}
-{% if morePosts > 0 %}
-<p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="blog.njk">the archive</a>.</p>
-{% endif %}
+    <div class="blog-feed">
+        {% include "shortlist.njk" %}
+    </div>
+</div>

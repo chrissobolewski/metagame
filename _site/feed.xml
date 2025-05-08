@@ -4,9 +4,91 @@
   <subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
   <link href="https://example.com/feed.xml" rel="self" />
   <link href="https://example.com/" />
-  <updated>2025-05-08T04:45:23Z</updated>
+  <updated>2025-05-08T05:57:54Z</updated>
   <id>https://example.com/</id>
   <author>
     <name>Boaty McBoatFace</name>
   </author>
+  <entry>
+    <title>Post se7ven</title>
+    <link href="https://example.com/posts/post-7/" />
+    <updated>2025-05-08T05:57:54Z</updated>
+    <id>https://example.com/posts/post-7/</id>
+    <content type="html">&lt;p&gt;this will cause overflow&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Post VI</title>
+    <link href="https://example.com/posts/post-6/" />
+    <updated>2025-05-08T05:35:10Z</updated>
+    <id>https://example.com/posts/post-6/</id>
+    <content type="html">&lt;p&gt;another short one&lt;/p&gt;
+&lt;p&gt;with &lt;strong&gt;markdown&lt;/strong&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Post V</title>
+    <link href="https://example.com/posts/post-5/" />
+    <updated>2025-05-08T05:35:10Z</updated>
+    <id>https://example.com/posts/post-5/</id>
+    <content type="html">&lt;p&gt;This will be a long one!&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Post number four</title>
+    <link href="https://example.com/posts/post-4/" />
+    <updated>2025-05-08T05:35:10Z</updated>
+    <id>https://example.com/posts/post-4/</id>
+    <content type="html">&lt;p&gt;I’m amazed by how friendly the people here are. I mean — you just walk around, point your camera and random stuff, and a lady at a shop across the street just starts posing for you.&lt;/p&gt;
+&lt;p&gt;I wasn’t sure how Craig Mod does it, but I start to get it now. People are nice here and approaching them feels less scary — even for an introvert.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Post three</title>
+    <link href="https://example.com/posts/post-3/" />
+    <updated>2025-05-08T05:35:10Z</updated>
+    <id>https://example.com/posts/post-3/</id>
+    <content type="html">&lt;p&gt;I&#39;m the latest post!&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Post 1</title>
+    <link href="https://example.com/posts/post-1/" />
+    <updated>2025-05-08T05:35:10Z</updated>
+    <id>https://example.com/posts/post-1/</id>
+    <content type="html">&lt;p&gt;Post one content.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Post 2</title>
+    <link href="https://example.com/posts/post-2/" />
+    <updated>2025-05-06T00:00:00Z</updated>
+    <id>https://example.com/posts/post-2/</id>
+    <content type="html">&lt;p&gt;Post 2 content.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>It Feels Different</title>
+    <link href="https://example.com/posts/it-feels-different/" />
+    <updated>2022-10-21T00:00:00Z</updated>
+    <id>https://example.com/posts/it-feels-different/</id>
+    <content type="html">&lt;p&gt;Hello! I’m Chris and I walk in &lt;a href=&quot;https://craigmod.com/about/&quot;&gt;Craig Mod’s&lt;/a&gt; footsteps — by eating pizza toast, walking for hours, and taking photos on my trip around small cities in Japan.&lt;/p&gt;
+&lt;p&gt;A word of warning. My writing is rusty (last time I wrote something longform-ish for the people on the internet to read, was &lt;a href=&quot;https://metafinanse.pl/rok-tygrysa/&quot;&gt;almost a year ago&lt;/a&gt;). My photography skills I’m not too confident in. But hey, at least I’m trying.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Day 1&lt;/em&gt;
+&lt;em&gt;Hong Kong, Tokyo, 16,703 steps, 13.58 kilometers&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Tokyo. The same city and the same hotel we stayed at in February 2020. But everything feels different this time around.&lt;/p&gt;
+&lt;p&gt;Last time my wife and I visited Japan, it was just at the beginning of COVID. So much uncertainty in the air. News reports from China make everyone uneasy.&lt;/p&gt;
+&lt;p&gt;Just one week after we left Japan back then, the country closed its doors to the foreigners. Took it almost three years to fully reopen — and the moment they did, I booked my flights and hotels.&lt;/p&gt;
+&lt;p&gt;The fear of COVID seems all but gone, though mask compliance remains nearly-universal and hand sanitizer dispensers are everywhere (both of which I don’t mind). &lt;em&gt;Tokyo-ni-zero-ni-zero&lt;/em&gt; billboards, mascots, videos — ever-present in early 2020, but now the Olympics is a distant memory.&lt;/p&gt;
+&lt;p&gt;Weather is just right. JPY is cheap. Swarms of tourists are not here yet. It’s the perfect time to visit.&lt;/p&gt;
+&lt;p&gt;And I’d like to think I’m visiting Japan now at the end of COVID. Like a bookend.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Big city energy, but different.&lt;/p&gt;
+&lt;p&gt;I’m amazed by how friendly the people here are. I mean — you just walk around, point your camera and random stuff, and a lady at a shop across the street just starts posing for you. I wasn’t sure how Craig Mod does it, but I start to get it now. People are nice here and approaching them feels less scary — even for an introvert.&lt;/p&gt;
+&lt;p&gt;Speaking of Craig, the pizza place &lt;a href=&quot;https://www.eater.com/2017/2/21/14670944/best-pizza-tokyo-guide&quot;&gt;he featured on Eater&lt;/a&gt; — Pizza Studio Tamaki — kind of off the beaten path, but so &lt;em&gt;so&lt;/em&gt; good. Just as advertised. What got me was the Okinawa salt massaged into the underside of the pie. That + the smokiness it got from the Japanese wood (oak, cherry blossom, and beech) burned in the oven — trust me, it’s not your usual pizza. I was sold after the first bite. What a delicious treat after a long trip. Definitely a highlight of the day.&lt;/p&gt;
+&lt;p&gt;Not far from PST, Tokyo Tower is making its Eiffel Tower impression.&lt;/p&gt;
+&lt;p&gt;Next stop: Shinjuku. Got a bit lost while looking for the famous Golden Gai — and I paused and cherished that feeling. Getting lost, trying to get my bearings while GPS/Google Maps acted all confused among the tall buildings. Exploring on my own, following my gut without smartphone’s help for a change.&lt;/p&gt;
+&lt;p&gt;Spoiler alert: I eventually found it.&lt;/p&gt;
+&lt;p&gt;A peculiar vibe I found over there. A small grid of narrow streets — well, not even &lt;em&gt;streets&lt;/em&gt; but &lt;em&gt;pathways&lt;/em&gt;. All of them filled to the brim with the tiniest bars and pubs and shops I’ve ever seen. Some of them looked like they can’t fit more than two or three patrons at the same time. Some of them are open to members only.&lt;/p&gt;
+&lt;p&gt;I return to my hotel room exhausted. Not bad for a first day of my first ever (/in a very long time?) solo trip. My first ever one-bag-travel sort of trip. My first trip with a new camera. Everything’s different this time.&lt;/p&gt;
+&lt;p&gt;More to come. Tokyo was just a brief stop. The real thing starts tomorrow.&lt;/p&gt;
+&lt;p&gt;— CS&lt;/p&gt;
+</content>
+  </entry>
 </feed>
