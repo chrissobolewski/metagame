@@ -1,73 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="https://example.com/metagame-blog/" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="https://example.com/metagame/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Longform Articles</title>
-    <link>https://example.com/metagame-blog/</link>
-    <atom:link href="https://example.com/metagame-blog/feed/long.xml" rel="self" type="application/rss+xml" />
+    <link>https://example.com/metagame/</link>
+    <atom:link href="https://example.com/metagame/feed/long.xml" rel="self" type="application/rss+xml" />
     <description>A collection of longform articles.</description>
     <language>en</language>
     <item>
       <title>Post se7ven</title>
-      <link>https://example.com/metagame-blog/posts/post-7/</link>
+      <link>https://example.com/metagame/posts/post-7/</link>
       <description>&lt;p&gt;this will cause overflow&lt;/p&gt;</description>
-      <pubDate>Thu, 08 May 2025 12:50:35 GMT</pubDate>
+      <pubDate>Thu, 08 May 2025 12:54:46 GMT</pubDate>
       <dc:creator>Your Name</dc:creator>
-      <guid>https://example.com/metagame-blog/posts/post-7/</guid>
+      <guid>https://example.com/metagame/posts/post-7/</guid>
     </item>
     <item>
       <title>Post V</title>
-      <link>https://example.com/metagame-blog/posts/post-5/</link>
+      <link>https://example.com/metagame/posts/post-5/</link>
       <description>&lt;p&gt;This will be a long one!&lt;/p&gt;</description>
-      <pubDate>Thu, 08 May 2025 12:50:35 GMT</pubDate>
+      <pubDate>Thu, 08 May 2025 12:54:46 GMT</pubDate>
       <dc:creator>Your Name</dc:creator>
-      <guid>https://example.com/metagame-blog/posts/post-5/</guid>
+      <guid>https://example.com/metagame/posts/post-5/</guid>
     </item>
     <item>
       <title>Post three</title>
-      <link>https://example.com/metagame-blog/posts/post-3/</link>
+      <link>https://example.com/metagame/posts/post-3/</link>
       <description>&lt;p&gt;I&#39;m the latest post!&lt;/p&gt;</description>
-      <pubDate>Thu, 08 May 2025 12:50:35 GMT</pubDate>
+      <pubDate>Thu, 08 May 2025 12:54:46 GMT</pubDate>
       <dc:creator>Your Name</dc:creator>
-      <guid>https://example.com/metagame-blog/posts/post-3/</guid>
+      <guid>https://example.com/metagame/posts/post-3/</guid>
     </item>
     <item>
       <title>Post 1</title>
-      <link>https://example.com/metagame-blog/posts/post-1/</link>
+      <link>https://example.com/metagame/posts/post-1/</link>
       <description>&lt;p&gt;Post one content.&lt;/p&gt;</description>
-      <pubDate>Thu, 08 May 2025 12:50:35 GMT</pubDate>
+      <pubDate>Thu, 08 May 2025 12:54:46 GMT</pubDate>
       <dc:creator>Your Name</dc:creator>
-      <guid>https://example.com/metagame-blog/posts/post-1/</guid>
+      <guid>https://example.com/metagame/posts/post-1/</guid>
     </item>
     <item>
       <title>Friday Night, Good Time</title>
-      <link>https://example.com/metagame-blog/posts/friday-night-good-time/</link>
+      <link>https://example.com/metagame/posts/friday-night-good-time/</link>
       <description>&lt;p&gt;&lt;em&gt;Day 2&lt;/em&gt;
 &lt;em&gt;Tokyo, Matsumoto, 21,757 steps, 17.4 kilometers&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;I want to write about the amazing buffet breakfast at The Tokyo Hotel. And about Glitch that serves gesha variety coffee almost exclusively. And about how I got on the train to Matsumoto literally at the very last minute (so unlike me!)&lt;/p&gt;
-&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/metagame-blog/posts/friday-night-good-time/_O2bNEKqS1-2000.avif 2000w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/metagame-blog/posts/friday-night-good-time/_O2bNEKqS1-2000.webp 2000w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/metagame-blog/posts/friday-night-good-time/_O2bNEKqS1-2000.jpeg&quot; alt=&quot;Glitch coffee in Tokyo&quot; width=&quot;2000&quot; height=&quot;1328&quot;&gt;&lt;/picture&gt;
+&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/metagame/posts/friday-night-good-time/_O2bNEKqS1-2000.avif 2000w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/metagame/posts/friday-night-good-time/_O2bNEKqS1-2000.webp 2000w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/metagame/posts/friday-night-good-time/_O2bNEKqS1-2000.jpeg&quot; alt=&quot;Glitch coffee in Tokyo&quot; width=&quot;2000&quot; height=&quot;1328&quot;&gt;&lt;/picture&gt;
 &lt;p&gt;But the only thing on my mind right now is this random encounter on Nawate-dori in Matsumoto.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;This trip, for me, is all about serendipity. I don’t have a lot of things planned. Three, maybe four spots marked on the map in each city, but that’s about it. Leaving the rest to chance.&lt;/p&gt;
 &lt;p&gt;One day, someone will randomly start posing for a picture. The next day, I’ll get called over and brought into a “conversation” with three folks that are definitely having a very good time on a Friday night.&lt;/p&gt;
-&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/metagame-blog/posts/friday-night-good-time/NIiZRbYAlD-2000.avif 2000w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/metagame-blog/posts/friday-night-good-time/NIiZRbYAlD-2000.webp 2000w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/metagame-blog/posts/friday-night-good-time/NIiZRbYAlD-2000.jpeg&quot; alt=&quot;Yakuzaaaa!&quot; width=&quot;2000&quot; height=&quot;1500&quot;&gt;&lt;/picture&gt;
+&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/metagame/posts/friday-night-good-time/NIiZRbYAlD-2000.avif 2000w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/metagame/posts/friday-night-good-time/NIiZRbYAlD-2000.webp 2000w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/metagame/posts/friday-night-good-time/NIiZRbYAlD-2000.jpeg&quot; alt=&quot;Yakuzaaaa!&quot; width=&quot;2000&quot; height=&quot;1500&quot;&gt;&lt;/picture&gt;
 &lt;p&gt;“Conversation” is, of course, overselling it. I was speaking in English, the two guys were speaking in Japanese, and the lady tried her best to translate. We &lt;em&gt;kind of&lt;/em&gt; communicated, but not quite. But the gist of it was that the other two were trying to convince me that the bald guy was yakuza. “Yakuza! Mafia!” they kept repeating in between laughs.&lt;/p&gt;
 &lt;p&gt;They also tried to invite me for yakitori. But I was already full — had ramen at Menshu Takenaka just a moment before.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;Chicken-based soy-sauce broth with two thin slices of smoked duck meat. When the owner served it, he looked proud. As he should be! — man, this was one delicious bowl of noodles.&lt;/p&gt;
-&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/metagame-blog/posts/friday-night-good-time/5RetkixDzT-2000.avif 2000w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/metagame-blog/posts/friday-night-good-time/5RetkixDzT-2000.webp 2000w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/metagame-blog/posts/friday-night-good-time/5RetkixDzT-2000.jpeg&quot; alt=&quot;Menshu Takenaka&quot; width=&quot;2000&quot; height=&quot;1500&quot;&gt;&lt;/picture&gt;
+&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/metagame/posts/friday-night-good-time/5RetkixDzT-2000.avif 2000w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/metagame/posts/friday-night-good-time/5RetkixDzT-2000.webp 2000w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/metagame/posts/friday-night-good-time/5RetkixDzT-2000.jpeg&quot; alt=&quot;Menshu Takenaka&quot; width=&quot;2000&quot; height=&quot;1500&quot;&gt;&lt;/picture&gt;
 &lt;p&gt;The broth: clear mountain water infused with lots of local vegetables. So different than that salty, MSG-y soup you can often get in Hong Kong (in HK, it’s considered natural to not finish the soup in a bowl of ramen — but at &lt;em&gt;Menshu Takenaka&lt;/em&gt; I finished it all and immediately wanted more). The meat: gently seared with a gas torch. Garnish: very little.&lt;/p&gt;
-&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/metagame-blog/posts/friday-night-good-time/FzryLtaXC7-2000.avif 2000w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/metagame-blog/posts/friday-night-good-time/FzryLtaXC7-2000.webp 2000w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/metagame-blog/posts/friday-night-good-time/FzryLtaXC7-2000.jpeg&quot; alt=&quot;Ramen ordering machine&quot; width=&quot;2000&quot; height=&quot;1500&quot;&gt;&lt;/picture&gt;
+&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/metagame/posts/friday-night-good-time/FzryLtaXC7-2000.avif 2000w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/metagame/posts/friday-night-good-time/FzryLtaXC7-2000.webp 2000w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/metagame/posts/friday-night-good-time/FzryLtaXC7-2000.jpeg&quot; alt=&quot;Ramen ordering machine&quot; width=&quot;2000&quot; height=&quot;1500&quot;&gt;&lt;/picture&gt;
 &lt;p&gt;A hot bowl of noodly goodness. What more can a weary traveler ask for on a cold autumn evening?&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;I’m trying to work on my fear of asking people if I can take a photo. Tried my luck in Matsumoto twice already, and it worked!&lt;/p&gt;
 &lt;p&gt;People I ask seem surprised — “why would you want to take a photo of &lt;em&gt;me&lt;/em&gt;?” — but I’m surprised even more that they agree!&lt;/p&gt;
 &lt;p&gt;I’m letting myself be surprised. That’s my theme for this trip.&lt;/p&gt;
-&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/metagame-blog/posts/friday-night-good-time/KPtykkqD1x-2000.avif 2000w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/metagame-blog/posts/friday-night-good-time/KPtykkqD1x-2000.webp 2000w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/metagame-blog/posts/friday-night-good-time/KPtykkqD1x-2000.jpeg&quot; alt=&quot;Just a random shop&quot; width=&quot;2000&quot; height=&quot;1125&quot;&gt;&lt;/picture&gt;
+&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/metagame/posts/friday-night-good-time/KPtykkqD1x-2000.avif 2000w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/metagame/posts/friday-night-good-time/KPtykkqD1x-2000.webp 2000w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/metagame/posts/friday-night-good-time/KPtykkqD1x-2000.jpeg&quot; alt=&quot;Just a random shop&quot; width=&quot;2000&quot; height=&quot;1125&quot;&gt;&lt;/picture&gt;
 &lt;p&gt;Tomorrow — a full day in Matsumoto. I’m going to walk my feet off.&lt;/p&gt;
 </description>
       <pubDate>Sat, 22 Oct 2022 24:00:00 GMT</pubDate>
       <dc:creator>Your Name</dc:creator>
-      <guid>https://example.com/metagame-blog/posts/friday-night-good-time/</guid>
+      <guid>https://example.com/metagame/posts/friday-night-good-time/</guid>
     </item>
   </channel>
 </rss>
