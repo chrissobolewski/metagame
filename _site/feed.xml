@@ -4,44 +4,51 @@
   <subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
   <link href="https://example.com/feed.xml" rel="self" />
   <link href="https://example.com/" />
-  <updated>2025-05-06T15:03:10Z</updated>
+  <updated>2025-05-07T15:27:44Z</updated>
   <id>https://example.com/</id>
   <author>
     <name>Boaty McBoatFace</name>
   </author>
   <entry>
-    <title>Post V</title>
-    <link href="https://example.com/posts/post-5/" />
-    <updated>2025-05-06T15:03:10Z</updated>
-    <id>https://example.com/posts/post-5/</id>
-    <content type="html">&lt;p&gt;This will be a long one!&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Post number four</title>
-    <link href="https://example.com/posts/post-4/" />
-    <updated>2025-05-06T14:42:37Z</updated>
-    <id>https://example.com/posts/post-4/</id>
-    <content type="html">&lt;p&gt;Will this update RSS?&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Post three</title>
-    <link href="https://example.com/posts/post-3/" />
-    <updated>2025-05-05T12:28:18Z</updated>
-    <id>https://example.com/posts/post-3/</id>
-    <content type="html">&lt;p&gt;I&#39;m the latest post!&lt;/p&gt;</content>
+    <title>Post 1</title>
+    <link href="https://example.com/posts/post-1/" />
+    <updated>2025-05-07T01:01:20Z</updated>
+    <id>https://example.com/posts/post-1/</id>
+    <content type="html">&lt;p&gt;Post one content.&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>Post 2</title>
     <link href="https://example.com/posts/post-2/" />
-    <updated>2023-04-05T15:59:09Z</updated>
+    <updated>2025-05-07T01:01:20Z</updated>
     <id>https://example.com/posts/post-2/</id>
     <content type="html">&lt;p&gt;Post 2 content.&lt;/p&gt;</content>
   </entry>
   <entry>
-    <title>Post 1</title>
-    <link href="https://example.com/posts/post-1/" />
-    <updated>2023-04-05T15:59:09Z</updated>
-    <id>https://example.com/posts/post-1/</id>
-    <content type="html">&lt;p&gt;Post one content.&lt;/p&gt;</content>
+    <title>Post three</title>
+    <link href="https://example.com/posts/post-3/" />
+    <updated>2025-05-07T01:01:20Z</updated>
+    <id>https://example.com/posts/post-3/</id>
+    <content type="html">&lt;p&gt;I&#39;m the latest post!&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Post number four</title>
+    <link href="https://example.com/posts/post-4/" />
+    <updated>2025-05-07T01:01:20Z</updated>
+    <id>https://example.com/posts/post-4/</id>
+    <content type="html">&lt;p&gt;Will this update RSS?&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Post V</title>
+    <link href="https://example.com/posts/post-5/" />
+    <updated>2025-05-07T01:01:20Z</updated>
+    <id>https://example.com/posts/post-5/</id>
+    <content type="html">&lt;p&gt;This will be a long one!&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Post VI</title>
+    <link href="https://example.com/posts/post-6/" />
+    <updated>2025-05-07T15:27:44Z</updated>
+    <id>https://example.com/posts/post-6/</id>
+    <content type="html">&lt;p&gt;another short one&lt;/p&gt;</content>
   </entry>
 </feed>

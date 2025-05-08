@@ -73,6 +73,17 @@ export default async function (eleventyConfig) {
 			}
 		}
 	});
+	eleventyConfig.addCollection("long", function (collectionApi) {
+		return collectionApi.getFilteredByTag("long").reverse(); // Ensure it's sorted in reverse order
+	  });
+	  eleventyConfig.addCollection("short", function (collectionApi) {
+		return collectionApi.getFilteredByTag("short").reverse(); // Ensure it's sorted in reverse order
+	  });
+	  eleventyConfig.addCollection("post", function (collectionApi) {
+		return collectionApi.getFilteredByTag("post").reverse(); // Ensure it's sorted in reverse order
+	  });
+
+
 
   return {
     dir: {

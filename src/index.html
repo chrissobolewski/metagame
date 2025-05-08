@@ -1,17 +1,14 @@
 ---
 layout: layouts/layout.html
-pagination:
-    data: collections.long
-    size: 2
-    alias: longs
-    reverse: true
+eleventyImport:
+    collections: ["post"]
 ---
 
 <div class="blog-feed-container">
     <div class="blog-feed">
         <h1>Latest 3 Longform Articles</h1>
         <p>Classic blog posts, long reads, and articles.</p>
-        {% for post in longs %}
+        {% for post in collections.long limit:2 %}
             <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
             <p>Published: {{ post.date | date: "%d %B %Y" }}</p>
             <p>{{ post.templateContent }}</p>
@@ -21,7 +18,7 @@ pagination:
     <div class="blog-feed">
         <h1>Latest 3 Short Updates</h1>
         <p>Short updates that would typically go on social media, link posts, and comments.</p>
-        {% for post in collections.short %}
+        {% for post in collections.short limit:2 %}
         <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
         <p>Published: {{ post.date | date: "%d %B %Y" }}</p>
         <p>{{ post.templateContent }}</p>
