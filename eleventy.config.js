@@ -144,7 +144,7 @@ eleventyConfig.addPlugin(feedPlugin, {
   return {
 	dir: {
       input: "src",
-      output: "docs",
+      output: "_site",
       includes: "_includes",
       data: "_data",
     },

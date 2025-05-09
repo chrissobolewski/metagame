@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="https://example.com/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog Title</title>
+    <link>https://example.com/</link>
+    <atom:link href="https://example.com/feed/feed.xml" rel="self" type="application/rss+xml" />
+    <description>This is a longer description about your blog.</description>
+    <language>en</language>
+    <item>
+      <title></title>
+      <link>https://example.com/posts/2025-05-08pm/</link>
+      <description>&lt;p&gt;Vibe-coding my way through setting up a static HTML blog on &lt;a href=&quot;https://www.11ty.dev&quot;&gt;11ty&lt;/a&gt;. I have time until October to migrate away from Ghost.&lt;/p&gt;
+&lt;p&gt;Now how do I publish this on GitHub pages? Oh my!&lt;/p&gt;
+</description>
+      <pubDate>Fri, 09 May 2025 03:46:00 GMT</pubDate>
+      <dc:creator>Your Name</dc:creator>
+      <guid>https://example.com/posts/2025-05-08pm/</guid>
+    </item>
+    <item>
+      <title>Post se7ven</title>
+      <link>https://example.com/posts/post-7/</link>
+      <description>&lt;p&gt;this will cause overflow&lt;/p&gt;</description>
+      <pubDate>Thu, 08 May 2025 13:57:54 GMT</pubDate>
+      <dc:creator>Your Name</dc:creator>
+      <guid>https://example.com/posts/post-7/</guid>
+    </item>
+    <item>
+      <title>Post VI</title>
+      <link>https://example.com/posts/post-6/</link>
+      <description>&lt;p&gt;another short one&lt;/p&gt;
+&lt;p&gt;with &lt;strong&gt;markdown&lt;/strong&gt;&lt;/p&gt;
+</description>
+      <pubDate>Thu, 08 May 2025 13:35:10 GMT</pubDate>
+      <dc:creator>Your Name</dc:creator>
+      <guid>https://example.com/posts/post-6/</guid>
+    </item>
+    <item>
+      <title>Post V</title>
+      <link>https://example.com/posts/post-5/</link>
+      <description>&lt;p&gt;This will be a long one!&lt;/p&gt;</description>
+      <pubDate>Thu, 08 May 2025 13:35:10 GMT</pubDate>
+      <dc:creator>Your Name</dc:creator>
+      <guid>https://example.com/posts/post-5/</guid>
+    </item>
+    <item>
+      <title>Post number four</title>
+      <link>https://example.com/posts/post-4/</link>
+      <description>&lt;p&gt;I’m amazed by how friendly the people here are. I mean — you just walk around, point your camera and random stuff, and a lady at a shop across the street just starts posing for you.&lt;/p&gt;
+&lt;p&gt;I wasn’t sure how Craig Mod does it, but I start to get it now. People are nice here and approaching them feels less scary — even for an introvert.&lt;/p&gt;
+</description>
+      <pubDate>Thu, 08 May 2025 13:35:10 GMT</pubDate>
+      <dc:creator>Your Name</dc:creator>
+      <guid>https://example.com/posts/post-4/</guid>
+    </item>
+    <item>
+      <title>Post three</title>
+      <link>https://example.com/posts/post-3/</link>
+      <description>&lt;p&gt;I&#39;m the latest post!&lt;/p&gt;</description>
+      <pubDate>Thu, 08 May 2025 13:35:10 GMT</pubDate>
+      <dc:creator>Your Name</dc:creator>
+      <guid>https://example.com/posts/post-3/</guid>
+    </item>
+    <item>
+      <title>Post 1</title>
+      <link>https://example.com/posts/post-1/</link>
+      <description>&lt;p&gt;Post one content.&lt;/p&gt;</description>
+      <pubDate>Thu, 08 May 2025 13:35:10 GMT</pubDate>
+      <dc:creator>Your Name</dc:creator>
+      <guid>https://example.com/posts/post-1/</guid>
+    </item>
+    <item>
+      <title>Post 2</title>
+      <link>https://example.com/posts/post-2/</link>
+      <description>&lt;p&gt;Post 2 content.&lt;/p&gt;</description>
+      <pubDate>Tue, 06 May 2025 08:00:00 GMT</pubDate>
+      <dc:creator>Your Name</dc:creator>
+      <guid>https://example.com/posts/post-2/</guid>
+    </item>
+    <item>
+      <title>Friday Night, Good Time</title>
+      <link>https://example.com/posts/friday-night-good-time/</link>
+      <description>&lt;p&gt;&lt;em&gt;Day 2&lt;/em&gt;
+&lt;em&gt;Tokyo, Matsumoto, 21,757 steps, 17.4 kilometers&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I want to write about the amazing buffet breakfast at The Tokyo Hotel. And about Glitch that serves gesha variety coffee almost exclusively. And about how I got on the train to Matsumoto literally at the very last minute (so unlike me!)&lt;/p&gt;
+&lt;img src=&quot;https://example.com/posts/friday-night-good-time/fngt1.jpeg&quot; alt=&quot;Glitch coffee in Tokyo&quot; eleventy:output=&quot;/metagame/&quot;&gt;
+&lt;p&gt;But the only thing on my mind right now is this random encounter on Nawate-dori in Matsumoto.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;This trip, for me, is all about serendipity. I don’t have a lot of things planned. Three, maybe four spots marked on the map in each city, but that’s about it. Leaving the rest to chance.&lt;/p&gt;
+&lt;p&gt;One day, someone will randomly start posing for a picture. The next day, I’ll get called over and brought into a “conversation” with three folks that are definitely having a very good time on a Friday night.&lt;/p&gt;
+&lt;img src=&quot;https://example.com/posts/friday-night-good-time/fngt2.jpeg&quot; alt=&quot;Yakuzaaaa!&quot;&gt;
+&lt;p&gt;“Conversation” is, of course, overselling it. I was speaking in English, the two guys were speaking in Japanese, and the lady tried her best to translate. We &lt;em&gt;kind of&lt;/em&gt; communicated, but not quite. But the gist of it was that the other two were trying to convince me that the bald guy was yakuza. “Yakuza! Mafia!” they kept repeating in between laughs.&lt;/p&gt;
+&lt;p&gt;They also tried to invite me for yakitori. But I was already full — had ramen at Menshu Takenaka just a moment before.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Chicken-based soy-sauce broth with two thin slices of smoked duck meat. When the owner served it, he looked proud. As he should be! — man, this was one delicious bowl of noodles.&lt;/p&gt;
+&lt;img src=&quot;https://example.com/posts/friday-night-good-time/fngt3.jpeg&quot; alt=&quot;Menshu Takenaka&quot;&gt;
+&lt;p&gt;The broth: clear mountain water infused with lots of local vegetables. So different than that salty, MSG-y soup you can often get in Hong Kong (in HK, it’s considered natural to not finish the soup in a bowl of ramen — but at &lt;em&gt;Menshu Takenaka&lt;/em&gt; I finished it all and immediately wanted more). The meat: gently seared with a gas torch. Garnish: very little.&lt;/p&gt;
+&lt;img src=&quot;https://example.com/posts/friday-night-good-time/fngt4.jpeg&quot; alt=&quot;Ramen ordering machine&quot;&gt;
+&lt;p&gt;A hot bowl of noodly goodness. What more can a weary traveler ask for on a cold autumn evening?&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I’m trying to work on my fear of asking people if I can take a photo. Tried my luck in Matsumoto twice already, and it worked!&lt;/p&gt;
+&lt;p&gt;People I ask seem surprised — “why would you want to take a photo of &lt;em&gt;me&lt;/em&gt;?” — but I’m surprised even more that they agree!&lt;/p&gt;
+&lt;p&gt;I’m letting myself be surprised. That’s my theme for this trip.&lt;/p&gt;
+&lt;img src=&quot;https://example.com/posts/friday-night-good-time/fngt5.jpeg&quot; alt=&quot;Just a random shop&quot;&gt;
+&lt;p&gt;Tomorrow — a full day in Matsumoto. I’m going to walk my feet off.&lt;/p&gt;
+</description>
+      <pubDate>Sat, 22 Oct 2022 08:00:00 GMT</pubDate>
+      <dc:creator>Your Name</dc:creator>
+      <guid>https://example.com/posts/friday-night-good-time/</guid>
+    </item>
+    <item>
+      <title>It Feels Different</title>
+      <link>https://example.com/posts/it-feels-different/</link>
+      <description>&lt;p&gt;Hello! I’m Chris and I walk in &lt;a href=&quot;https://craigmod.com/about/&quot;&gt;Craig Mod’s&lt;/a&gt; footsteps — by eating pizza toast, walking for hours, and taking photos on my trip around small cities in Japan.&lt;/p&gt;
+&lt;p&gt;A word of warning. My writing is rusty (last time I wrote something longform-ish for the people on the internet to read, was &lt;a href=&quot;https://metafinanse.pl/rok-tygrysa/&quot;&gt;almost a year ago&lt;/a&gt;). My photography skills I’m not too confident in. But hey, at least I’m trying.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Day 1&lt;/em&gt;
+&lt;em&gt;Hong Kong, Tokyo, 16,703 steps, 13.58 kilometers&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Tokyo. The same city and the same hotel we stayed at in February 2020. But everything feels different this time around.&lt;/p&gt;
+&lt;p&gt;Last time my wife and I visited Japan, it was just at the beginning of COVID. So much uncertainty in the air. News reports from China make everyone uneasy.&lt;/p&gt;
+&lt;p&gt;Just one week after we left Japan back then, the country closed its doors to the foreigners. Took it almost three years to fully reopen — and the moment they did, I booked my flights and hotels.&lt;/p&gt;
+&lt;p&gt;The fear of COVID seems all but gone, though mask compliance remains nearly-universal and hand sanitizer dispensers are everywhere (both of which I don’t mind). &lt;em&gt;Tokyo-ni-zero-ni-zero&lt;/em&gt; billboards, mascots, videos — ever-present in early 2020, but now the Olympics is a distant memory.&lt;/p&gt;
+&lt;p&gt;Weather is just right. JPY is cheap. Swarms of tourists are not here yet. It’s the perfect time to visit.&lt;/p&gt;
+&lt;p&gt;And I’d like to think I’m visiting Japan now at the end of COVID. Like a bookend.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Big city energy, but different.&lt;/p&gt;
+&lt;p&gt;I’m amazed by how friendly the people here are. I mean — you just walk around, point your camera and random stuff, and a lady at a shop across the street just starts posing for you. I wasn’t sure how Craig Mod does it, but I start to get it now. People are nice here and approaching them feels less scary — even for an introvert.&lt;/p&gt;
+&lt;img src=&quot;https://example.com/posts/it-feels-different/ifd1.jpeg&quot; alt=&quot;a cheerful shop manager&quot;&gt;
+&lt;p&gt;Speaking of Craig, the pizza place &lt;a href=&quot;https://www.eater.com/2017/2/21/14670944/best-pizza-tokyo-guide&quot;&gt;he featured on Eater&lt;/a&gt; — Pizza Studio Tamaki — kind of off the beaten path, but so &lt;em&gt;so&lt;/em&gt; good. Just as advertised. What got me was the Okinawa salt massaged into the underside of the pie. That + the smokiness it got from the Japanese wood (oak, cherry blossom, and beech) burned in the oven — trust me, it’s not your usual pizza. I was sold after the first bite. What a delicious treat after a long trip. Definitely a highlight of the day.&lt;/p&gt;
+&lt;p&gt;Not far from PST, Tokyo Tower is making its Eiffel Tower impression.&lt;/p&gt;
+&lt;img src=&quot;https://example.com/posts/it-feels-different/ifd2.jpeg&quot; alt=&quot;Pizza Studio Tamaki from the outside, at night&quot;&gt;
+&lt;p&gt;Next stop: Shinjuku. Got a bit lost while looking for the famous Golden Gai — and I paused and cherished that feeling. Getting lost, trying to get my bearings while GPS/Google Maps acted all confused among the tall buildings. Exploring on my own, following my gut without smartphone’s help for a change.&lt;/p&gt;
+&lt;img src=&quot;https://example.com/posts/it-feels-different/ifd3.jpeg&quot; alt=&quot;a brightly-lit alleyway&quot;&gt;
+&lt;p&gt;Spoiler alert: I eventually found it.&lt;/p&gt;
+&lt;p&gt;A peculiar vibe I found over there. A small grid of narrow streets — well, not even &lt;em&gt;streets&lt;/em&gt; but &lt;em&gt;pathways&lt;/em&gt;. All of them filled to the brim with the tiniest bars and pubs and shops I’ve ever seen. Some of them looked like they can’t fit more than two or three patrons at the same time. Some of them are open to members only.&lt;/p&gt;
+&lt;p&gt;I return to my hotel room exhausted. Not bad for a first day of my first ever (/in a very long time?) solo trip. My first ever one-bag-travel sort of trip. My first trip with a new camera. Everything’s different this time.&lt;/p&gt;
+&lt;p&gt;More to come. Tokyo was just a brief stop. The real thing starts tomorrow.&lt;/p&gt;
+&lt;p&gt;— CS&lt;/p&gt;
+</description>
+      <pubDate>Fri, 21 Oct 2022 08:00:00 GMT</pubDate>
+      <dc:creator>Your Name</dc:creator>
+      <guid>https://example.com/posts/it-feels-different/</guid>
+    </item>
+  </channel>
+</rss>
