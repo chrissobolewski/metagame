@@ -10,7 +10,7 @@
       <title>Post se7ven</title>
       <link>https://example.com/posts/post-7/</link>
       <description>&lt;p&gt;this will cause overflow&lt;/p&gt;</description>
-      <pubDate>Fri, 09 May 2025 10:48:48 GMT</pubDate>
+      <pubDate>Fri, 09 May 2025 10:51:26 GMT</pubDate>
       <dc:creator>Your Name</dc:creator>
       <guid>https://example.com/posts/post-7/</guid>
     </item>
@@ -20,7 +20,7 @@
       <description>&lt;p&gt;another short one&lt;/p&gt;
 &lt;p&gt;with &lt;strong&gt;markdown&lt;/strong&gt;&lt;/p&gt;
 </description>
-      <pubDate>Fri, 09 May 2025 10:48:48 GMT</pubDate>
+      <pubDate>Fri, 09 May 2025 10:51:26 GMT</pubDate>
       <dc:creator>Your Name</dc:creator>
       <guid>https://example.com/posts/post-6/</guid>
     </item>
@@ -28,7 +28,7 @@
       <title>Post V</title>
       <link>https://example.com/posts/post-5/</link>
       <description>&lt;p&gt;This will be a long one!&lt;/p&gt;</description>
-      <pubDate>Fri, 09 May 2025 10:48:48 GMT</pubDate>
+      <pubDate>Fri, 09 May 2025 10:51:26 GMT</pubDate>
       <dc:creator>Your Name</dc:creator>
       <guid>https://example.com/posts/post-5/</guid>
     </item>
@@ -38,7 +38,7 @@
       <description>&lt;p&gt;I’m amazed by how friendly the people here are. I mean — you just walk around, point your camera and random stuff, and a lady at a shop across the street just starts posing for you.&lt;/p&gt;
 &lt;p&gt;I wasn’t sure how Craig Mod does it, but I start to get it now. People are nice here and approaching them feels less scary — even for an introvert.&lt;/p&gt;
 </description>
-      <pubDate>Fri, 09 May 2025 10:48:48 GMT</pubDate>
+      <pubDate>Fri, 09 May 2025 10:51:26 GMT</pubDate>
       <dc:creator>Your Name</dc:creator>
       <guid>https://example.com/posts/post-4/</guid>
     </item>
@@ -46,7 +46,7 @@
       <title>Post three</title>
       <link>https://example.com/posts/post-3/</link>
       <description>&lt;p&gt;I&#39;m the latest post!&lt;/p&gt;</description>
-      <pubDate>Fri, 09 May 2025 10:48:48 GMT</pubDate>
+      <pubDate>Fri, 09 May 2025 10:51:26 GMT</pubDate>
       <dc:creator>Your Name</dc:creator>
       <guid>https://example.com/posts/post-3/</guid>
     </item>
@@ -54,7 +54,7 @@
       <title>Post 1</title>
       <link>https://example.com/posts/post-1/</link>
       <description>&lt;p&gt;Post one content.&lt;/p&gt;</description>
-      <pubDate>Fri, 09 May 2025 10:48:48 GMT</pubDate>
+      <pubDate>Fri, 09 May 2025 10:51:26 GMT</pubDate>
       <dc:creator>Your Name</dc:creator>
       <guid>https://example.com/posts/post-1/</guid>
     </item>
@@ -124,12 +124,12 @@
 &lt;hr&gt;
 &lt;p&gt;Big city energy, but different.&lt;/p&gt;
 &lt;p&gt;I’m amazed by how friendly the people here are. I mean — you just walk around, point your camera and random stuff, and a lady at a shop across the street just starts posing for you. I wasn’t sure how Craig Mod does it, but I start to get it now. People are nice here and approaching them feels less scary — even for an introvert.&lt;/p&gt;
-&lt;img src=&quot;https://example.com/posts/it-feels-different/ifd1.jpeg&quot; alt=&quot;a cheerful shop manager&quot;&gt;
+&lt;img src=&quot;https://example.com/assets/images/ifd1.jpeg&quot; alt=&quot;a cheerful shop manager&quot;&gt;
 &lt;p&gt;Speaking of Craig, the pizza place &lt;a href=&quot;https://www.eater.com/2017/2/21/14670944/best-pizza-tokyo-guide&quot;&gt;he featured on Eater&lt;/a&gt; — Pizza Studio Tamaki — kind of off the beaten path, but so &lt;em&gt;so&lt;/em&gt; good. Just as advertised. What got me was the Okinawa salt massaged into the underside of the pie. That + the smokiness it got from the Japanese wood (oak, cherry blossom, and beech) burned in the oven — trust me, it’s not your usual pizza. I was sold after the first bite. What a delicious treat after a long trip. Definitely a highlight of the day.&lt;/p&gt;
 &lt;p&gt;Not far from PST, Tokyo Tower is making its Eiffel Tower impression.&lt;/p&gt;
-&lt;img src=&quot;https://example.com/posts/it-feels-different/ifd2.jpeg&quot; alt=&quot;Pizza Studio Tamaki from the outside, at night&quot;&gt;
+&lt;img src=&quot;https://example.com/assets/images/ifd2.jpeg&quot; alt=&quot;Pizza Studio Tamaki from the outside, at night&quot;&gt;
 &lt;p&gt;Next stop: Shinjuku. Got a bit lost while looking for the famous Golden Gai — and I paused and cherished that feeling. Getting lost, trying to get my bearings while GPS/Google Maps acted all confused among the tall buildings. Exploring on my own, following my gut without smartphone’s help for a change.&lt;/p&gt;
-&lt;img src=&quot;https://example.com/posts/it-feels-different/ifd3.jpeg&quot; alt=&quot;a brightly-lit alleyway&quot;&gt;
+&lt;img src=&quot;https://example.com/assets/images/ifd3.jpeg&quot; alt=&quot;a brightly-lit alleyway&quot;&gt;
 &lt;p&gt;Spoiler alert: I eventually found it.&lt;/p&gt;
 &lt;p&gt;A peculiar vibe I found over there. A small grid of narrow streets — well, not even &lt;em&gt;streets&lt;/em&gt; but &lt;em&gt;pathways&lt;/em&gt;. All of them filled to the brim with the tiniest bars and pubs and shops I’ve ever seen. Some of them looked like they can’t fit more than two or three patrons at the same time. Some of them are open to members only.&lt;/p&gt;
 &lt;p&gt;I return to my hotel room exhausted. Not bad for a first day of my first ever (/in a very long time?) solo trip. My first ever one-bag-travel sort of trip. My first trip with a new camera. Everything’s different this time.&lt;/p&gt;
