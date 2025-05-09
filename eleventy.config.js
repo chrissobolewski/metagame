@@ -22,7 +22,7 @@ module.exports = function(eleventyConfig) {
 */
 
 import  { feedPlugin } from "@11ty/eleventy-plugin-rss";
-// import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import pluginFilters from "./_config/filters.js";
 import relativeLinks from "./_config/relative-links.js";
 
@@ -33,7 +33,7 @@ export default async function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
 	// Image optimization: https://www.11ty.dev/docs/plugins/image/#eleventy-transform
 	
-	/*
+	
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
 		// Output formats for each image.
 		formats: ["avif", "webp", "auto"],
@@ -53,7 +53,7 @@ export default async function (eleventyConfig) {
 			animated: true,
 		},
 	}); 
-*/
+
 	eleventyConfig.addPlugin(pluginFilters);
 	
 	eleventyConfig.addPlugin(feedPlugin, {
