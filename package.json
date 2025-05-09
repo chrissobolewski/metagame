@@ -16,4 +16,4 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "netlify-plugin-cache": "^1.0.3"
   }
-} 
+}
