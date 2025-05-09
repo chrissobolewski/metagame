@@ -47,6 +47,6 @@ People I ask seem surprised — “why would you want to take a photo of *me*?�
 
 I’m letting myself be surprised. That’s my theme for this trip.
 
-<img src="../../assets/images/fngt5.jpeg" alt="Just a random shop">
+<img src="/assets/images/fngt5.jpeg" alt="Just a random shop">
 
 Tomorrow — a full day in Matsumoto. I’m going to walk my feet off.
