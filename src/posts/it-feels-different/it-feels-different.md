@@ -33,17 +33,17 @@ Big city energy, but different.
 
 I’m amazed by how friendly the people here are. I mean — you just walk around, point your camera and random stuff, and a lady at a shop across the street just starts posing for you. I wasn’t sure how Craig Mod does it, but I start to get it now. People are nice here and approaching them feels less scary — even for an introvert.
 
-<img src="ifd1.jpeg" alt="a cheerful shop manager">
+<img src="/assets/images/ifd1.jpeg" alt="a cheerful shop manager">
 
 Speaking of Craig, the pizza place [he featured on Eater](https://www.eater.com/2017/2/21/14670944/best-pizza-tokyo-guide) — Pizza Studio Tamaki — kind of off the beaten path, but so *so* good. Just as advertised. What got me was the Okinawa salt massaged into the underside of the pie. That + the smokiness it got from the Japanese wood (oak, cherry blossom, and beech) burned in the oven — trust me, it’s not your usual pizza. I was sold after the first bite. What a delicious treat after a long trip. Definitely a highlight of the day.
 
 Not far from PST, Tokyo Tower is making its Eiffel Tower impression.
 
-<img src="ifd2.jpeg" alt="Pizza Studio Tamaki from the outside, at night">
+<img src="/assets/images/ifd2.jpeg" alt="Pizza Studio Tamaki from the outside, at night">
 
 Next stop: Shinjuku. Got a bit lost while looking for the famous Golden Gai — and I paused and cherished that feeling. Getting lost, trying to get my bearings while GPS/Google Maps acted all confused among the tall buildings. Exploring on my own, following my gut without smartphone’s help for a change.
 
-<img src="ifd3.jpeg" alt="a brightly-lit alleyway">
+<img src="/assets/images/ifd3.jpeg" alt="a brightly-lit alleyway">
 
 Spoiler alert: I eventually found it.
 
