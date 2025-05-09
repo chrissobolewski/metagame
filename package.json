@@ -5,7 +5,7 @@
   "description": "Companion code to the “6 Minutes to Build a Blog from Scratch” tutorial.",
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
-    "build-ghpages": "npx @11ty/eleventy --pathprefix=/metagame/",
+    "build-ghpages": "npx @11ty/eleventy",
     "build": "npx @11ty/eleventy"
   },
   "license": "MIT",
@@ -16,4 +16,4 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "netlify-plugin-cache": "^1.0.3"
   }
-}
+} 

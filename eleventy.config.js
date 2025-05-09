@@ -24,7 +24,7 @@ module.exports = function(eleventyConfig) {
 import  { feedPlugin } from "@11ty/eleventy-plugin-rss";
 // import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import pluginFilters from "./_config/filters.js";
-// import relativeLinks from "./_config/relative-links.js";
+import relativeLinks from "./_config/relative-links.js";
 
 
 export default async function (eleventyConfig) {
@@ -128,7 +128,7 @@ eleventyConfig.addPlugin(feedPlugin, {
 	  },
 	},
   });
-//  eleventyConfig.addPlugin(relativeLinks);
+  eleventyConfig.addPlugin(relativeLinks);
 	
   return {
 	dir: {
