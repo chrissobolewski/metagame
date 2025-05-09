@@ -31,6 +31,8 @@ export default async function (eleventyConfig) {
 	// eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPassthroughCopy("src/style.css");
 	// Image optimization: https://www.11ty.dev/docs/plugins/image/#eleventy-transform
+	
+	/*
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
 		// Output formats for each image.
 		formats: ["avif", "webp", "auto"],
@@ -49,8 +51,8 @@ export default async function (eleventyConfig) {
 		sharpOptions: {
 			animated: true,
 		},
-	});
-
+	}); 
+*/
 	eleventyConfig.addPlugin(pluginFilters);
 	
 	eleventyConfig.addPlugin(feedPlugin, {
