@@ -10,7 +10,7 @@
       <title>Post se7ven</title>
       <link>https://example.com/metagame/posts/post-7/</link>
       <description>&lt;p&gt;this will cause overflow&lt;/p&gt;</description>
-      <pubDate>Fri, 09 May 2025 10:27:00 GMT</pubDate>
+      <pubDate>Fri, 09 May 2025 10:33:32 GMT</pubDate>
       <dc:creator>Your Name</dc:creator>
       <guid>https://example.com/metagame/posts/post-7/</guid>
     </item>
@@ -18,7 +18,7 @@
       <title>Post V</title>
       <link>https://example.com/metagame/posts/post-5/</link>
       <description>&lt;p&gt;This will be a long one!&lt;/p&gt;</description>
-      <pubDate>Fri, 09 May 2025 10:27:00 GMT</pubDate>
+      <pubDate>Fri, 09 May 2025 10:33:32 GMT</pubDate>
       <dc:creator>Your Name</dc:creator>
       <guid>https://example.com/metagame/posts/post-5/</guid>
     </item>
@@ -26,7 +26,7 @@
       <title>Post three</title>
       <link>https://example.com/metagame/posts/post-3/</link>
       <description>&lt;p&gt;I&#39;m the latest post!&lt;/p&gt;</description>
-      <pubDate>Fri, 09 May 2025 10:27:00 GMT</pubDate>
+      <pubDate>Fri, 09 May 2025 10:33:32 GMT</pubDate>
       <dc:creator>Your Name</dc:creator>
       <guid>https://example.com/metagame/posts/post-3/</guid>
     </item>
@@ -34,7 +34,7 @@
       <title>Post 1</title>
       <link>https://example.com/metagame/posts/post-1/</link>
       <description>&lt;p&gt;Post one content.&lt;/p&gt;</description>
-      <pubDate>Fri, 09 May 2025 10:27:00 GMT</pubDate>
+      <pubDate>Fri, 09 May 2025 10:33:32 GMT</pubDate>
       <dc:creator>Your Name</dc:creator>
       <guid>https://example.com/metagame/posts/post-1/</guid>
     </item>
