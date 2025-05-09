@@ -11,7 +11,7 @@ excerpt: Day two — Tokyo, Matsumoto. Believe it or not, but a boozy encounter 
 
 I want to write about the amazing buffet breakfast at The Tokyo Hotel. And about Glitch that serves gesha variety coffee almost exclusively. And about how I got on the train to Matsumoto literally at the very last minute (so unlike me!)
 
-<img src="fngt1.jpeg" alt="Glitch coffee in Tokyo">
+<img src="fngt1.jpeg" alt="Glitch coffee in Tokyo" eleventy:output="/metagame/">
 
 But the only thing on my mind right now is this random encounter on Nawate-dori in Matsumoto.
 
