@@ -72,11 +72,11 @@ export default async function (eleventyConfig) {
 		},
 		metadata: {
 		  language: "en",
-		  title: "Blog Title",
-		  subtitle: "This is a longer description about your blog.",
-		  base: "https://example.com/",
+		  title: "Metagame | Full Feed",
+		  subtitle: "Blog about photography, tech, gaming, coffee, travel, and personal productivity.",
+		  base: "https://metagame.hk/",
 		  author: {
-			name: "Your Name",
+			name: "Chris Sobolewski",
 		  },
 		},
 	  });
@@ -97,11 +97,11 @@ export default async function (eleventyConfig) {
 		},
 		metadata: {
 		  language: "en",
-		  title: "Longform Articles",
-		  subtitle: "A collection of longform articles.",
-		  base: "https://example.com/",
+		  title: "Metagame | Articles",
+		  subtitle: "Blog about photography, tech, gaming, coffee, travel, and personal productivity.",
+		  base: "https://metagame.hk/",
 		  author: {
-			name: "Your Name",
+			name: "Chris Sobolewski",
 		  },
 		},
 	  });
@@ -121,11 +121,11 @@ eleventyConfig.addPlugin(feedPlugin, {
 	},
 	metadata: {
 	  language: "en",
-	  title: "Short Articles",
-	  subtitle: "A collection of short articles.",
-	  base: "https://example.com/",
-	  author: {
-		name: "Your Name",
+		  title: "Metagame | Short Updates",
+		  subtitle: "Blog about photography, tech, gaming, coffee, travel, and personal productivity.",
+		  base: "https://metagame.hk/",
+		  author: {
+			name: "Chris Sobolewski",
 	  },
 	},
   });

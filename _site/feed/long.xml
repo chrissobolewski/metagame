@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="https://example.com/" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="https://metagame.hk/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Longform Articles</title>
-    <link>https://example.com/</link>
-    <atom:link href="https://example.com/feed/long.xml" rel="self" type="application/rss+xml" />
-    <description>A collection of longform articles.</description>
+    <title>Metagame | Articles</title>
+    <link>https://metagame.hk/</link>
+    <atom:link href="https://metagame.hk/feed/long.xml" rel="self" type="application/rss+xml" />
+    <description>Blog about photography, tech, gaming, coffee, travel, and personal productivity.</description>
     <language>en</language>
     <item>
       <title>This Is the Year of Linux on Desktop</title>
-      <link>https://example.com/posts/2025-05-04-this-is-the-year-of-linux-on-desktop/</link>
+      <link>https://metagame.hk/posts/2025-05-04-this-is-the-year-of-linux-on-desktop/</link>
       <description>&lt;p&gt;I have a restless mind. I constantly look for ways to tinker with stuff. And once something works, I can&#39;t just leave it be and enjoy it. I have to move on to something else.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://example.com/posts/2025-03-31-is-apple-even-good-at-software/&quot;&gt;Last month&lt;/a&gt; it was (re-)introducing pen and paper to my note-taking system. Before that, it was the &lt;a href=&quot;https://example.com/posts/2024-12-15-things-look-like-a-creative-goty/&quot;&gt;back-and-forth between Reminders and Things&lt;/a&gt; for my to-do system.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://metagame.hk/posts/2025-03-31-is-apple-even-good-at-software/&quot;&gt;Last month&lt;/a&gt; it was (re-)introducing pen and paper to my note-taking system. Before that, it was the &lt;a href=&quot;https://metagame.hk/posts/2024-12-15-things-look-like-a-creative-goty/&quot;&gt;back-and-forth between Reminders and Things&lt;/a&gt; for my to-do system.&lt;/p&gt;
 &lt;p&gt;So you can imagine how dangerous &lt;a href=&quot;https://youtu.be/pVI_smLgTY0?si=BmXPv3MjrxTFV14Z&amp;amp;ref=metagame.hk&quot;&gt;this video&lt;/a&gt; is for me.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;s&gt;What’s stopping me right now is&lt;/s&gt; &lt;a href=&quot;https://frame.work/?ref=metagame.hk&quot;&gt;&lt;s&gt;Framework Laptops&lt;/s&gt;&lt;/a&gt; &lt;s&gt;not shipping to Hong Kong…&lt;/s&gt;&lt;/p&gt;
@@ -30,13 +30,13 @@
 &lt;p&gt;What I can do is to lay the groundwork for eventually leaving Apple&#39;s lock-in. A decision I&#39;m inching closer and closer to every time Apple does something greedy, malicious, or when it ingratiates itself with Trump. Which is very often these days.&lt;/p&gt;
 </description>
       <pubDate>Sun, 04 May 2025 20:00:00 GMT</pubDate>
-      <dc:creator>Your Name</dc:creator>
-      <guid>https://example.com/posts/2025-05-04-this-is-the-year-of-linux-on-desktop/</guid>
+      <dc:creator>Chris Sobolewski</dc:creator>
+      <guid>https://metagame.hk/posts/2025-05-04-this-is-the-year-of-linux-on-desktop/</guid>
     </item>
     <item>
       <title>A Lot Less Excited About Nintendo Switch 2 Than I Thought</title>
-      <link>https://example.com/posts/2025-04-03-a-lot-less-excited-about-nintendo-switch-2/</link>
-      <description>&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/.11ty/image/?src=src%2Fassets%2Fimages%2Fnintendoswitch2.jpg&amp;width=1140&amp;format=avif&amp;via=transform 1140w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/.11ty/image/?src=src%2Fassets%2Fimages%2Fnintendoswitch2.jpg&amp;width=1140&amp;format=webp&amp;via=transform 1140w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/.11ty/image/?src=src%2Fassets%2Fimages%2Fnintendoswitch2.jpg&amp;width=1140&amp;format=jpeg&amp;via=transform&quot; alt=&quot;Nintendo Switch 2&quot; width=&quot;1140&quot; height=&quot;641&quot;&gt;&lt;/picture&gt;
+      <link>https://metagame.hk/posts/2025-04-03-a-lot-less-excited-about-nintendo-switch-2/</link>
+      <description>&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://metagame.hk/.11ty/image/?src=src%2Fassets%2Fimages%2Fnintendoswitch2.jpg&amp;width=1140&amp;format=avif&amp;via=transform 1140w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://metagame.hk/.11ty/image/?src=src%2Fassets%2Fimages%2Fnintendoswitch2.jpg&amp;width=1140&amp;format=webp&amp;via=transform 1140w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://metagame.hk/.11ty/image/?src=src%2Fassets%2Fimages%2Fnintendoswitch2.jpg&amp;width=1140&amp;format=jpeg&amp;via=transform&quot; alt=&quot;Nintendo Switch 2&quot; width=&quot;1140&quot; height=&quot;641&quot;&gt;&lt;/picture&gt;
 &lt;em&gt;Nintendo Switch 2 / Image: Nintendo&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;I genuinely wanted to be excited about &lt;strong&gt;Switch 2&lt;/strong&gt; (it was my most anticipated hardware announcement this year!), yet – if I&#39;m being honest with myself – it just looks like a bad buy for me:&lt;/p&gt;
 &lt;ul&gt;
@@ -56,13 +56,13 @@
 &lt;p&gt;All in all, whatever excitement I had about it initially is now fading. Maybe I was just hyped for an &lt;em&gt;idea&lt;/em&gt; of a shiny new thing. Once I set emotions aside, Switch 2 doesn&#39;t look like a device for me.&lt;/p&gt;
 </description>
       <pubDate>Thu, 03 Apr 2025 22:00:00 GMT</pubDate>
-      <dc:creator>Your Name</dc:creator>
-      <guid>https://example.com/posts/2025-04-03-a-lot-less-excited-about-nintendo-switch-2/</guid>
+      <dc:creator>Chris Sobolewski</dc:creator>
+      <guid>https://metagame.hk/posts/2025-04-03-a-lot-less-excited-about-nintendo-switch-2/</guid>
     </item>
     <item>
       <title>Blogging Like It&#39;s 2015</title>
-      <link>https://example.com/posts/2025-04-03-blogging-like-its-2015/</link>
-      <description>&lt;p&gt;Following up on my thoughts from &lt;a href=&quot;https://example.com/posts/2025-03-31-is-apple-even-good-at-software/&quot;&gt;the previous post&lt;/a&gt; — I&#39;ll. be publishing shorter entries here. For a while — as an experiment. They would not go into the newsletter initially – instead they would wait their turn for the next monthly newsletter bundle-edition.&lt;/p&gt;
+      <link>https://metagame.hk/posts/2025-04-03-blogging-like-its-2015/</link>
+      <description>&lt;p&gt;Following up on my thoughts from &lt;a href=&quot;https://metagame.hk/posts/2025-03-31-is-apple-even-good-at-software/&quot;&gt;the previous post&lt;/a&gt; — I&#39;ll. be publishing shorter entries here. For a while — as an experiment. They would not go into the newsletter initially – instead they would wait their turn for the next monthly newsletter bundle-edition.&lt;/p&gt;
 &lt;p&gt;It&#39;s a bit of a manual process in Ghost, but I&#39;ll roll with it for now.&lt;/p&gt;
 &lt;p&gt;This way:&lt;/p&gt;
 &lt;ul&gt;
@@ -77,13 +77,13 @@
 &lt;p&gt;I was passionate about this format 10-ish years ago (I used to have a small-but-award-winning personal finance blog) — hope I can find this feeling again, here and now. This experiment with shorter but more frequent posts is a step in that direction.&lt;/p&gt;
 </description>
       <pubDate>Thu, 03 Apr 2025 20:00:00 GMT</pubDate>
-      <dc:creator>Your Name</dc:creator>
-      <guid>https://example.com/posts/2025-04-03-blogging-like-its-2015/</guid>
+      <dc:creator>Chris Sobolewski</dc:creator>
+      <guid>https://metagame.hk/posts/2025-04-03-blogging-like-its-2015/</guid>
     </item>
     <item>
       <title>Is Apple Even Good at Software?</title>
-      <link>https://example.com/posts/2025-03-31-is-apple-even-good-at-software/</link>
-      <description>&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/.11ty/image/?src=src%2Fassets%2Fimages%2Fnewpenday.jpeg&amp;width=1140&amp;format=avif&amp;via=transform 1140w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/.11ty/image/?src=src%2Fassets%2Fimages%2Fnewpenday.jpeg&amp;width=1140&amp;format=webp&amp;via=transform 1140w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/.11ty/image/?src=src%2Fassets%2Fimages%2Fnewpenday.jpeg&amp;width=1140&amp;format=jpeg&amp;via=transform&quot; alt=&quot;New pen day!&quot; width=&quot;1140&quot; height=&quot;855&quot;&gt;&lt;/picture&gt;
+      <link>https://metagame.hk/posts/2025-03-31-is-apple-even-good-at-software/</link>
+      <description>&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://metagame.hk/.11ty/image/?src=src%2Fassets%2Fimages%2Fnewpenday.jpeg&amp;width=1140&amp;format=avif&amp;via=transform 1140w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://metagame.hk/.11ty/image/?src=src%2Fassets%2Fimages%2Fnewpenday.jpeg&amp;width=1140&amp;format=webp&amp;via=transform 1140w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://metagame.hk/.11ty/image/?src=src%2Fassets%2Fimages%2Fnewpenday.jpeg&amp;width=1140&amp;format=jpeg&amp;via=transform&quot; alt=&quot;New pen day!&quot; width=&quot;1140&quot; height=&quot;855&quot;&gt;&lt;/picture&gt;
 &lt;em&gt;New pen day!&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Today’s entry is a mix of various topics. Each of the headlines below could’ve been its own tiny blog post, but since this is a blog &lt;em&gt;and a newsletter&lt;/em&gt;, I feel this pressure of not spamming your inboxes with tiny stuff — whatever I send out needs to be substantial. So I bundle these things.&lt;/p&gt;
 &lt;p&gt;That’s actually something I need to think about. Sometimes I want the freedom of just firing off a short post over here. I like that format! Especially since I don’t really post on social media anymore, so this page could be a nice outlet for small updates like that.&lt;/p&gt;
@@ -116,21 +116,21 @@
 &lt;p&gt;Speaking of begrudging Apple and things being imperfect, I&#39;ve been feeling negative about that company for a while. They keep giving me reasons.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.theverge.com/news/629940/apple-siri-robby-walker-delayed-ai-features?ref=metagame.hk&quot;&gt;Apple Intelligence is a joke&lt;/a&gt;. The only remotely useful thing it was supposed to offer got delayed indefinitely. Passwords app was prone to an &lt;a href=&quot;https://9to5mac.com/2025/03/18/apples-passwords-app-was-vulnerable-to-phishing-attacks-for-nearly-three-months-after-launch/?ref=metagame.hk&quot;&gt;embarrassing vulnerability&lt;/a&gt; for months. &lt;a href=&quot;https://www.macstories.net/stories/not-an-ipad-pro-review/?ref=metagame.hk&quot;&gt;iPad is still a baby computer&lt;/a&gt;; hardware generations ahead of its software.&lt;/p&gt;
 &lt;p&gt;And this is just a sample from the last few months.&lt;/p&gt;
-&lt;p&gt;I tend to bounce between &lt;a href=&quot;https://example.com/posts/2024-08-13-ios-18-public-beta-personal-computing-tools-audit/&quot;&gt;going all-in on Apple’s apps&lt;/a&gt;, prioritizing ecosystem integration — and, on the other end of the spectrum — replacing Apple’s solutions with third-party apps, looking for ones that are best in class. Sometimes, I’ll add extra difficulty by searching for apps that are &lt;a href=&quot;https://ljpuk.net/2025/03/27/a-move-to-cross-platform-apps-and-services/?ref=metagame.hk&quot;&gt;cross-platform&lt;/a&gt;. A classic dilemma between a jack-of-all-trades approach and best-in-breed.&lt;/p&gt;
+&lt;p&gt;I tend to bounce between &lt;a href=&quot;https://metagame.hk/posts/2024-08-13-ios-18-public-beta-personal-computing-tools-audit/&quot;&gt;going all-in on Apple’s apps&lt;/a&gt;, prioritizing ecosystem integration — and, on the other end of the spectrum — replacing Apple’s solutions with third-party apps, looking for ones that are best in class. Sometimes, I’ll add extra difficulty by searching for apps that are &lt;a href=&quot;https://ljpuk.net/2025/03/27/a-move-to-cross-platform-apps-and-services/?ref=metagame.hk&quot;&gt;cross-platform&lt;/a&gt;. A classic dilemma between a jack-of-all-trades approach and best-in-breed.&lt;/p&gt;
 &lt;p&gt;Apple will cover all the basics with Reminders, Notes, Journal, etc. — but it’s rarely going to be the best solution in each slot. Their apps will get infrequent updates (at best once a year between WWDC and new iPhone release; at worst - forgotten/becoming an afterthought, like Clips or Journal). Always two steps behind the industry trends.&lt;/p&gt;
 &lt;p&gt;On the other hand, third party apps still innovate. To me and for my needs, Fantastical is a better calendar app than Apple Calendar. 1Password is a better password manager than Apple Passwords. Day One is a better journaling app than Apple Journal. Things is a better to-do app than Apple Reminders. Notes — here I’m having a hard time finding a 1-to-1 replacement. Obsidian may be better for PKM stuff and long-term storage, but short-term quick capture is not its best suit (but hey, pen and paper exists!). But then, you lose some benefits of deep integration with the OS and some money as well (as most of the best third party apps out there require a subscription these days).&lt;/p&gt;
 &lt;p&gt;So what good is system integration if the biggest benefit, integrating information across various apps in your account and making personalized suggestions based on that, Apple promises — but can’t ship?&lt;/p&gt;
 &lt;p&gt;Sometimes I feel like I will never solve this dilemma. Every choice is a trade-off. It&#39;s becoming easier, though, because more and more Apple and its solutions seem to be offering less and less (relative to competition).&lt;/p&gt;
-&lt;p&gt;I have a feeling that my next &lt;a href=&quot;https://example.com/posts/2025-01-09-default-apps-for-2025/&quot;&gt;default apps list&lt;/a&gt; will have fewer Apple apps on it. Unless, of course, next WWDC wows me in a big way this June (which seems unlikely?)&lt;/p&gt;
+&lt;p&gt;I have a feeling that my next &lt;a href=&quot;https://metagame.hk/posts/2025-01-09-default-apps-for-2025/&quot;&gt;default apps list&lt;/a&gt; will have fewer Apple apps on it. Unless, of course, next WWDC wows me in a big way this June (which seems unlikely?)&lt;/p&gt;
 </description>
       <pubDate>Mon, 31 Mar 2025 08:00:00 GMT</pubDate>
-      <dc:creator>Your Name</dc:creator>
-      <guid>https://example.com/posts/2025-03-31-is-apple-even-good-at-software/</guid>
+      <dc:creator>Chris Sobolewski</dc:creator>
+      <guid>https://metagame.hk/posts/2025-03-31-is-apple-even-good-at-software/</guid>
     </item>
     <item>
       <title>I’ve Been Using Apple Mail All Wrong</title>
-      <link>https://example.com/posts/2025-01-30-ive-been-using-apple-mail-all-wrong/</link>
-      <description>&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/.11ty/image/?src=src%2Fassets%2Fimages%2Fapplemailcake.jpeg&amp;width=1140&amp;format=avif&amp;via=transform 1140w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/.11ty/image/?src=src%2Fassets%2Fimages%2Fapplemailcake.jpeg&amp;width=1140&amp;format=webp&amp;via=transform 1140w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/.11ty/image/?src=src%2Fassets%2Fimages%2Fapplemailcake.jpeg&amp;width=1140&amp;format=jpeg&amp;via=transform&quot; alt=&quot;Apple Mail Cake for my wife&quot; width=&quot;1140&quot; height=&quot;855&quot;&gt;&lt;/picture&gt;
+      <link>https://metagame.hk/posts/2025-01-30-ive-been-using-apple-mail-all-wrong/</link>
+      <description>&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://metagame.hk/.11ty/image/?src=src%2Fassets%2Fimages%2Fapplemailcake.jpeg&amp;width=1140&amp;format=avif&amp;via=transform 1140w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://metagame.hk/.11ty/image/?src=src%2Fassets%2Fimages%2Fapplemailcake.jpeg&amp;width=1140&amp;format=webp&amp;via=transform 1140w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://metagame.hk/.11ty/image/?src=src%2Fassets%2Fimages%2Fapplemailcake.jpeg&amp;width=1140&amp;format=jpeg&amp;via=transform&quot; alt=&quot;Apple Mail Cake for my wife&quot; width=&quot;1140&quot; height=&quot;855&quot;&gt;&lt;/picture&gt;
 &lt;em&gt;Apple Mail Cake for my wife&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Apple Mail doesn’t like us, &lt;em&gt;inbox-zero&lt;/em&gt; people. And I have realized that only just now.&lt;/p&gt;
 &lt;p&gt;You see, until recently, my personal email management followed what I did at work. Basically, keeping the inbox clear by:&lt;/p&gt;
@@ -150,7 +150,7 @@
 &lt;h2&gt;Fast forward two weeks&lt;/h2&gt;
 &lt;p&gt;Yeah, this post has been sitting in &lt;em&gt;drafts&lt;/em&gt; for a while… But it’s a good thing! I can now report on the results of this experiment.&lt;/p&gt;
 &lt;p&gt;Long story short: I will probably disable it. Why?&lt;/p&gt;
-&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/.11ty/image/?src=src%2Fassets%2Fimages%2Fmailsummary.jpeg&amp;width=1121&amp;format=avif&amp;via=transform 1121w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/.11ty/image/?src=src%2Fassets%2Fimages%2Fmailsummary.jpeg&amp;width=1121&amp;format=webp&amp;via=transform 1121w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/.11ty/image/?src=src%2Fassets%2Fimages%2Fmailsummary.jpeg&amp;width=1121&amp;format=jpeg&amp;via=transform&quot; alt=&quot;Screenshot of a notification summary&quot; width=&quot;1121&quot; height=&quot;458&quot;&gt;&lt;/picture&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://metagame.hk/.11ty/image/?src=src%2Fassets%2Fimages%2Fmailsummary.jpeg&amp;width=1121&amp;format=avif&amp;via=transform 1121w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://metagame.hk/.11ty/image/?src=src%2Fassets%2Fimages%2Fmailsummary.jpeg&amp;width=1121&amp;format=webp&amp;via=transform 1121w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://metagame.hk/.11ty/image/?src=src%2Fassets%2Fimages%2Fmailsummary.jpeg&amp;width=1121&amp;format=jpeg&amp;via=transform&quot; alt=&quot;Screenshot of a notification summary&quot; width=&quot;1121&quot; height=&quot;458&quot;&gt;&lt;/picture&gt;
 &lt;em&gt;AI got that one right…&lt;/em&gt;&lt;/p&gt;
 &lt;h3&gt;The categories don’t fit my needs&lt;/h3&gt;
 &lt;p&gt;This is how &lt;a href=&quot;https://support.apple.com/en-hk/guide/iphone/iphfe4a36baf/ios?ref=metagame.hk&quot;&gt;Apple describes&lt;/a&gt; these four automated categories:&lt;/p&gt;
@@ -165,7 +165,7 @@
 &lt;p&gt;Not mutually exclusive, because there is significant overlap between categories. This makes me unsure where to look for a specific email — making finding emails easier, not more difficult, was the whole point of this feature!&lt;/p&gt;
 &lt;p&gt;For instance, my bank sends me a range of messages: login notifications, transaction notices (are these updates? transactions?), promotional emails (updates or promotions?), and occasional financial literacy newsletters (updates or promotions?) — Apple Intelligence has trouble sorting this out.&lt;/p&gt;
 &lt;p&gt;Is restaurant booking confirmation and update or a transaction?&lt;/p&gt;
-&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/.11ty/image/?src=src%2Fassets%2Fimages%2Fmailcategories.jpeg&amp;width=1170&amp;format=avif&amp;via=transform 1170w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/.11ty/image/?src=src%2Fassets%2Fimages%2Fmailcategories.jpeg&amp;width=1170&amp;format=webp&amp;via=transform 1170w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/.11ty/image/?src=src%2Fassets%2Fimages%2Fmailcategories.jpeg&amp;width=1170&amp;format=jpeg&amp;via=transform&quot; alt=&quot;Gas bill wrongly categorized as promotional email&quot; width=&quot;1170&quot; height=&quot;526&quot;&gt;&lt;/picture&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://metagame.hk/.11ty/image/?src=src%2Fassets%2Fimages%2Fmailcategories.jpeg&amp;width=1170&amp;format=avif&amp;via=transform 1170w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://metagame.hk/.11ty/image/?src=src%2Fassets%2Fimages%2Fmailcategories.jpeg&amp;width=1170&amp;format=webp&amp;via=transform 1170w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://metagame.hk/.11ty/image/?src=src%2Fassets%2Fimages%2Fmailcategories.jpeg&amp;width=1170&amp;format=jpeg&amp;via=transform&quot; alt=&quot;Gas bill wrongly categorized as promotional email&quot; width=&quot;1170&quot; height=&quot;526&quot;&gt;&lt;/picture&gt;
 &lt;em&gt;Apparently, my gas bill is a “promotion”&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Same with annoying online shops, where they will send you a purchase confirmation and immediately follow up with a latest issue of their newsletter (and is that a transaction, update, or promotion? — Apple Mail is not sure)&lt;/p&gt;
 &lt;p&gt;This all make the categories unreliable for me.&lt;/p&gt;
@@ -177,7 +177,7 @@
 &lt;p&gt;It’s been weeks and the feature remains iPhone-exclusive. Does Apple think that rushing it out, before it’s ready on all platforms, will increase adoption?&lt;/p&gt;
 &lt;p&gt;In my case, if I can’t have one, consistent system across all my devices/email clients, then it’s not going to work for me.&lt;/p&gt;
 &lt;h3&gt;It’s poorly explained&lt;/h3&gt;
-&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/.11ty/image/?src=src%2Fassets%2Fimages%2Fclearfromprimary.jpeg&amp;width=1170&amp;format=avif&amp;via=transform 1170w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/.11ty/image/?src=src%2Fassets%2Fimages%2Fclearfromprimary.jpeg&amp;width=1170&amp;format=webp&amp;via=transform 1170w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/.11ty/image/?src=src%2Fassets%2Fimages%2Fclearfromprimary.jpeg&amp;width=1170&amp;format=jpeg&amp;via=transform&quot; alt=&quot;Screenshot from Apple Mail&quot; width=&quot;1170&quot; height=&quot;787&quot;&gt;&lt;/picture&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://metagame.hk/.11ty/image/?src=src%2Fassets%2Fimages%2Fclearfromprimary.jpeg&amp;width=1170&amp;format=avif&amp;via=transform 1170w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://metagame.hk/.11ty/image/?src=src%2Fassets%2Fimages%2Fclearfromprimary.jpeg&amp;width=1170&amp;format=webp&amp;via=transform 1170w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://metagame.hk/.11ty/image/?src=src%2Fassets%2Fimages%2Fclearfromprimary.jpeg&amp;width=1170&amp;format=jpeg&amp;via=transform&quot; alt=&quot;Screenshot from Apple Mail&quot; width=&quot;1170&quot; height=&quot;787&quot;&gt;&lt;/picture&gt;
 &lt;em&gt;Screenshot from Apple Mail&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;I’ve seen people confused about what this new yellow button means. Is it &lt;em&gt;mute&lt;/em&gt; or &lt;em&gt;block sender&lt;/em&gt;? Crossed-out person icon would suggest something like that.&lt;/p&gt;
 &lt;p&gt;But no, it’s just means “hide from &lt;em&gt;primary&lt;/em&gt; category” and applies to non-primary emails, that Apple thought were time-sensitive and deserve being ”promoted” to &lt;em&gt;primary&lt;/em&gt;. But isn’t it what &lt;a href=&quot;https://support.apple.com/en-hk/guide/iphone/iph9ae667055/ios?ref=metagame.hk#:~:text=View%20Priority%20Messages%20in%20your%20inbox&quot;&gt;&lt;em&gt;Priority Messages&lt;/em&gt;&lt;/a&gt; was for? Sigh.&lt;/p&gt;
@@ -188,8 +188,8 @@
 &lt;p&gt;All that is to say that I’d prefer more powerful and accessible tools for setting up iCloud email rules, because &lt;a href=&quot;https://www.reddit.com/r/iCloud/comments/18afxy8/managing_icloud_mail_server_rules_now_possible/?ref=metagame.hk&quot;&gt;this&lt;/a&gt; is bullshit.&lt;/p&gt;
 </description>
       <pubDate>Mon, 20 Jan 2025 08:00:00 GMT</pubDate>
-      <dc:creator>Your Name</dc:creator>
-      <guid>https://example.com/posts/2025-01-30-ive-been-using-apple-mail-all-wrong/</guid>
+      <dc:creator>Chris Sobolewski</dc:creator>
+      <guid>https://metagame.hk/posts/2025-01-30-ive-been-using-apple-mail-all-wrong/</guid>
     </item>
   </channel>
 </rss>
