@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="https://example.com/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Short Articles</title>
+    <link>https://example.com/</link>
+    <atom:link href="https://example.com/feed/short.xml" rel="self" type="application/rss+xml" />
+    <description>A collection of short articles.</description>
+    <language>en</language>
+    <item>
+      <title>2025-05-10 10:21</title>
+      <link>https://example.com/posts/2025-05-10-1021/</link>
+      <description>&lt;p&gt;I think I have a working prototype of my static-HTML blog ready? It looks decent! Lightweight, just the essential stuff.&lt;/p&gt;
+&lt;p&gt;Now I just need to go through the process of transfering my 30 blog posts from Ghost to here. Will be a while! I&#39;ll consider it my weekend project.&lt;/p&gt;
+</description>
+      <pubDate>Sat, 10 May 2025 18:21:00 GMT</pubDate>
+      <dc:creator>Your Name</dc:creator>
+      <guid>https://example.com/posts/2025-05-10-1021/</guid>
+    </item>
+    <item>
+      <title>2025-05-08 19:46</title>
+      <link>https://example.com/posts/2025-05-08-1946/</link>
+      <description>&lt;p&gt;Vibe-coding my way through setting up a static HTML blog on &lt;a href=&quot;https://www.11ty.dev&quot;&gt;11ty&lt;/a&gt;. I have time until October to migrate away from Ghost.&lt;/p&gt;
+&lt;p&gt;Now how do I publish this on GitHub pages? Oh my!&lt;/p&gt;
+</description>
+      <pubDate>Fri, 09 May 2025 03:46:00 GMT</pubDate>
+      <dc:creator>Your Name</dc:creator>
+      <guid>https://example.com/posts/2025-05-08-1946/</guid>
+    </item>
+    <item>
+      <title>2025-05-08 12:00</title>
+      <link>https://example.com/posts/2025-05-04-1200/</link>
+      <description>&lt;p&gt;&lt;strong&gt;Clair Obscur: Expedition 33 Is a Masterpiece.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;It’s been a while since a piece of art enamored me so completely.&lt;/p&gt;
+&lt;p&gt;I’m in love with this game. World, characters, story, visuals, gameplay, soundtrack — enchanting, captivating, unique.&lt;/p&gt;
+&lt;p&gt;The hype is real. Believe the &lt;a href=&quot;https://www.metacritic.com/game/clair-obscur-expedition-33/?ref=metagame.hk&quot;&gt;high metacritic scores&lt;/a&gt;, trust all the positive reviews. This game is special. It deserves the reverence it’s been met with so far.&lt;/p&gt;
+&lt;p&gt;I can sing its praises for many more paragraphs, but let me stop here. &lt;a href=&quot;https://www.expedition33.com/?ref=metagame.hk&quot;&gt;Just go and play it&lt;/a&gt;. The less say about it the better — it’s best to go in blind.&lt;/p&gt;
+</description>
+      <pubDate>Sun, 04 May 2025 20:00:00 GMT</pubDate>
+      <dc:creator>Your Name</dc:creator>
+      <guid>https://example.com/posts/2025-05-04-1200/</guid>
+    </item>
+  </channel>
+</rss>
