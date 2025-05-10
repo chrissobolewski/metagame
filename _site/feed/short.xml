@@ -7,6 +7,15 @@
     <description>A collection of short articles.</description>
     <language>en</language>
     <item>
+      <title>2025-05-10 17:21</title>
+      <link>https://example.com/posts/2025-05-10-1712/</link>
+      <description>&lt;p&gt;POSSE test&lt;/p&gt;
+</description>
+      <pubDate>Sun, 11 May 2025 01:12:00 GMT</pubDate>
+      <dc:creator>Your Name</dc:creator>
+      <guid>https://example.com/posts/2025-05-10-1712/</guid>
+    </item>
+    <item>
       <title>2025-05-10 10:21</title>
       <link>https://example.com/posts/2025-05-10-1021/</link>
       <description>&lt;p&gt;I think I have a working prototype of my static-HTML blog ready? It looks decent! Lightweight, just the essential stuff.&lt;/p&gt;

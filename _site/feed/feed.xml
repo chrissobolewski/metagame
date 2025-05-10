@@ -7,6 +7,15 @@
     <description>This is a longer description about your blog.</description>
     <language>en</language>
     <item>
+      <title>2025-05-10 17:21</title>
+      <link>https://example.com/posts/2025-05-10-1712/</link>
+      <description>&lt;p&gt;POSSE test&lt;/p&gt;
+</description>
+      <pubDate>Sun, 11 May 2025 01:12:00 GMT</pubDate>
+      <dc:creator>Your Name</dc:creator>
+      <guid>https://example.com/posts/2025-05-10-1712/</guid>
+    </item>
+    <item>
       <title>2025-05-10 10:21</title>
       <link>https://example.com/posts/2025-05-10-1021/</link>
       <description>&lt;p&gt;I think I have a working prototype of my static-HTML blog ready? It looks decent! Lightweight, just the essential stuff.&lt;/p&gt;
@@ -316,40 +325,6 @@
       <pubDate>Mon, 20 Jan 2025 08:00:00 GMT</pubDate>
       <dc:creator>Your Name</dc:creator>
       <guid>https://example.com/posts/2025-01-20-2024-likes-and-dislikes/</guid>
-    </item>
-    <item>
-      <title>Default Apps for 2025</title>
-      <link>https://example.com/posts/2025-01-09-default-apps-for-2025/</link>
-      <description>&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/.11ty/image/?src=src%2Fassets%2Fimages%2Fapplibrary.png&amp;width=1140&amp;format=avif&amp;via=transform 1140w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/.11ty/image/?src=src%2Fassets%2Fimages%2Fapplibrary.png&amp;width=1140&amp;format=webp&amp;via=transform 1140w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/.11ty/image/?src=src%2Fassets%2Fimages%2Fapplibrary.png&amp;width=1140&amp;format=png&amp;via=transform&quot; alt=&quot;My app library&quot; width=&quot;1140&quot; height=&quot;877&quot;&gt;&lt;/picture&gt;
-&lt;em&gt;My App Library&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;I find it (weirdly?) fun to list and take stock of all the apps that make one’s “productivity stack”. I enjoy reading about other people’s set-ups (a habit my wife won’t ever understand), so why not also put my own out there?&lt;/p&gt;
-&lt;p&gt;This is inspired by &lt;a href=&quot;https://chrismcleod.dev/blog/default-apps-for-2024/?ref=metagame.hk&quot;&gt;Default Apps posts by Chris McLeod&lt;/a&gt; and “uses” pages &lt;a href=&quot;https://rknight.me/uses/?ref=metagame.hk&quot;&gt;like this one from Robb Knight&lt;/a&gt;. I will likely turn this into separate page one day, a living document updated regularly.&lt;/p&gt;
-&lt;p&gt;Additionally, this January 2025 edition serves as a good follow-up to my &lt;a href=&quot;https://example.com/posts/2024-08-13/ios-18-public-beta-personal-computing-tools-audit/&quot;&gt;iOS 18 Public Beta: Personal Computing Tools Audit&lt;/a&gt; from August 2024, where I tried to fit my personal productivity needs entirely or almost entirely into Apple’s stock apps. Some of those did not last, as you can see below:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;📨 Mail:&lt;/strong&gt; Apple Mail (recent app/OS updates made me realize I’ve been using Apple Mail all wrong; more on that some other time)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;📆 Calendar:&lt;/strong&gt; Fantastical on desktop (no subscription, still riding that one-time purchase from years ago), Apple Calendar on mobile&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;✅ To-Do:&lt;/strong&gt; Things (eventually gave up on Reminders; Things just &lt;em&gt;feels like home&lt;/em&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;📝 Notes:&lt;/strong&gt; Apple Notes&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;🧭 Browser:&lt;/strong&gt; Safari&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;✍🏻 Journaling:&lt;/strong&gt; Apple Notes (experimenting with journaling using the &lt;a href=&quot;https://www.myforevernotes.com/?ref=metagame.hk&quot;&gt;Forever ✱ Notes&lt;/a&gt; framework; if it doesn’t work/stick, I will probably be back to Day One)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;🌅 Photo Editing:&lt;/strong&gt; Photomator&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;📑 RSS, Read Later, News:&lt;/strong&gt; Readwise Reader&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;🔐 Password Management:&lt;/strong&gt; Apple Passwords&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;☁️ Cloud Storage:&lt;/strong&gt; iCloud&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;💸 Budgeting and Personal Finance:&lt;/strong&gt; Google Forms for data entry, Google Sheets for data storage and analysis (I should write more about this system of tracking personal and family finances, I love it so much)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;🎵 Music:&lt;/strong&gt; Apple Music&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;🎙️ Podcasts:&lt;/strong&gt; Apple Podcasts&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;📚 Books:&lt;/strong&gt; Kindle&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;👨🏻💻 Blogging:&lt;/strong&gt; Ghost, iA Writer&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;🤖 AI:&lt;/strong&gt; mostly using Bing Chat for some initial desktop research, sometimes as a search engine(!); ChatGPT is not available in Hong Kong; Apple Intelligence doesn’t really count, does it?&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;📢 Social Media:&lt;/strong&gt; mostly lurking on &lt;a href=&quot;https://www.threads.net/@ksobny?ref=metagame.hk&quot;&gt;Threads&lt;/a&gt; and &lt;a href=&quot;https://bsky.app/profile/ksobny.bsky.social?ref=metagame.hk&quot;&gt;BlueSky&lt;/a&gt;; pretty much given up on posting (exception: links to these blog posts) — my short thoughts and dumb takes belong in my journal, not for everyone to see&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;All in all, I’m happy that I’ve mostly eliminated subscription software from my set-up (1Password, Pocket Casts, Lightroom, and jury’s still out on Day One).&lt;/p&gt;
-&lt;p&gt;And if you want to discuss any of the choices, tell me why I’m wrong, or just share your own — the blog comments are now open to all subscribers!&lt;/p&gt;
-</description>
-      <pubDate>Thu, 09 Jan 2025 08:00:00 GMT</pubDate>
-      <dc:creator>Your Name</dc:creator>
-      <guid>https://example.com/posts/2025-01-09-default-apps-for-2025/</guid>
     </item>
   </channel>
 </rss>
