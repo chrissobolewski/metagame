@@ -225,6 +225,8 @@ header {
     .blog-feed-container {
         flex-direction: column;
         gap: 10px;
+        padding-left: 1em;
+        padding-right: 1em;
     }
 
     h1 {
@@ -244,6 +246,20 @@ header {
         margin-bottom: 10px;
         margin-right: 0;
     }
+        body {
+        margin: 0 1em;
+    }
+
+    header, footer {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .postlist {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
 }
 
 
@@ -323,4 +339,29 @@ figcaption {
 img {
     border-radius: 3px;
     margin: 24 px;
+}
+blockquote {
+    font-style: italic;
+    color: var(--color-gray-50);
+    border-left: 4px solid var(--color-gray-20);
+    padding: 0.5em 1em;
+    margin: 1em 0;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+blockquote p {
+    margin: 0;
+}
+
+picture + em {
+    display: block;
+    font-size: 0.9em;
+    color: var(--color-gray-50);
+    text-align: center;
+    margin-top: 0.5em;
+    font-style: italic;
+}
+
+li {
+    margin-top: 8px;
 }
