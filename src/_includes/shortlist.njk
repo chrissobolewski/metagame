@@ -1,4 +1,4 @@
-{% set  numberOfLatestPostsToShow = 3 %}
+{% set  numberOfLatestPostsToShow = 5 %}
 
 {% set postsCount = collections.short | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
