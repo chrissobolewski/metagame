@@ -3,7 +3,7 @@
 {% set postsCount = collections.long | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
 <h3>Longer Articles</h3>
-<a href="/feed/long.xml">Long articles RSS feed</a>
+<a href="/feed/long.xml">Articles RSS feed</a>
 
 {% set postslist = collections.long | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}
