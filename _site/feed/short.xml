@@ -7,14 +7,24 @@
     <description>A collection of short articles.</description>
     <language>en</language>
     <item>
-      <title></title>
-      <link>https://example.com/posts/2025-05-08pm/</link>
+      <title>2025-05-10 10:21</title>
+      <link>https://example.com/posts/2025-05-10-1021/</link>
+      <description>&lt;p&gt;I think I have a working prototype of my static-HTML blog ready? It looks decent! Lightweight, just the essential stuff.&lt;/p&gt;
+&lt;p&gt;Now I just need to go through the process of transfering my 30 blog posts from Ghost to here. Will be a while! I&#39;ll consider it my weekend project.&lt;/p&gt;
+</description>
+      <pubDate>Sat, 10 May 2025 18:21:00 GMT</pubDate>
+      <dc:creator>Your Name</dc:creator>
+      <guid>https://example.com/posts/2025-05-10-1021/</guid>
+    </item>
+    <item>
+      <title>2025-05-08 19:46</title>
+      <link>https://example.com/posts/2025-05-08-1946/</link>
       <description>&lt;p&gt;Vibe-coding my way through setting up a static HTML blog on &lt;a href=&quot;https://www.11ty.dev&quot;&gt;11ty&lt;/a&gt;. I have time until October to migrate away from Ghost.&lt;/p&gt;
 &lt;p&gt;Now how do I publish this on GitHub pages? Oh my!&lt;/p&gt;
 </description>
       <pubDate>Fri, 09 May 2025 03:46:00 GMT</pubDate>
       <dc:creator>Your Name</dc:creator>
-      <guid>https://example.com/posts/2025-05-08pm/</guid>
+      <guid>https://example.com/posts/2025-05-08-1946/</guid>
     </item>
   </channel>
 </rss>

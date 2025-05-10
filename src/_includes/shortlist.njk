@@ -3,9 +3,9 @@
 {% set postsCount = collections.short | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
 <h3>Short Updates</h3>
-<a href="/feed/short.xml">Short updates RSS feed</a><br/>
-<a href="https://mastodon.social/@caladan">Follow on Mastodon</a><br/>
-<a href="https://bsky.app/profile/metagame.hk">Follow on Bluesky</a><br/>
+<a href="/feed/short.xml">Short updates RSS feed</a> // 
+<a href="https://mastodon.social/@caladan">Mastodon</a> // 
+<a href="https://bsky.app/profile/metagame.hk">Bluesky</a><br/>
 
 {% set postslist = collections.short | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}

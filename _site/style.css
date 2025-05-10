@@ -319,3 +319,8 @@ figcaption {
     text-align: center;
     margin-top: 0.5em;
 }
+
+img {
+    border-radius: 3px;
+    margin: 24 px;
+}
