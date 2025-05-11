@@ -30,7 +30,7 @@ import relativeLinks from "./_config/relative-links.js";
 export default async function (eleventyConfig) {
 	// eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPassthroughCopy("src/style.css");
-  eleventyConfig.addPassthroughCopy("src/assets");
+  // eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy("src/robots.txt");
   eleventyConfig.addPassthroughCopy("CNAME");
 	// Image optimization: https://www.11ty.dev/docs/plugins/image/#eleventy-transform
