@@ -15,6 +15,8 @@ No longer am I optimistic about where things are going. No longer am I excited a
 
 Great, thank you.
 
+---
+
 The latest and greatest is not much greater than last year’s.
 
 I was so [ready to replace my iPhone 13 Pro](/posts/2024-09-13-iphone-13-pro-exit-interview/) last year that I wrote it an eulogy — yet, ultimately I kept it for another year. 16 Pro was incredibly disappointing and I passed. A camera button and some half-baked “AI” features? Come on. 
