@@ -7,6 +7,26 @@
     <description>Blog about photography, tech, gaming, coffee, travel, and personal productivity.</description>
     <language>en</language>
     <item>
+      <title>A different relationship with tech</title>
+      <link>https://metagame.hk/posts/2025-05-11-a-different-relationship-with-tech/</link>
+      <description>&lt;p&gt;My attitude towards &lt;em&gt;tech&lt;/em&gt; has changed considerably in the last five years.&lt;/p&gt;
+&lt;p&gt;No longer am I optimistic about where things are going. No longer am I excited about the new technology advancements. Because what are they, really?&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;We made a slightly better phone this year.&lt;/em&gt;
+&lt;em&gt;We made a &lt;a href=&quot;https://metagame.hk/posts/2025-04-03-a-lot-less-excited-about-nintendo-switch-2/&quot;&gt;slightly bigger and slightly more performant Switch&lt;/a&gt; than the last one.&lt;/em&gt;
+Great, thank you.&lt;/p&gt;
+&lt;p&gt;The latest and greatest is not much greater than last year’s.&lt;/p&gt;
+&lt;p&gt;I was so &lt;a href=&quot;https://metagame.hk/posts/2024-09-13-iphone-13-pro-exit-interview/&quot;&gt;ready to replace my iPhone 13 Pro&lt;/a&gt; last year that I wrote it an eulogy — yet, ultimately I kept it for another year. 16 Pro was incredibly disappointing and I passed. A camera button and some half-baked “AI” features? Come on.&lt;/p&gt;
+&lt;p&gt;I’m even thinking of skipping the 17s this year too. Just going to keep the 13 Pro until Apple finally releases a foldable. Hopefully next year! Now that would be something interesting — first time in a while.&lt;/p&gt;
+&lt;p&gt;But it’s a larger phenomenon than just a new iPhone being uninspiring. Tech just &lt;a href=&quot;https://www.youtube.com/watch?v=P-TANCVoHlc&quot;&gt;isn’t fun anymore&lt;/a&gt;. &lt;a href=&quot;https://youtu.be/ctM2TIXDFQs?si=lQd1XUx8ud5tHuvI&quot;&gt;Being online is tiring&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Enshittification and monetization are sucking all the joy out of everything. Websites, services, apps, platforms, games — getting worse every year while becoming more expensive at the same time. Finding new ways to squeeze out revenue instead of finding new ways of making a better product.&lt;/p&gt;
+&lt;p&gt;Just how long can this go on? There must be a limit where a product just becomes completely unusable under the weight of all that bullshit. At some point we won’t have any more money to spend on subscriptions, loot boxes, battle passes, micro-transactions, etc.&lt;/p&gt;
+&lt;p&gt;There must be a point where things finally break. When &lt;em&gt;people&lt;/em&gt; break and don’t accept this nonsense anymore. Am I there already? Maybe that’s why I’m so surprisingly open to &lt;a href=&quot;https://metagame.hk/posts/2025-05-04-this-is-the-year-of-linux-on-desktop/&quot;&gt;the idea of trying out Linux&lt;/a&gt;?&lt;/p&gt;
+</description>
+      <pubDate>Sun, 11 May 2025 09:20:16 GMT</pubDate>
+      <dc:creator>Chris Sobolewski</dc:creator>
+      <guid>https://metagame.hk/posts/2025-05-11-a-different-relationship-with-tech/</guid>
+    </item>
+    <item>
       <title>This Is the Year of Linux on Desktop</title>
       <link>https://metagame.hk/posts/2025-05-04-this-is-the-year-of-linux-on-desktop/</link>
       <description>&lt;p&gt;I have a restless mind. I constantly look for ways to tinker with stuff. And once something works, I can&#39;t just leave it be and enjoy it. I have to move on to something else.&lt;/p&gt;
@@ -126,70 +146,6 @@
       <pubDate>Mon, 31 Mar 2025 24:00:00 GMT</pubDate>
       <dc:creator>Chris Sobolewski</dc:creator>
       <guid>https://metagame.hk/posts/2025-03-31-is-apple-even-good-at-software/</guid>
-    </item>
-    <item>
-      <title>I’ve Been Using Apple Mail All Wrong</title>
-      <link>https://metagame.hk/posts/2025-01-30-ive-been-using-apple-mail-all-wrong/</link>
-      <description>&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://metagame.hk/assets/images/eAYvuuPthJ-1140.avif 1140w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://metagame.hk/assets/images/eAYvuuPthJ-1140.webp 1140w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://metagame.hk/assets/images/eAYvuuPthJ-1140.jpeg&quot; alt=&quot;Apple Mail Cake for my wife&quot; width=&quot;1140&quot; height=&quot;855&quot;&gt;&lt;/picture&gt;
-&lt;em&gt;Apple Mail Cake for my wife&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Apple Mail doesn’t like us, &lt;em&gt;inbox-zero&lt;/em&gt; people. And I have realized that only just now.&lt;/p&gt;
-&lt;p&gt;You see, until recently, my personal email management followed what I did at work. Basically, keeping the inbox clear by:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;filing messages to various folders (like “Travel”, “Newsletters”, and “Paper Trail”) — some manually, some using email rules&lt;/li&gt;
-&lt;li&gt;archiving messages that I no longer need quick access to&lt;/li&gt;
-&lt;li&gt;deleting one-time codes, magic links, and other one-time-use messages&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;But with iOS 18.2, Apple rolled out automated email categories in iPhone’s Mail app — and I was like &lt;em&gt;Wait a minute…&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;The email categorization only works in the Inbox. Messages don’t carry their categories/labels with them if you move them elsewhere, be it a folder or Archive. It’s not account-wide, it just applies to one single folder and that folder is the Inbox.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;…am I supposed to be keeping all my emails in the Inbox?&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Signs have been there before — default smart folders like “today”, “unread”, or “attachments” also only work on emails that are in your inbox folder. Archive it or move it anywhere else — they won’t get picked up anymore. Huh…&lt;/p&gt;
-&lt;p&gt;Links to messages (like when you drag an email from Mail to Notes) also &lt;em&gt;sometimes&lt;/em&gt; stop working if you move emails between folders.&lt;/p&gt;
-&lt;p&gt;And now we have those “AI” email categories. Limited to Inbox once again.&lt;/p&gt;
-&lt;p&gt;Okay Apple, I’ll give it a go. I’ll keep my emails in the Inbox. (This is going very much against my GTD habit of regularly reviewing my inboxes and clearing them out — but I’m willing to experiment with a new workflow!) Will this automated categorization work better than a curated list of folders and email rules? Color me skeptical — especially after &lt;a href=&quot;https://www.macstories.net/reviews/apples-commitment-to-ai-is-clear-but-its-execution-is-uneven/?ref=metagame.hk&quot;&gt;seeing&lt;/a&gt; what other parts of Apple Intelligence had to offer.&lt;/p&gt;
-&lt;p&gt;Oh, and I think I owe you all an explanation of what is up with this hero image! It’s a cake I had custom made to celebrate my wife’s email inbox reaching 50K unread emails. Turns out she had it all figured out long ago!&lt;/p&gt;
-&lt;h2&gt;Fast forward two weeks&lt;/h2&gt;
-&lt;p&gt;Yeah, this post has been sitting in &lt;em&gt;drafts&lt;/em&gt; for a while… But it’s a good thing! I can now report on the results of this experiment.&lt;/p&gt;
-&lt;p&gt;Long story short: I will probably disable it. Why?&lt;/p&gt;
-&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://metagame.hk/assets/images/e8vIUEjIqi-1121.avif 1121w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://metagame.hk/assets/images/e8vIUEjIqi-1121.webp 1121w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://metagame.hk/assets/images/e8vIUEjIqi-1121.jpeg&quot; alt=&quot;Screenshot of a notification summary&quot; width=&quot;1121&quot; height=&quot;458&quot;&gt;&lt;/picture&gt;
-&lt;em&gt;AI got that one right…&lt;/em&gt;&lt;/p&gt;
-&lt;h3&gt;The categories don’t fit my needs&lt;/h3&gt;
-&lt;p&gt;This is how &lt;a href=&quot;https://support.apple.com/en-hk/guide/iphone/iphfe4a36baf/ios?ref=metagame.hk&quot;&gt;Apple describes&lt;/a&gt; these four automated categories:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Primary:&lt;/em&gt; Find personal messages and time-sensitive information.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Transactions:&lt;/em&gt; Keep track of your confirmations, receipts, and shipping notices.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Updates:&lt;/em&gt; Catch up on news, newsletters, and social updates.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Promotions:&lt;/em&gt; Browse your coupon and sales emails.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;That doesn’t work for me. It’s too broad and not mutually exclusive.&lt;/p&gt;
-&lt;p&gt;Too broad, because a category like &lt;em&gt;Transactions&lt;/em&gt; holds travel bookings, invoices, shipping notifications, and updates from my bank.&lt;/p&gt;
-&lt;p&gt;Not mutually exclusive, because there is significant overlap between categories. This makes me unsure where to look for a specific email — making finding emails easier, not more difficult, was the whole point of this feature!&lt;/p&gt;
-&lt;p&gt;For instance, my bank sends me a range of messages: login notifications, transaction notices (are these updates? transactions?), promotional emails (updates or promotions?), and occasional financial literacy newsletters (updates or promotions?) — Apple Intelligence has trouble sorting this out.&lt;/p&gt;
-&lt;p&gt;Is restaurant booking confirmation and update or a transaction?&lt;/p&gt;
-&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://metagame.hk/assets/images/aCjcqmGh4u-1170.avif 1170w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://metagame.hk/assets/images/aCjcqmGh4u-1170.webp 1170w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://metagame.hk/assets/images/aCjcqmGh4u-1170.jpeg&quot; alt=&quot;Gas bill wrongly categorized as promotional email&quot; width=&quot;1170&quot; height=&quot;526&quot;&gt;&lt;/picture&gt;
-&lt;em&gt;Apparently, my gas bill is a “promotion”&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Same with annoying online shops, where they will send you a purchase confirmation and immediately follow up with a latest issue of their newsletter (and is that a transaction, update, or promotion? — Apple Mail is not sure)&lt;/p&gt;
-&lt;p&gt;This all make the categories unreliable for me.&lt;/p&gt;
-&lt;h3&gt;It’s still buggy&lt;/h3&gt;
-&lt;p&gt;Sometimes, notification labels at the top will retain their little notification dot even though there are no new or unread emails there.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;But it’s a beta, of course there are bugs!&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;It’s not a beta if you’re rolling it out to all users on a &lt;em&gt;public&lt;/em&gt; release.&lt;/p&gt;
-&lt;h3&gt;The rollout is annoying&lt;/h3&gt;
-&lt;p&gt;It’s been weeks and the feature remains iPhone-exclusive. Does Apple think that rushing it out, before it’s ready on all platforms, will increase adoption?&lt;/p&gt;
-&lt;p&gt;In my case, if I can’t have one, consistent system across all my devices/email clients, then it’s not going to work for me.&lt;/p&gt;
-&lt;h3&gt;It’s poorly explained&lt;/h3&gt;
-&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://metagame.hk/assets/images/-Pz5A-BvF1-1170.avif 1170w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://metagame.hk/assets/images/-Pz5A-BvF1-1170.webp 1170w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://metagame.hk/assets/images/-Pz5A-BvF1-1170.jpeg&quot; alt=&quot;Screenshot from Apple Mail&quot; width=&quot;1170&quot; height=&quot;787&quot;&gt;&lt;/picture&gt;
-&lt;em&gt;Screenshot from Apple Mail&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;I’ve seen people confused about what this new yellow button means. Is it &lt;em&gt;mute&lt;/em&gt; or &lt;em&gt;block sender&lt;/em&gt;? Crossed-out person icon would suggest something like that.&lt;/p&gt;
-&lt;p&gt;But no, it’s just means “hide from &lt;em&gt;primary&lt;/em&gt; category” and applies to non-primary emails, that Apple thought were time-sensitive and deserve being ”promoted” to &lt;em&gt;primary&lt;/em&gt;. But isn’t it what &lt;a href=&quot;https://support.apple.com/en-hk/guide/iphone/iph9ae667055/ios?ref=metagame.hk#:~:text=View%20Priority%20Messages%20in%20your%20inbox&quot;&gt;&lt;em&gt;Priority Messages&lt;/em&gt;&lt;/a&gt; was for? Sigh.&lt;/p&gt;
-&lt;h3&gt;Full inbox is not for me&lt;/h3&gt;
-&lt;p&gt;And lastly, just a personal preference, but I really do like my inboxes being empty rather than full.&lt;/p&gt;
-&lt;p&gt;I think this entire Apple Intelligence rollout has cured me from a feature-FOMO. I don’t have to be using the newest thing Apple came up with, just because it’s new and shiny and has an “AI” label. I’m fine with my own workflow, thank you very much. Additional benefit — less pressure to upgrade my devices.&lt;/p&gt;
-&lt;p&gt;Ultimately, what I want is &lt;em&gt;not&lt;/em&gt; for AI to make decisions for me. I want features that help me make &lt;em&gt;better&lt;/em&gt; decisions — easier, faster, and with better hit rate.&lt;/p&gt;
-&lt;p&gt;All that is to say that I’d prefer more powerful and accessible tools for setting up iCloud email rules, because &lt;a href=&quot;https://www.reddit.com/r/iCloud/comments/18afxy8/managing_icloud_mail_server_rules_now_possible/?ref=metagame.hk&quot;&gt;this&lt;/a&gt; is bullshit.&lt;/p&gt;
-</description>
-      <pubDate>Mon, 20 Jan 2025 24:00:00 GMT</pubDate>
-      <dc:creator>Chris Sobolewski</dc:creator>
-      <guid>https://metagame.hk/posts/2025-01-30-ive-been-using-apple-mail-all-wrong/</guid>
     </item>
   </channel>
 </rss>

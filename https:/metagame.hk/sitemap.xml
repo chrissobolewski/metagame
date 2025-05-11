@@ -168,37 +168,42 @@
     
         <url>
             <loc>/archive/</loc>
-            <lastmod>2025-05-11T01:12:59.554Z</lastmod>
+            <lastmod>2025-05-11T01:36:34.039Z</lastmod>
         </url>
     
         <url>
             <loc>/</loc>
-            <lastmod>2025-05-11T01:12:59.660Z</lastmod>
+            <lastmod>2025-05-11T01:36:34.144Z</lastmod>
         </url>
     
         <url>
             <loc>/s01/</loc>
-            <lastmod>2025-05-11T01:12:59.662Z</lastmod>
+            <lastmod>2025-05-11T01:36:34.146Z</lastmod>
         </url>
     
         <url>
             <loc>/updatefeed/</loc>
-            <lastmod>2025-05-11T01:12:59.662Z</lastmod>
+            <lastmod>2025-05-11T01:36:34.146Z</lastmod>
         </url>
     
         <url>
             <loc>/feed/long.xml</loc>
-            <lastmod>2025-05-11T01:13:06.872Z</lastmod>
+            <lastmod>2025-05-11T01:36:39.707Z</lastmod>
         </url>
     
         <url>
             <loc>/feed/feed.xml</loc>
-            <lastmod>2025-05-11T01:13:06.872Z</lastmod>
+            <lastmod>2025-05-11T01:36:39.707Z</lastmod>
         </url>
     
         <url>
             <loc>/feed/short.xml</loc>
-            <lastmod>2025-05-11T01:13:06.872Z</lastmod>
+            <lastmod>2025-05-11T01:36:39.707Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/posts/2025-05-11-a-different-relationship-with-tech/</loc>
+            <lastmod>2025-05-11T09:20:16.000Z</lastmod>
         </url>
     
 </urlset>
