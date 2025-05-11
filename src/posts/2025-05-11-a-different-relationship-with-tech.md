@@ -17,7 +17,7 @@ Great, thank you.
 
 ---
 
-But at this point, the latest and greatest is not much greater than last year’s.
+Thing is, the latest and greatest is not much greater than last year’s.
 
 I was so [ready to replace my iPhone 13 Pro](/posts/2024-09-13-iphone-13-pro-exit-interview/) last year that I wrote it an eulogy — yet, ultimately I kept it for another year. 16 Pro was incredibly disappointing and I passed. A camera button and some half-baked “AI” features? Come on. 
 
@@ -30,3 +30,5 @@ Enshittification and monetization are sucking all the joy out of everything. Web
 Just how long can this go on? There must be a limit where a product just becomes completely unusable under the weight of all that bullshit. At some point we won’t have any more money to spend on subscriptions, loot boxes, battle passes, micro-transactions, etc.
 
 There must be a point where things finally break. When *people* break and don’t accept this nonsense anymore. Am I there already? Maybe that’s why I’m so surprisingly open to [the idea of trying out Linux](/posts/2025-05-04-this-is-the-year-of-linux-on-desktop/)?
+
+![test](/assets/images/testx1.jpg)
