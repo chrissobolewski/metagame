@@ -15,7 +15,7 @@ This is inspired by [Default Apps posts by Chris McLeod](https://chrismcleod.dev
 
 Additionally, this January 2025 edition serves as a good follow-up to my [iOS 18 Public Beta: Personal Computing Tools Audit](/posts/2024-08-13/ios-18-public-beta-personal-computing-tools-audit/) from August 2024, where I tried to fit my personal productivity needs entirely or almost entirely into Apple’s stock apps. Some of those did not last, as you can see below:
 
-- **📨 Mail:** Apple Mail (recent app/OS updates made me realize I’ve been using Apple Mail all wrong; more on that some other time)
+- **📨 Mail:** Apple Mail (recent app/OS updates made me realize I’ve been using Apple Mail all wrong; [more on that here](/posts/2025-01-09-default-apps-for-2025/))
 - **📆 Calendar:** Fantastical on desktop (no subscription, still riding that one-time purchase from years ago), Apple Calendar on mobile
 - **✅ To-Do:** Things (eventually gave up on Reminders; Things just *feels like home*)
 - **📝 Notes:** Apple Notes

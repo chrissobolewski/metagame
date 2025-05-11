@@ -39,7 +39,7 @@ export default async function (eleventyConfig) {
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
 		// Output formats for each image.
 		formats: ["avif", "webp", "auto"],
-		urlPath: "/docs/", 
+		urlPath: "/assets/images/", 
 		widths: ["auto"],
 
 		failOnError: false,
