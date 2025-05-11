@@ -39,6 +39,7 @@ export default async function (eleventyConfig) {
 	let imageOptions = {
 		formats: ["avif", "webp", "auto"],
 		widths: ["auto"],
+		failOnError: false,
 		htmlOptions: {
 			imgAttributes: {
 				// e.g. <img loading decoding> assigned on the HTML tag will override these values.
