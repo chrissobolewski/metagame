@@ -1,7 +1,6 @@
 ---
 date: 2025-05-11 09:20:16
-tags: 
-	- long
+tags: long
 layout: layouts/post-standard.html
 title: A different relationship with tech
 excerpt: Less optimistic, more cynical.
