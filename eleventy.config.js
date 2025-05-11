@@ -131,6 +131,26 @@ eleventyConfig.addPlugin(feedPlugin, {
 	},
   });
   eleventyConfig.addPlugin(relativeLinks);
+
+   let modifiedFiles = [];
+
+  eleventyConfig.on("beforeWatch", files => {
+    modifiedFiles = files || [];
+  });
+
+  // This function will likely not match your project and will require you to customize to your build.
+  eleventyConfig.addJavaScriptFunction("eleventyImageHtml", async function(src, options, htmlAttributes) {
+    let stats;
+    if(modifiedFiles.length === 0 || modifiedFiles.includes(src)) {
+      // During watch/serve, only generate images that have been modified.
+      stats = await eleventyImage(src, options);
+    } else {
+      // Return the metadata only without generating the Image.
+      stats = eleventyImage.statsSync(src, options);
+    }
+
+    return eleventyImage.generateHTML(stats, htmlAttributes);
+  });
 	
   return {
 	dir: {
