@@ -1,8 +1,8 @@
 {
-  "name": "demo-eleventy-from-scratch-blog",
+  "name": "Metagame",
   "version": "1.0.0",
   "type": "module",
-  "description": "Companion code to the “6 Minutes to Build a Blog from Scratch” tutorial.",
+  "description": "Personal blog about photography, tech, gaming, coffee, travel, and personal productivity.",
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
     "build-ghpages": "npx @11ty/eleventy",

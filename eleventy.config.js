@@ -1,30 +1,8 @@
-/*
-import pluginRss from "@11ty/eleventy-plugin-rss";
-
-module.exports = function(eleventyConfig) {
-  // Add the RSS plugin
-  eleventyConfig.addPlugin(pluginRss);
-
-  // Add passthrough copy for static files
-  eleventyConfig.addPassthroughCopy("src/style.css");
-
-  return {
-    dir: {
-      input: "src",
-      output: "_site",
-      includes: "_includes",
-      data: "_data",
-    },
-    templateFormats: ["html", "liquid", "njk", "md"],
-  };
-};
-
-*/
-
 import  { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import pluginFilters from "./_config/filters.js";
 import relativeLinks from "./_config/relative-links.js";
+import fs from "node:fs";
 
 
 export default async function (eleventyConfig) {
@@ -35,7 +13,7 @@ export default async function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("CNAME");
 	// Image optimization: https://www.11ty.dev/docs/plugins/image/#eleventy-transform
 	
-	
+	/*
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
 		// Output formats for each image.
 		formats: ["avif", "webp", "auto"],
@@ -55,6 +33,31 @@ export default async function (eleventyConfig) {
 			animated: true,
 		},
 	}); 
+
+	*/
+
+	let imageOptions = {
+		formats: ["avif", "webp", "auto"],
+		widths: ["auto"],
+		htmlOptions: {
+			imgAttributes: {
+				// e.g. <img loading decoding> assigned on the HTML tag will override these values.
+				loading: "lazy",
+				decoding: "async",
+			}
+		}
+	};
+
+	if(process.env.ELEVENTY_RUN_MODE === "build") {
+		imageOptions.outputDir = ".cache/@11ty/img/";
+		imageOptions.urlPath = "/img/built/";
+
+		eleventyConfig.on("eleventy.after", () => {
+			fs.cpSync(".cache/@11ty/img/", "_site/img/built/", { recursive: true });
+		});
+	}
+
+	eleventyConfig.addPlugin(eleventyImageTransformPlugin, imageOptions);
 
 	eleventyConfig.addPlugin(pluginFilters);
 	
@@ -131,26 +134,6 @@ eleventyConfig.addPlugin(feedPlugin, {
 	},
   });
   eleventyConfig.addPlugin(relativeLinks);
-
-   let modifiedFiles = [];
-
-  eleventyConfig.on("beforeWatch", files => {
-    modifiedFiles = files || [];
-  });
-
-  // This function will likely not match your project and will require you to customize to your build.
-  eleventyConfig.addJavaScriptFunction("eleventyImageHtml", async function(src, options, htmlAttributes) {
-    let stats;
-    if(modifiedFiles.length === 0 || modifiedFiles.includes(src)) {
-      // During watch/serve, only generate images that have been modified.
-      stats = await eleventyImage(src, options);
-    } else {
-      // Return the metadata only without generating the Image.
-      stats = eleventyImage.statsSync(src, options);
-    }
-
-    return eleventyImage.generateHTML(stats, htmlAttributes);
-  });
 	
   return {
 	dir: {
