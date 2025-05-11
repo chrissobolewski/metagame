@@ -10,7 +10,9 @@ My attitude towards *tech* has changed considerably in the last five years.
 No longer am I optimistic about where things are going. No longer am I excited about the new technology advancements. Because what are they, really? 
 
 *We made a slightly better phone this year.* 
+
 *We made a [slightly bigger and slightly more performant Switch](/posts/2025-04-03-a-lot-less-excited-about-nintendo-switch-2/) than the last one.*
+
 Great, thank you.
 
 The latest and greatest is not much greater than last year’s.
