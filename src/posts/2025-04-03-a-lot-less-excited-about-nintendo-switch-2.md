@@ -5,6 +5,7 @@ tags:
     - long
 excerpt: Talking myself into not buying one (probably unsuccessfully).
 layout: layouts/post-standard.html
+redirect-from: /a-lot-less-excited-about-nintendo-switch-2-than-i-thought/
 ---
 ![Nintendo Switch 2](/assets/images/nintendoswitch2.jpg)
 *Nintendo Switch 2 / Image: Nintendo*
