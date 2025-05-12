@@ -5,6 +5,7 @@ tags:
     - long
 excerpt: How Ricoh GR IIIx made me not care about smartphone cameras anymore.
 layout: layouts/post-standard.html
+redirect_from: /ricoh-gr-iiix-experience/
 ---
 ![Ricoh GR IIIx Hong Kong street photo](/assets/images/gr3x1.jpg)
 

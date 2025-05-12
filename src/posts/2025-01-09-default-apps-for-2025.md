@@ -5,6 +5,7 @@ tags:
     - long
 excerpt: Personal productivity app stack for 2025. What I use for email, to-do’s/tasks, calendar, and others.
 layout: layouts/post-standard.html
+redirect_from: /default-apps-for-2025/
 ---
 ![My app library](/assets/images/applibrary.png)
 *My App Library*

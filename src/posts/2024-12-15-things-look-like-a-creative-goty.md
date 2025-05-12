@@ -5,6 +5,7 @@ tags:
     - long
 excerpt: Current media diet and an assortment of updates.
 layout: layouts/post-standard.html
+redirect_from: /things-look-like-a-creative-goty/
 ---
 [Another](/posts/2023-08-01-a-strange-new-barbenheimer-film-grain/) round of random thoughts and updates. None of them deserve its own post, but a collection of these makes sense.
 

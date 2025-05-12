@@ -5,6 +5,7 @@ tags:
     - long
 excerpt: What have I gotten myself into this time?
 layout: layouts/post-standard.html
+redirect_from: /this-is-the-year-of-linux-on-desktop/
 ---
 I have a restless mind. I constantly look for ways to tinker with stuff. And once something works, I can't just leave it be and enjoy it. I have to move on to something else.
 

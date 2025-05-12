@@ -6,6 +6,7 @@ tags:
     - s01
 excerpt: Day nine — Kanazwa. Easy day, simple meals, complicated answers.
 layout: layouts/post-standard.html
+redirect_from: /opulence-where-you-least-expect-it/
 ---
 ![Unagi](/assets/images/owylei1.jpeg)
 *Day 9: Kanazawa, 19,021 steps, 15.3 kilometers*

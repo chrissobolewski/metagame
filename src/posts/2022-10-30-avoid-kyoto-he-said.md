@@ -6,6 +6,7 @@ tags:
     - s01
 excerpt: Day eleven — Kyoto. Visiting Kyoto before the regular crowds arrive again.
 layout: layouts/post-standard.html
+redirect_from: /avoid-kyoto-he-said/
 ---
 ![Kyoto](/assets/images/akhs1.jpeg)
 *Day 11: Kyoto, 34,780 steps, 28.2 kilometers*

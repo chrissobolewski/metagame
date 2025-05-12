@@ -5,6 +5,7 @@ tags:
     - long
 excerpt: Apple Mail doesn’t like us, inbox-zero people. And I have realized that only just now.
 layout: layouts/post-standard.html
+redirect_from: /ive-been-using-apple-mail-all-wrong/
 ---
 ![Apple Mail Cake for my wife](/assets/images/applemailcake.jpeg)
 *Apple Mail Cake for my wife*

@@ -6,6 +6,7 @@ tags:
     - s01
 excerpt: Day thirteen — Kyoto, Hong Kong. Last day of the trip. Last pizza toast. Best conversation.
 layout: layouts/post-standard.html
+redirect_from: /the-one-last-pizza-toast/
 ---
 ![Pizza toast](/assets/images/olpt1.jpeg)
 *Day 13: Kyoto, Hong Kong, 13,297 steps, 10.9 kilometers*

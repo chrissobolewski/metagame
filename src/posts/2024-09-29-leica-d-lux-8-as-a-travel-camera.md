@@ -5,6 +5,7 @@ tags:
     - long
 excerpt: Leica D-Lux 8 review.
 layout: layouts/post-standard.html
+redirect_from: /leica-d-lux-8-as-a-travel-camera/
 ---
 ![Sold my Ricoh GR IIIx for this](/assets/images/leica-dlux8-hero.jpg)
 *I sold my Ricoh GR IIIx for this…*

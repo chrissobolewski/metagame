@@ -5,6 +5,7 @@ tags:
     - long
 excerpt: New pen hobby! Smartphone usage best practices! Apple's less-than-best practices. A couple of interesting reads!
 layout: layouts/post-standard.html
+redirect_from: /is-apple-even-good-at-software/
 ---
 ![New pen day!](/assets/images/newpenday.jpeg)
 *New pen day!*

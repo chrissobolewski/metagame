@@ -5,6 +5,7 @@ tags:
     - long
 excerpt: Tim Cain sharing his wisdom on keeping a work journal.
 layout: layouts/post-standard.html
+redirect_from: /note-taking-tim-cain-work-journal/
 ---
 The thing about note-taking, or any other *productivity* advice, is that it often comes from self-proclaimed “productivity experts”. People who rarely know any other work than writing or making YouTube videos about productivity.
 

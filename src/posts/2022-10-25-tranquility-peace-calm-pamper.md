@@ -6,6 +6,7 @@ tags:
     - s01
 excerpt: Day six — Karuizawa. A mid-trip pit stop.
 layout: layouts/post-standard.html
+redirect_from: /tranquility-peace-calm-pamper/
 ---
 *Day 6*  
 *Karuizawa, 16,875 steps, 13.8 kilometers*

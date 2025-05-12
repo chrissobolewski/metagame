@@ -6,6 +6,7 @@ tags:
     - s01
 excerpt: Day one — Hong Kong, Tokyo. First steps on a trip emulating Craig Mod's "Tiny Barber, Post Office" walk through Japan's mid-tier cities.
 layout: layouts/post-standard.html
+redirect_from: /it-feels-different/
 ---
 Hello! I’m Chris and I walk in [Craig Mod’s](https://craigmod.com/about/) footsteps — by eating pizza toast, walking for hours, and taking photos on my trip around small cities in Japan.
 

@@ -5,6 +5,7 @@ tags:
     - long
 excerpt: A programming note.
 layout: layouts/post-standard.html
+redirect_from: /blogging-like-its-2015/
 ---
 Following up on my thoughts from [the previous post](/posts/2025-03-31-is-apple-even-good-at-software/) — I'll. be publishing shorter entries here. For a while — as an experiment. They would not go into the newsletter initially – instead they would wait their turn for the next monthly newsletter bundle-edition.
 

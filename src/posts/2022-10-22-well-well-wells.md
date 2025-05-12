@@ -6,6 +6,7 @@ tags:
     - s01
 excerpt: Day three — Matsumoto. Following Craig's Mod recommendation to the legendary kissa Coffee Abe.
 layout: layouts/post-standard.html
+redirect_from: /well-well-wells/
 ---
 
 *Day 3: Matsumoto, 27,723 steps, 22.1 kilometers*

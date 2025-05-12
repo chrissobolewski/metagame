@@ -5,6 +5,7 @@ tags:
     - long
 excerpt: About to trade in my iPhone 13 Pro. I guess this post is its review?
 layout: layouts/post-standard.html
+redirect_from: /iphone-13-pro-exit-interview/
 ---
 ![My iPhone 13 Pro](/assets/images/iphone13pro.jpeg)
 *Product photography is my passion /s*

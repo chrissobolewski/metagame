@@ -5,6 +5,7 @@ tags:
     - long
 excerpt: How to discover more stuff you'll like? Seek out people with similar tastes.
 layout: layouts/post-standard.html
+redirect_from: /2024-likes-and-dislikes/
 ---
 One of the best pieces of advice I’ve found on Tim Cain’s channel was about finding reviewers that you can trust. It’s not always easy, especially in the age of companies either sponsoring content outright or sending *innocent* freebies to YouTubers and other influencers. Whose opinions should then carry most weight in your own decision-making?
 

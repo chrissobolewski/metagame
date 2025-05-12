@@ -6,6 +6,7 @@ tags:
     - s01
 excerpt: Day fourteen — Hong Kong. Final tally.
 layout: layouts/post-standard.html
+redirect_from: /season-one-finale/
 ---
 ![Trip map](/assets/images/sof1.jpeg)
 *Day 14: Hong Kong, 2,461 steps, 2.1 kilometers*

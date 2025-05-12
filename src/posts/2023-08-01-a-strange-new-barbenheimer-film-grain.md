@@ -5,6 +5,7 @@ tags:
     - long
 excerpt: My current media diet.
 layout: layouts/post-standard.html
+redirect_from: /media-diet-strange-new-barbenheimer-film/
 ---
 ![iPad Pro book notes](/assets/images/barbenheimer1.jpeg)
 Stumbled upon [this Jason Kottke's "media diet" post](https://kottke.org/23/07/my-recent-media-diet-barbenheimer-edition?ref=metagame.hk) and thought I'd experiment with doing something similar.

@@ -6,6 +6,7 @@ tags:
     - s01
 excerpt: Day four — Matsumoto. My first pizza toast of the trip!
 layout: layouts/post-standard.html
+redirect_from: /the-margherita-pizza-toast/
 ---
 *Day 4: Matsumoto, 26,740 steps, 21.2 kilometers*
 

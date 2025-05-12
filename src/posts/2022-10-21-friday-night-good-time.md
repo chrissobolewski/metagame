@@ -6,6 +6,7 @@ tags:
     - s01
 excerpt: Day two — Tokyo, Matsumoto. Believe it or not, but a boozy encounter with yakuza was my highlight of the day.
 layout: layouts/post-standard.html
+redirect_from: /friday-night-good-time/
 ---
 *Day 2: Tokyo, Matsumoto, 21,757 steps, 17.4 kilometers*
 

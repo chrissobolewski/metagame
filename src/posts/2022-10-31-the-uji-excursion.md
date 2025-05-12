@@ -6,6 +6,7 @@ tags:
     - s01
 excerpt: Day twelve — Kyoto, Uji. Japan has just re-opened after COVID, and Kyoto is already packed. Need to escape the crowds.
 layout: layouts/post-standard.html
+redirect_from: /the-uji-excursion/
 ---
 ![Uji](/assets/images/tue1.jpeg)
 *Day 12: Kyoto, Uji, 35,482 steps, 28.5 kilometers*

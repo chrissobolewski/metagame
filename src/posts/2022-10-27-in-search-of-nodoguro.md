@@ -6,6 +6,7 @@ tags:
     - s01
 excerpt: Day eight — Kanazwa. Time to meet the king of white fish.
 layout: layouts/post-standard.html
+redirect_from: /in-search-of-nodoguro/
 ---
 ![Can't get more coffee in Japan than this](/assets/images/ison1.jpeg)
 *Day 8: Kanazawa, 24,993 steps, 21.1 kilometers*

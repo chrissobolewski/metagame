@@ -5,6 +5,7 @@ tags:
     - long
 excerpt: I have conceded — after literal years of experimenting with different systems and apps — that Apple Notes is good enough for me.
 layout: layouts/post-standard.html
+redirect_from: /my-new-way-of-taking-book-notes/
 ---
 ![iPad Pro book notes](/assets/images/ipadpronote1.jpg)
 You finish the book, feel good with yourself for gaining new knowledge, and mark it as read in Goodreads with a sense of triumph. But then some time passes, not even a lot, and you find it hard recalling anything about that book besides, maybe, the gist of it. Sound familiar?

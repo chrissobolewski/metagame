@@ -5,6 +5,7 @@ tags:
     - long
 excerpt: Can I get away with using Apple's stock apps for my personal productivity stack?
 layout: layouts/post-standard.html
+redirect_from: /ios-18-public-beta-personal-computing-tools-audit/
 ---
 ![Personal productivity stack](/assets/images/ios18pb1.png)
 *Ah, this time of year again.*

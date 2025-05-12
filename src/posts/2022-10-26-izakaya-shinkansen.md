@@ -6,6 +6,7 @@ tags:
     - s01
 excerpt: Day seven — Karuizawa, Kanazwa. Most kilometers walked in a day on this trip so far.
 layout: layouts/post-standard.html
+redirect_from: /izakaya-shinkansen/
 ---
 ![More pizza toast](/assets/images/is1.jpeg)
 
