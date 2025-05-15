@@ -20,6 +20,8 @@ Here’s how I wanted to design Metagame. It strongly influenced the solutions I
 
 **[POSSE](https://indieweb.org/POSSE)**. My content, my updates — they all start on my website and then get syndicated elsewhere. For me, Metagame is the center of my online presence. Not social media. But my posts will reach social media eventually — so if that’s where *you* are, there’s no problem.
 
+**Low complexity code**. I'm neither a programmer nor an app developer. I can work with simple code but don't talk to me about complex frameworks. Also, I don't mind vibe coding.
+
 **Privacy is not an afterthought**. You won’t see Google Analytics here. In the future, I may consider something like [Plausible](https://plausible.io/for-bloggers-creators). For now, I’ll settle for the numbers Cloudflare is showing me.
 
 I also wanted to **escape US big tech**, but unfortunately both VS Code and GitHub are owned by Microsoft.
