@@ -15,7 +15,7 @@
               "state": {
                 "file": "src/drafts/2025-05-12-resources-that-helped-me-build-this-site-with-11ty-and-deploy-it-on-github-pages.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "2025-05-12-resources-that-helped-me-build-this-site-with-11ty-and-deploy-it-on-github-pages"
