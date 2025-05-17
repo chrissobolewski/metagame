@@ -22,15 +22,17 @@ body {
 
 img {
     max-width: 100%;
+    border-radius: 3px;
+    margin: 24px;
 }
 
-img[width][height] {
+img[width][height],
+img[src$=".svg"] {
     height: auto;
 }
 
 img[src$=".svg"] {
     width: 100%;
-    height: auto;
     max-width: none;
 }
 
@@ -44,22 +46,21 @@ p:last-child {
 
 li {
     line-height: 1.5;
+    margin-top: 8px;
 }
 
-a[href] {
+a {
     color: var(--text-color-link);
 }
 
-a[href]:visited {
+a:visited {
     color: var(--text-color-link-visited);
 }
 
-a[href]:hover,
-a[href]:active {
+a:hover,
+a:active {
     color: var(--text-color-link-active);
 }
-
-
 
 /* Theme Colors */
 :root {
@@ -81,7 +82,6 @@ a[href]:active {
 
     --font-family-header: 'Fira Code', Consolas, Menlo, Monaco, 'Courier New', monospace;
     --font-family-blogtitle: 'Rubik Mono One', Consolas, Menlo, Monaco, 'Courier New', monospace;
-
 }
 
 @media (prefers-color-scheme: dark) {
@@ -105,8 +105,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding: 1em 0;
     border-bottom: 1px dashed var(--color-gray-20);
 }
 
@@ -114,9 +113,6 @@ header {
     flex-grow: 1;
     font-size: 1em;
     font-weight: 700;
-}
-
-.home-link:link:not(:hover) {
     text-decoration: none;
 }
 
@@ -126,6 +122,7 @@ header {
     padding: 0;
     margin: 0;
     list-style: none;
+    flex-direction: row;
 }
 
 .nav-item {
@@ -135,11 +132,11 @@ header {
     font-size: 0.9em;
 }
 
-.nav-item a[href]:not(:hover) {
+.nav-item a:not(:hover) {
     text-decoration: none;
 }
 
-.nav a[href][aria-current="page"] {
+.nav a[aria-current="page"] {
     text-decoration: underline;
 }
 
@@ -246,7 +243,8 @@ header {
         margin-bottom: 10px;
         margin-right: 0;
     }
-        body {
+
+    body {
         margin: 0 1em;
     }
 
@@ -259,9 +257,7 @@ header {
         padding-left: 1em;
         padding-right: 1em;
     }
-
 }
-
 
 h1, h1 a {
     font-family: var(--font-family-blogtitle); 
@@ -288,12 +284,11 @@ h3  {
 }
 
 hr {
-    border: none; /* Remove the default border */
-    border-top: 1px dashed var(--color-gray-20); /* Add a dashed line */
-    height: 0; /* Ensure no extra height */
-    margin: 2em 0; /* Add vertical spacing */
-    width: 100%; /* Make it span the full width */
-    background: none; /* Ensure no background color */
+    border: none;
+    border-top: 1px dashed var(--color-gray-20);
+    height: 0;
+    margin: 2em 0;
+    width: 100%;
 }
 
 time {
@@ -329,17 +324,15 @@ figure {
     margin-right: 0;
 }
 
-figcaption {
+figcaption,
+picture + em {
     font-size: 0.9em;
     color: var(--color-gray-50);
     text-align: center;
     margin-top: 0.5em;
+    font-style: italic;
 }
 
-img {
-    border-radius: 3px;
-    margin: 24 px;
-}
 blockquote {
     font-style: italic;
     color: var(--color-gray-50);
@@ -351,17 +344,4 @@ blockquote {
 
 blockquote p {
     margin: 0;
-}
-
-picture + em {
-    display: block;
-    font-size: 0.9em;
-    color: var(--color-gray-50);
-    text-align: center;
-    margin-top: 0.5em;
-    font-style: italic;
-}
-
-li {
-    margin-top: 8px;
 }

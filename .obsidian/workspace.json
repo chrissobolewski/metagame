@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/drafts/2025-05-12-resources-that-helped-me-build-this-site-with-11ty-and-deploy-it-on-github-pages.md",
+                "file": "src/posts/2025-05-17-1319.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-05-12-resources-that-helped-me-build-this-site-with-11ty-and-deploy-it-on-github-pages"
+              "title": "2025-05-17-1319"
             }
           }
         ]
@@ -168,10 +168,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7542d1d249759a46",
+  "active": "209043d30b63a384",
   "lastOpenFiles": [
-    "Untitled.md",
+    "src/drafts/Untitled.md",
+    "src/posts/2025-05-17-1319.md",
+    "obs_templates/short-post.md",
+    "obs_templates/long-post.md",
+    "src/posts/2025-05-10-2140.md",
     "src/drafts/2025-05-12-resources-that-helped-me-build-this-site-with-11ty-and-deploy-it-on-github-pages.md",
+    "obs_templates",
+    "Untitled.md",
     "src/drafts",
     "src/updatefeed.njk",
     "src/sitemap.njk",
@@ -179,7 +185,6 @@
     "src/robots.txt",
     "src/posts/2025-05-11-a-different-relationship-with-tech.md",
     "src/posts/2025-05-11-2057.md",
-    "src/posts/2025-05-10-2140.md",
     "src/posts/2025-05-10-1021.md",
     "src/posts/2025-05-08-1946.md",
     "src/posts/2025-05-04-this-is-the-year-of-linux-on-desktop.md",
@@ -197,10 +202,6 @@
     "src/posts/2024-08-13-ios-18-public-beta-personal-computing-tools-audit.md",
     "src/posts/2023-08-01-a-strange-new-barbenheimer-film-grain.md",
     "src/posts/2023-05-23-my-new-way-of-taking-book-notes.md",
-    "src/posts/2023-02-21-ricoh-griiix-review.md",
-    "src/posts/2022-11-02-season-one-finale.md",
-    "src/posts/2022-11-01-one-last-pizza-toast.md",
-    "src/posts/2022-10-31-the-uji-excursion.md",
     "src/eleventy-redirect.njk",
     "src/assets/images/www6.jpeg",
     "src/assets/images/www5.jpeg",
@@ -214,7 +215,6 @@
     "src/assets/images/tue2.jpeg",
     "src/_includes/shortlist.njk",
     "src/_includes/main-page-hero.html",
-    "src/_includes/longlist.njk",
-    "src/_includes/layouts/post-short.html"
+    "src/_includes/longlist.njk"
   ]
 }
