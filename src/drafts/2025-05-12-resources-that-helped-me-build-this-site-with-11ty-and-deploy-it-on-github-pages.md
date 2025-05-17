@@ -2,8 +2,8 @@
 date: 2025-05-12 20:02:47
 tags: long
 layout: layouts/post-standard.html
-title: Resources that helped me build this website with 11ty/eleventy and publish it with GitHub Pages
-excerpt: For those who come after.
+title: Resources That Helped Me Set This Website Up With 11ty/eleventy and GitHub Pages
+excerpt: Beginner problems and solutions. For those who come after.
 ---
 I am finally happy with my website set-up. It’s not much — just some HTML, CSS, and a few templates — but it’s mine, I can configure it however I want, and I own it.
 

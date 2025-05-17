@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/posts/2025-05-17-1319.md",
+                "file": "src/drafts/2025-05-17-linux-text-expansion.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-05-17-1319"
+              "title": "2025-05-17-linux-text-expansion"
+            }
+          },
+          {
+            "id": "ff4d36e3d800dddf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/drafts/tidbits.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "tidbits"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,16 +183,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "209043d30b63a384",
+  "active": "ff4d36e3d800dddf",
   "lastOpenFiles": [
-    "src/drafts/Untitled.md",
+    "src/drafts/tidbits.md",
+    "src/drafts/2025-05-17-linux-text-expansion.md",
+    "src/drafts/2025-05-12-resources-that-helped-me-build-this-site-with-11ty-and-deploy-it-on-github-pages.md",
     "src/posts/2025-05-17-1319.md",
+    "_site/posts/2025-05-17-1319/index.html",
+    "_site/posts/2025-05-17-1319",
+    "src/drafts/Untitled.md",
     "obs_templates/short-post.md",
     "obs_templates/long-post.md",
     "src/posts/2025-05-10-2140.md",
-    "src/drafts/2025-05-12-resources-that-helped-me-build-this-site-with-11ty-and-deploy-it-on-github-pages.md",
     "obs_templates",
-    "Untitled.md",
     "src/drafts",
     "src/updatefeed.njk",
     "src/sitemap.njk",
@@ -201,7 +219,6 @@
     "src/posts/2024-09-13-iphone-13-pro-exit-interview.md",
     "src/posts/2024-08-13-ios-18-public-beta-personal-computing-tools-audit.md",
     "src/posts/2023-08-01-a-strange-new-barbenheimer-film-grain.md",
-    "src/posts/2023-05-23-my-new-way-of-taking-book-notes.md",
     "src/eleventy-redirect.njk",
     "src/assets/images/www6.jpeg",
     "src/assets/images/www5.jpeg",
@@ -213,8 +230,6 @@
     "src/assets/images/tue4.jpeg",
     "src/assets/images/tue3.jpeg",
     "src/assets/images/tue2.jpeg",
-    "src/_includes/shortlist.njk",
-    "src/_includes/main-page-hero.html",
-    "src/_includes/longlist.njk"
+    "src/_includes/shortlist.njk"
   ]
 }
