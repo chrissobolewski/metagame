@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obs_templates/short-post.md",
+                "file": "src/drafts/2025-05-XX-personal-website-on-11ty-github-pages.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "short-post"
+              "title": "2025-05-XX-personal-website-on-11ty-github-pages"
             }
           }
         ],
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 448.5
   },
   "right": {
     "id": "e09aee4157aeaa17",
@@ -183,18 +183,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ff4d36e3d800dddf",
+  "active": "209043d30b63a384",
   "lastOpenFiles": [
+    "src/drafts/2025-05-17-linux-text-expansion.md",
+    "src/drafts/2025-05-XX-personal-website-on-11ty-github-pages.md",
+    "obs_templates/short-post.md",
     "obs_templates/long-post.md",
     "src/drafts/tidbits.md",
     "members.2025-05-18.csv",
-    "src/drafts/2025-05-17-linux-text-expansion.md",
     "src/drafts/2025-05-12-resources-that-helped-me-build-this-site-with-11ty-and-deploy-it-on-github-pages.md",
     "src/posts/2025-05-17-1319.md",
     "_site/posts/2025-05-17-1319/index.html",
     "_site/posts/2025-05-17-1319",
     "src/drafts/Untitled.md",
-    "obs_templates/short-post.md",
     "src/posts/2025-05-10-2140.md",
     "obs_templates",
     "src/drafts",
