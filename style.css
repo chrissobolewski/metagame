@@ -345,3 +345,56 @@ blockquote {
 blockquote p {
     margin: 0;
 }
+
+/* Code Blocks */
+code,
+pre {
+    font-family: var(--font-family-monospace);
+    font-size: 1em;
+    background: var(--color-gray-20);
+    color: #2d2d2d;
+    border-radius: 4px;
+}
+
+code {
+    padding: 0.15em 0.4em;
+    margin: 0 2px;
+    white-space: pre-wrap;
+    word-break: break-word;
+    background: var(--color-gray-20);
+    color: #2d2d2d;
+}
+
+pre {
+    display: block;
+    padding: 1em;
+    margin: 1.5em 0;
+    overflow-x: auto;
+    background: var(--color-gray-20);
+    color: #2d2d2d;
+    border-radius: 6px;
+    font-size: 0.98em;
+    line-height: 1.6;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+pre code {
+    background: none;
+    color: inherit;
+    padding: 0;
+    margin: 0;
+    font-size: inherit;
+    border-radius: 0;
+}
+
+/* Dark mode for code blocks */
+@media (prefers-color-scheme: dark) {
+    code,
+    pre {
+        background: #23272e;
+        color: #dad8d8;
+    }
+    pre {
+        box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    }
+}
