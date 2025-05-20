@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/drafts/2025-05-XX-personal-website-on-11ty-github-pages.md",
+                "file": "src/posts/2025-05-20-13-23.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-05-XX-personal-website-on-11ty-github-pages"
+              "title": "2025-05-20-13-23"
             }
           }
         ],
@@ -183,10 +183,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "209043d30b63a384",
+  "active": "ff4d36e3d800dddf",
   "lastOpenFiles": [
-    "src/drafts/2025-05-17-linux-text-expansion.md",
     "src/drafts/2025-05-XX-personal-website-on-11ty-github-pages.md",
+    "src/posts/2025-05-20-13-23.md",
+    "src/drafts/2025-05-17-linux-text-expansion.md",
     "obs_templates/short-post.md",
     "obs_templates/long-post.md",
     "src/drafts/tidbits.md",
@@ -219,7 +220,6 @@
     "src/posts/2024-10-29-note-taking-advice-from-a-pro.md",
     "src/posts/2024-09-29-leica-d-lux-8-as-a-travel-camera.md",
     "src/posts/2024-09-13-iphone-13-pro-exit-interview.md",
-    "src/posts/2024-08-13-ios-18-public-beta-personal-computing-tools-audit.md",
     "src/eleventy-redirect.njk",
     "src/assets/images/www6.jpeg",
     "src/assets/images/www5.jpeg",
