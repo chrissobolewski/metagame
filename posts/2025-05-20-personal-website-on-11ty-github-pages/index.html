@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Here's What Helped Me Build This Blog With 11ty/Eleventy and GitHub Pages — Metagame</title>
+<meta name="description" content="Beginner problems and solutions. For those who come after.">
+<link rel="stylesheet" href="../../style.css">
+<link rel="alternate" href="../../feed/feed.xml" type="application/atom+xml" title="">
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+<style>
+</style>
+	</head>
+	<body>
+		<header>
+			<h1 class="blogtitle"><a href="../../">Metagame</a></h1>
+<nav>
+    <ul class="nav">
+        <li class="nav-item"><a href="../../">Home</a></li>
+        <li class="nav-item"><a href="../../s01/">Season-One</a></li>
+        <li class="nav-item"><a href="../2025-01-09-default-apps-for-2025/">Defaults</a></li>
+        <li class="nav-item"><a href="../../feed/feed.xml">Feed</a></li>
+    </ul>
+</nav>
+		</header>
+        <main>
+            <h2>Here's What Helped Me Build This Blog With 11ty/Eleventy and GitHub Pages</h2>
+            <time>20 May 2025</time>
+            <p>I am finally happy with my website set-up. It’s not much — just some HTML, CSS, and a few templates — but it’s mine, I can configure it however I want, and I own it.</p>
+<p>It has been a journey, not gonna lie. Not everything worked out of the box, not for a website like this.</p>
+<p>And there are some things that official 11ty documentation doesn’t tell you. Let me save you the frustration and AI tokens. In this post I will go through the roadblocks I encountered — and how I've cleared them.</p>
+<h2>First, principles</h2>
+<p>Let’s begin with how I wanted to design Metagame. The choices here strongly influenced the solutions I used — and problems I faced.</p>
+<p><strong><a href="https://stephango.com/file-over-app">File over app</a></strong>. This website is just a bunch of files in folders. There is no platform, no store-bought template with inscrutable code, no Squarespace-like WYSIWYG. There is no lock-in. I’m not totally independent (I still need to host this page somewhere), but it's as close as I could reasonably get it.</p>
+<p><strong>Fast &amp; lightweight</strong>. It’s all static HTML, which should make it load quickly. There is no CMS and no database on someone’s platform that I need to query every time I want to navigate to a blog post.</p>
+<p><strong><a href="https://www.citationneeded.news/posse/">POSSE</a></strong>. My content and my updates — they all start on my website and <em>then</em> get syndicated elsewhere. For me, Metagame is the center of my online presence. Everything I post starts here.</p>
+<p><strong>Simple code</strong>. I'm neither a programmer nor an app developer. I can work with basic code but don't talk to me about complex frameworks. Also, I don't mind vibe coding — as long as it returns something I can remotely understand.</p>
+<p><strong>Privacy is not an afterthought</strong>. You won’t see Google Analytics here. In the future, I may consider something like <a href="https://plausible.io/for-bloggers-creators">Plausible</a>.</p>
+<p><strong>Ability to develop the website locally and offline</strong>. This is what primarily led me to 11ty.</p>
+<p>I also wanted to <strong>escape US big tech</strong>, but unfortunately both VS Code and GitHub are owned by Microsoft.</p>
+<p>And finally, a super-important disclaimer: even though I've developed a few websites before, I still consider myself a total beginner in this. I have not been keeping up with the current trends in web design, like at all. So please treat this as a record of a beginner stumbling his way through to solutions that are likely obvious (and/or even suboptimal) to veterans.</p>
+<p>Anyway, if your a beginner like myself, there's a good chance you will find something useful here!</p>
+<h2>Problems and solutions</h2>
+<h3>Permalink prefix for relative links</h3>
+<p>In the source code of my blog posts, all links are relative. Instead of pointing directly to a full URL (for example: <code>https://metagame.hk/posts/2025-05-11-a-different-relationship-with-tech/</code>), they link to a relative path (like so: <code>/posts/2025-05-11-a-different-relationship-with-tech/</code>).</p>
+<p>This causes some issues.</p>
+<p>When I build locally, all is fine. But the second I deploy to GitHub Pages, stuff breaks.</p>
+<p>I figured it was this: before custom domain, the page is hosted at the following address: <code>https://my_account_name.github.io/metagame/</code>
+But the relative link <code>/posts/2025-05-11-a-different-relationship-with-tech/</code> tries to resolve to <code>https://my_account_name.github.io/posts/2025-05-11-a-different-relationship-with-tech/</code> and not the correct one <code>https://my_account_name.github.io/metagame/posts/2025-05-11-a-different-relationship-with-tech/</code></p>
+<p>Apparently, here is a <em>native</em> solution for this: <a href="https://www.11ty.dev/docs/config/#deploy-to-a-subdirectory-with-a-path-prefix">--pathprefix</a>. <a href="https://www.11ty.dev/docs/deployment/#mini-tutorials">This is how you're supposed to use it</a> when building on GitHub Pages. But for some reason it did not work for me. In the build, all links had multiple <code>/metagame/metagame/metagame/…</code> folders inside them. For some reason.</p>
+<p>But after some googling, I found <a href="https://github.com/11ty/eleventy/discussions/2516#discussioncomment-11999750">this script for relative links</a>. It worked!</p>
+<h3>Setting up custom domain</h3>
+<p>I manage my domain DNS record on Cloudflare. When setting up the integration between GitHub Pages and Cloudflare, I wish two things were more obvious:</p>
+<ol>
+<li>That you have to add and verify your domain first in your general account setting (and not the repository settings).</li>
+<li>While the <a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site">official documentation</a> is helpful, I just wish someone showed me a screenshot of what a correct configuration looks like. So here it is:</li>
+</ol>
+<p><picture><source type="image/avif" srcset="../../img/built/HiDAfADRSY-1420.avif 1420w"><source type="image/webp" srcset="../../img/built/HiDAfADRSY-1420.webp 1420w"><img loading="lazy" decoding="async" src="../../img/built/HiDAfADRSY-1420.png" alt="DNS set up in Cloudflare" width="1420" height="302"></picture></p>
+<h3>Missing GitHub Pages Deploy Keys</h3>
+<p>The <a href="https://www.11ty.dev/docs/deployment/#mini-tutorials">mini-tutorial in 11ty docs</a> had one crucial piece missing — it doesn't tell you that you need to generate GitHub security keys and where to put them. This gave me a lot of trouble as I did not know what was wrong.</p>
+<p>Eventually, <a href="https://lea-tortay.com/articles/github-pages-eleventy/">this guide from Lėa Tortay</a> did mention keys and got me started. Phew!</p>
+<h3>Eleventy-image causing super-long build times</h3>
+<p>I wanted to do images right this time. Serve optimized versions, save bandwidth, make the website faster. Enter <a href="https://www.11ty.dev/docs/plugins/image/">eleventy-image</a> plugin. It would automatically optimize images while building the website. Just what I needed.</p>
+<p>There was one hiccup, though. It was processing every image from scratch on every GitHub Pages build. That led to 5+ minute deploy times every time, even for such a small site like mine. Unacceptable.</p>
+<p>Here's what no-one told me: you have to point the eleventy-image output directory to .cache.</p>
+<pre><code>imageOptions.outputDir = &quot;.cache/@11ty/img/&quot;;
+</code></pre>
+<p>Of course! That makes sense.</p>
+<h3>Redirects</h3>
+<p>My new blog has a different folder structure than what I had on Ghost (here posts are stored in ,<code>/posts/</code>  folder; in Ghost they were all in the <code>root</code> folder) — meaning permalinks to my blog posts would  — an inbound links would break. Fortunately, a redirect template can take care of that. Leave no broken link behind!</p>
+<p>If you have the same problem, just <a href="https://brianm.me/posts/eleventy-redirect-from/">follow these instructions</a> and you should be good to go.</p>
+<hr>
+<p>All in all, as far as I can remember, these were the biggest head-scratchers for me. Hope this saves you some time!</p>
+<h2>Other helpful resources</h2>
+<p>The below have been hugely helpful in learning how all of this works:</p>
+<ul>
+<li><a href="https://www.11ty.dev/docs/">Official Get Started Guide</a></li>
+<li><a href="https://www.youtube.com/watch?v=kzf9A9tkkl4">6 Minutes to Build a Blog from Scratch with Eleventy</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLtLXFsdHI8JTwScHvB924dY3PNwNJjjuW">Eleventy Crash Course by Jaydan Urwin</a></li>
+<li><a href="https://lmnt.me/blog/how-to-make-a-damn-website.html">How to Make a Damn Website</a> was a good refresher.</li>
+<li><a href="https://rknight.me/">Robb Knight’s blog</a> was an inspiration for using 11ty and many blogging principles.</li>
+<li><a href="https://github.com/features/copilot">GitHub AI Copilot in VS Code</a> deserves a shout-out too. Things like the default two-column view on the front page or dark mode in style.css were all vibe-coded with a few prompts. As much of an AI skeptic that I am, I have to admint that this is a great use-case for AI.</li>
+</ul>
+
+        </main>
+		<footer>
+			<hr>
+<h1 class="blogtitle"><a href="../../">Metagame</a></h1>
+&copy; 2025 Metagame. All rights reserved.
+		</footer>
+	</body>
+</html>

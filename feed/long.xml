@@ -7,6 +7,69 @@
     <description>Blog about photography, tech, gaming, coffee, travel, and personal productivity.</description>
     <language>en</language>
     <item>
+      <title>Here&#39;s What Helped Me Build This Blog With 11ty/Eleventy and GitHub Pages</title>
+      <link>https://metagame.hk/posts/2025-05-20-personal-website-on-11ty-github-pages/</link>
+      <description>&lt;p&gt;I am finally happy with my website set-up. It’s not much — just some HTML, CSS, and a few templates — but it’s mine, I can configure it however I want, and I own it.&lt;/p&gt;
+&lt;p&gt;It has been a journey, not gonna lie. Not everything worked out of the box, not for a website like this.&lt;/p&gt;
+&lt;p&gt;And there are some things that official 11ty documentation doesn’t tell you. Let me save you the frustration and AI tokens. In this post I will go through the roadblocks I encountered — and how I&#39;ve cleared them.&lt;/p&gt;
+&lt;h2&gt;First, principles&lt;/h2&gt;
+&lt;p&gt;Let’s begin with how I wanted to design Metagame. The choices here strongly influenced the solutions I used — and problems I faced.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://stephango.com/file-over-app&quot;&gt;File over app&lt;/a&gt;&lt;/strong&gt;. This website is just a bunch of files in folders. There is no platform, no store-bought template with inscrutable code, no Squarespace-like WYSIWYG. There is no lock-in. I’m not totally independent (I still need to host this page somewhere), but it&#39;s as close as I could reasonably get it.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Fast &amp;amp; lightweight&lt;/strong&gt;. It’s all static HTML, which should make it load quickly. There is no CMS and no database on someone’s platform that I need to query every time I want to navigate to a blog post.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.citationneeded.news/posse/&quot;&gt;POSSE&lt;/a&gt;&lt;/strong&gt;. My content and my updates — they all start on my website and &lt;em&gt;then&lt;/em&gt; get syndicated elsewhere. For me, Metagame is the center of my online presence. Everything I post starts here.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Simple code&lt;/strong&gt;. I&#39;m neither a programmer nor an app developer. I can work with basic code but don&#39;t talk to me about complex frameworks. Also, I don&#39;t mind vibe coding — as long as it returns something I can remotely understand.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Privacy is not an afterthought&lt;/strong&gt;. You won’t see Google Analytics here. In the future, I may consider something like &lt;a href=&quot;https://plausible.io/for-bloggers-creators&quot;&gt;Plausible&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ability to develop the website locally and offline&lt;/strong&gt;. This is what primarily led me to 11ty.&lt;/p&gt;
+&lt;p&gt;I also wanted to &lt;strong&gt;escape US big tech&lt;/strong&gt;, but unfortunately both VS Code and GitHub are owned by Microsoft.&lt;/p&gt;
+&lt;p&gt;And finally, a super-important disclaimer: even though I&#39;ve developed a few websites before, I still consider myself a total beginner in this. I have not been keeping up with the current trends in web design, like at all. So please treat this as a record of a beginner stumbling his way through to solutions that are likely obvious (and/or even suboptimal) to veterans.&lt;/p&gt;
+&lt;p&gt;Anyway, if your a beginner like myself, there&#39;s a good chance you will find something useful here!&lt;/p&gt;
+&lt;h2&gt;Problems and solutions&lt;/h2&gt;
+&lt;h3&gt;Permalink prefix for relative links&lt;/h3&gt;
+&lt;p&gt;In the source code of my blog posts, all links are relative. Instead of pointing directly to a full URL (for example: &lt;code&gt;https://metagame.hk/posts/2025-05-11-a-different-relationship-with-tech/&lt;/code&gt;), they link to a relative path (like so: &lt;code&gt;/posts/2025-05-11-a-different-relationship-with-tech/&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;This causes some issues.&lt;/p&gt;
+&lt;p&gt;When I build locally, all is fine. But the second I deploy to GitHub Pages, stuff breaks.&lt;/p&gt;
+&lt;p&gt;I figured it was this: before custom domain, the page is hosted at the following address: &lt;code&gt;https://my_account_name.github.io/metagame/&lt;/code&gt;
+But the relative link &lt;code&gt;/posts/2025-05-11-a-different-relationship-with-tech/&lt;/code&gt; tries to resolve to &lt;code&gt;https://my_account_name.github.io/posts/2025-05-11-a-different-relationship-with-tech/&lt;/code&gt; and not the correct one &lt;code&gt;https://my_account_name.github.io/metagame/posts/2025-05-11-a-different-relationship-with-tech/&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Apparently, here is a &lt;em&gt;native&lt;/em&gt; solution for this: &lt;a href=&quot;https://www.11ty.dev/docs/config/#deploy-to-a-subdirectory-with-a-path-prefix&quot;&gt;--pathprefix&lt;/a&gt;. &lt;a href=&quot;https://www.11ty.dev/docs/deployment/#mini-tutorials&quot;&gt;This is how you&#39;re supposed to use it&lt;/a&gt; when building on GitHub Pages. But for some reason it did not work for me. In the build, all links had multiple &lt;code&gt;/metagame/metagame/metagame/…&lt;/code&gt; folders inside them. For some reason.&lt;/p&gt;
+&lt;p&gt;But after some googling, I found &lt;a href=&quot;https://github.com/11ty/eleventy/discussions/2516#discussioncomment-11999750&quot;&gt;this script for relative links&lt;/a&gt;. It worked!&lt;/p&gt;
+&lt;h3&gt;Setting up custom domain&lt;/h3&gt;
+&lt;p&gt;I manage my domain DNS record on Cloudflare. When setting up the integration between GitHub Pages and Cloudflare, I wish two things were more obvious:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;That you have to add and verify your domain first in your general account setting (and not the repository settings).&lt;/li&gt;
+&lt;li&gt;While the &lt;a href=&quot;https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site&quot;&gt;official documentation&lt;/a&gt; is helpful, I just wish someone showed me a screenshot of what a correct configuration looks like. So here it is:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://metagame.hk/img/built/HiDAfADRSY-1420.avif 1420w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://metagame.hk/img/built/HiDAfADRSY-1420.webp 1420w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://metagame.hk/img/built/HiDAfADRSY-1420.png&quot; alt=&quot;DNS set up in Cloudflare&quot; width=&quot;1420&quot; height=&quot;302&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;h3&gt;Missing GitHub Pages Deploy Keys&lt;/h3&gt;
+&lt;p&gt;The &lt;a href=&quot;https://www.11ty.dev/docs/deployment/#mini-tutorials&quot;&gt;mini-tutorial in 11ty docs&lt;/a&gt; had one crucial piece missing — it doesn&#39;t tell you that you need to generate GitHub security keys and where to put them. This gave me a lot of trouble as I did not know what was wrong.&lt;/p&gt;
+&lt;p&gt;Eventually, &lt;a href=&quot;https://lea-tortay.com/articles/github-pages-eleventy/&quot;&gt;this guide from Lėa Tortay&lt;/a&gt; did mention keys and got me started. Phew!&lt;/p&gt;
+&lt;h3&gt;Eleventy-image causing super-long build times&lt;/h3&gt;
+&lt;p&gt;I wanted to do images right this time. Serve optimized versions, save bandwidth, make the website faster. Enter &lt;a href=&quot;https://www.11ty.dev/docs/plugins/image/&quot;&gt;eleventy-image&lt;/a&gt; plugin. It would automatically optimize images while building the website. Just what I needed.&lt;/p&gt;
+&lt;p&gt;There was one hiccup, though. It was processing every image from scratch on every GitHub Pages build. That led to 5+ minute deploy times every time, even for such a small site like mine. Unacceptable.&lt;/p&gt;
+&lt;p&gt;Here&#39;s what no-one told me: you have to point the eleventy-image output directory to .cache.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;imageOptions.outputDir = &amp;quot;.cache/@11ty/img/&amp;quot;;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Of course! That makes sense.&lt;/p&gt;
+&lt;h3&gt;Redirects&lt;/h3&gt;
+&lt;p&gt;My new blog has a different folder structure than what I had on Ghost (here posts are stored in ,&lt;code&gt;/posts/&lt;/code&gt;  folder; in Ghost they were all in the &lt;code&gt;root&lt;/code&gt; folder) — meaning permalinks to my blog posts would  — an inbound links would break. Fortunately, a redirect template can take care of that. Leave no broken link behind!&lt;/p&gt;
+&lt;p&gt;If you have the same problem, just &lt;a href=&quot;https://brianm.me/posts/eleventy-redirect-from/&quot;&gt;follow these instructions&lt;/a&gt; and you should be good to go.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;All in all, as far as I can remember, these were the biggest head-scratchers for me. Hope this saves you some time!&lt;/p&gt;
+&lt;h2&gt;Other helpful resources&lt;/h2&gt;
+&lt;p&gt;The below have been hugely helpful in learning how all of this works:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.11ty.dev/docs/&quot;&gt;Official Get Started Guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=kzf9A9tkkl4&quot;&gt;6 Minutes to Build a Blog from Scratch with Eleventy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLtLXFsdHI8JTwScHvB924dY3PNwNJjjuW&quot;&gt;Eleventy Crash Course by Jaydan Urwin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://lmnt.me/blog/how-to-make-a-damn-website.html&quot;&gt;How to Make a Damn Website&lt;/a&gt; was a good refresher.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://rknight.me/&quot;&gt;Robb Knight’s blog&lt;/a&gt; was an inspiration for using 11ty and many blogging principles.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/features/copilot&quot;&gt;GitHub AI Copilot in VS Code&lt;/a&gt; deserves a shout-out too. Things like the default two-column view on the front page or dark mode in style.css were all vibe-coded with a few prompts. As much of an AI skeptic that I am, I have to admint that this is a great use-case for AI.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <pubDate>Tue, 20 May 2025 19:58:47 GMT</pubDate>
+      <dc:creator>Chris Sobolewski</dc:creator>
+      <guid>https://metagame.hk/posts/2025-05-20-personal-website-on-11ty-github-pages/</guid>
+    </item>
+    <item>
       <title>A different relationship with tech</title>
       <link>https://metagame.hk/posts/2025-05-11-a-different-relationship-with-tech/</link>
       <description>&lt;p&gt;My attitude towards &lt;em&gt;tech&lt;/em&gt; has changed considerably in the last five years.&lt;/p&gt;
@@ -100,53 +163,6 @@
       <pubDate>Thu, 03 Apr 2025 12:00:00 GMT</pubDate>
       <dc:creator>Chris Sobolewski</dc:creator>
       <guid>https://metagame.hk/posts/2025-04-03-blogging-like-its-2015/</guid>
-    </item>
-    <item>
-      <title>Is Apple Even Good at Software?</title>
-      <link>https://metagame.hk/posts/2025-03-31-is-apple-even-good-at-software/</link>
-      <description>&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://metagame.hk/img/built/GT8EFSNLK5-1140.avif 1140w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://metagame.hk/img/built/GT8EFSNLK5-1140.webp 1140w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://metagame.hk/img/built/GT8EFSNLK5-1140.jpeg&quot; alt=&quot;New pen day!&quot; width=&quot;1140&quot; height=&quot;855&quot;&gt;&lt;/picture&gt;
-&lt;em&gt;New pen day!&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Today’s entry is a mix of various topics. Each of the headlines below could’ve been its own tiny blog post, but since this is a blog &lt;em&gt;and a newsletter&lt;/em&gt;, I feel this pressure of not spamming your inboxes with tiny stuff — whatever I send out needs to be substantial. So I bundle these things.&lt;/p&gt;
-&lt;p&gt;That’s actually something I need to think about. Sometimes I want the freedom of just firing off a short post over here. I like that format! Especially since I don’t really post on social media anymore, so this page could be a nice outlet for small updates like that.&lt;/p&gt;
-&lt;p&gt;Need to look into Ghost options — or maybe consider migrating to static pages (11ty?) and building my website around that? An ideal outcome would be some kind of &lt;a href=&quot;https://www.citationneeded.news/posse/?ref=metagame.hk&quot;&gt;POSSE solution&lt;/a&gt; with a (monthly?) newsletter digest getting compiled in the background. Hold that thought.&lt;/p&gt;
-&lt;p&gt;In the meantime, this is what I’ve got:&lt;/p&gt;
-&lt;h3&gt;New Pen Day!&lt;/h3&gt;
-&lt;p&gt;Recently, I have sunk in deeply into a new hobby — fountain pens and related stationery (notebooks, in particular).&lt;/p&gt;
-&lt;p&gt;When we lived our lives mostly offline, online was an escape from the real world. But now more and more we live our lives online. And this time the real world becomes an escape — from notifications, distractions, predatory monetization, etc.&lt;/p&gt;
-&lt;p&gt;So here I am, researching fountain pens, notebooks, pen loops, modded iPods, and trying to find an excuse to get into film photography again. But let’s stick to stationery for now!&lt;/p&gt;
-&lt;p&gt;I like having another thing in life to &lt;em&gt;figure out&lt;/em&gt;. Another area to explore. Something new. I’m just worried it will be superficial, that my handwritten journaling will be mostly writing about writing. Running around in circles like that. I have fallen into that trap before, with my “note-taking” node in Obsidian having the most linked-to notes at one point. I’m worried that I will focus on the tools and not the process. That I will write ideas down, sure, but then do nothing with them.&lt;/p&gt;
-&lt;p&gt;So there is some doubt among all this excitement.&lt;/p&gt;
-&lt;p&gt;But for now, I’m having fun. Enjoying the morning ritual of journaling in my notebook, the nib gliding on the paper, and leaving a trace of ink with nice shading. And it’s one more way in which I can use my iPhone less.&lt;/p&gt;
-&lt;h3&gt;But No New Bag Day&lt;/h3&gt;
-&lt;p&gt;Peak Design’s Kickstarter campaign for &lt;a href=&quot;https://www.kickstarter.com/projects/peak-design/roller-pro-carry-on-luggage-by-peak-design?ref=metagame.hk&quot;&gt;the new carry-on suitcase&lt;/a&gt; is live, after LOTS of teasing. Looking at the price, specs, and reviews this one is a &lt;em&gt;skip&lt;/em&gt; for me. 4 kilograms for a carry-on, are you kidding me? This is a very US-specific product. It’s (literally) not going to fly here in Asia, where most of the airlines have 7 kgs limits for carry-ons. Oh well, that’s $500 &lt;s&gt;saved&lt;/s&gt; not spent. And my &lt;em&gt;no new bags in 2025&lt;/em&gt; commitment for this year can stay safe.&lt;/p&gt;
-&lt;h3&gt;Smartphone Best Practices&lt;/h3&gt;
-&lt;p&gt;But rolling back to using my iPhone less… I have been inspired/moved by this article from Miłosz Bolechowski: &lt;a href=&quot;https://www.powoli.blog/o-higienie-uzywania-smartfona/?ref=metagame.hk&quot;&gt;o higienie używania smartfona&lt;/a&gt; (beware! – it&#39;s in Polish and behind a paywall). TLDR: the more you disconnect, the more you get done, the fuller your days are, the more meaningful your conversations are. Smartphone should not be a constant companion in everything we do.&lt;/p&gt;
-&lt;p&gt;My approach: I consider the phone as a utility toolkit. It’s for giving me access to bank apps, passwords, photo import &amp;amp; editing apps, notes, maps, and communication. I limit notifications (including badges) to the critical and time-sensitive ones. Only non-algorithm entertainment is allowed: RSS, books, music, podcasts. No social media, no YouTube.&lt;/p&gt;
-&lt;p&gt;It’s working out so far.&lt;/p&gt;
-&lt;p&gt;That said, my iPad is a different story. What I limit on the iPhone, I often (over-)compensate with my tablet usage. As a next step, I’ll need to tackle that somehow.&lt;/p&gt;
-&lt;p&gt;For what it’s worth, my early mornings are now device-free. Just coffee, pen, and paper. Feels good. Feels pure.&lt;/p&gt;
-&lt;h3&gt;99% Pure&lt;/h3&gt;
-&lt;p&gt;Speaking of interesting reads — another article that made an impression on me recently was &lt;a href=&quot;https://www.joanwestenberg.com/on-ideological-purity/?ref=metagame.hk&quot;&gt;On Ideological Purity&lt;/a&gt; by Joan Westenberg.&lt;/p&gt;
-&lt;p&gt;Here&#39;s the thing: I try to make thoughtful purchasing choices — not only in making sure that the products I buy will fit my life/needs well, but also aiming to support good/ethical businesses. Voting with my wallet. Thing is, it’s not always easy.&lt;/p&gt;
-&lt;p&gt;I left Twitter, Facebook, and Threads, I’m avoiding Amazon (them &lt;a href=&quot;https://www.theverge.com/news/612898/amazon-removing-kindle-book-download-transfer-usb?ref=metagame.hk&quot;&gt;turning off book downloads&lt;/a&gt; was the final straw), I try to support local businesses in Hong Kong (especially those that supported the local community in trying times), I don’t give Google analytics about Metagame’s readers, etc.&lt;/p&gt;
-&lt;p&gt;But I also give my money to Apple — begrudgingly, even though I’m trying to avoid making big tech CEOs even richer. I’m increasingly disappointed by their choices, tech-related and &lt;a href=&quot;https://www.theverge.com/2025/1/3/24335290/apple-donation-donald-trump-inauguration-tim-cook?ref=metagame.hk&quot;&gt;others&lt;/a&gt;, yet I will likely buy something in the Apple Store this September. And I will occasionally buy something from Amazon, if I can’t get it elsewhere. I still sometimes use Instagram, WhatsApp, and Messenger. And there are many other examples where my spending (be it money or time/attention) doesn’t exactly align with my values.&lt;/p&gt;
-&lt;p&gt;I used to feel guilty about it. &lt;em&gt;If I’m not 100% pure in my choices, then what is even the point?&lt;/em&gt; But Joan’s article beat some sense back into me.&lt;/p&gt;
-&lt;p&gt;I don’t have to be 100% perfect in my anti-capitalist, anti-corporate, anti-US/big-tech choices. As long as I’m mindful, act with intention, and doing my best, doing &lt;em&gt;something&lt;/em&gt; — that’s enough.&lt;/p&gt;
-&lt;p&gt;Perfection is not the point.&lt;/p&gt;
-&lt;h3&gt;Is Apple Good At Software?&lt;/h3&gt;
-&lt;p&gt;Speaking of begrudging Apple and things being imperfect, I&#39;ve been feeling negative about that company for a while. They keep giving me reasons.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.theverge.com/news/629940/apple-siri-robby-walker-delayed-ai-features?ref=metagame.hk&quot;&gt;Apple Intelligence is a joke&lt;/a&gt;. The only remotely useful thing it was supposed to offer got delayed indefinitely. Passwords app was prone to an &lt;a href=&quot;https://9to5mac.com/2025/03/18/apples-passwords-app-was-vulnerable-to-phishing-attacks-for-nearly-three-months-after-launch/?ref=metagame.hk&quot;&gt;embarrassing vulnerability&lt;/a&gt; for months. &lt;a href=&quot;https://www.macstories.net/stories/not-an-ipad-pro-review/?ref=metagame.hk&quot;&gt;iPad is still a baby computer&lt;/a&gt;; hardware generations ahead of its software.&lt;/p&gt;
-&lt;p&gt;And this is just a sample from the last few months.&lt;/p&gt;
-&lt;p&gt;I tend to bounce between &lt;a href=&quot;https://metagame.hk/posts/2024-08-13-ios-18-public-beta-personal-computing-tools-audit/&quot;&gt;going all-in on Apple’s apps&lt;/a&gt;, prioritizing ecosystem integration — and, on the other end of the spectrum — replacing Apple’s solutions with third-party apps, looking for ones that are best in class. Sometimes, I’ll add extra difficulty by searching for apps that are &lt;a href=&quot;https://ljpuk.net/2025/03/27/a-move-to-cross-platform-apps-and-services/?ref=metagame.hk&quot;&gt;cross-platform&lt;/a&gt;. A classic dilemma between a jack-of-all-trades approach and best-in-breed.&lt;/p&gt;
-&lt;p&gt;Apple will cover all the basics with Reminders, Notes, Journal, etc. — but it’s rarely going to be the best solution in each slot. Their apps will get infrequent updates (at best once a year between WWDC and new iPhone release; at worst - forgotten/becoming an afterthought, like Clips or Journal). Always two steps behind the industry trends.&lt;/p&gt;
-&lt;p&gt;On the other hand, third party apps still innovate. To me and for my needs, Fantastical is a better calendar app than Apple Calendar. 1Password is a better password manager than Apple Passwords. Day One is a better journaling app than Apple Journal. Things is a better to-do app than Apple Reminders. Notes — here I’m having a hard time finding a 1-to-1 replacement. Obsidian may be better for PKM stuff and long-term storage, but short-term quick capture is not its best suit (but hey, pen and paper exists!). But then, you lose some benefits of deep integration with the OS and some money as well (as most of the best third party apps out there require a subscription these days).&lt;/p&gt;
-&lt;p&gt;So what good is system integration if the biggest benefit, integrating information across various apps in your account and making personalized suggestions based on that, Apple promises — but can’t ship?&lt;/p&gt;
-&lt;p&gt;Sometimes I feel like I will never solve this dilemma. Every choice is a trade-off. It&#39;s becoming easier, though, because more and more Apple and its solutions seem to be offering less and less (relative to competition).&lt;/p&gt;
-&lt;p&gt;I have a feeling that my next &lt;a href=&quot;https://metagame.hk/posts/2025-01-09-default-apps-for-2025/&quot;&gt;default apps list&lt;/a&gt; will have fewer Apple apps on it. Unless, of course, next WWDC wows me in a big way this June (which seems unlikely?)&lt;/p&gt;
-</description>
-      <pubDate>Mon, 31 Mar 2025 24:00:00 GMT</pubDate>
-      <dc:creator>Chris Sobolewski</dc:creator>
-      <guid>https://metagame.hk/posts/2025-03-31-is-apple-even-good-at-software/</guid>
     </item>
   </channel>
 </rss>
