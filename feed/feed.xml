@@ -7,6 +7,15 @@
     <description>Blog about photography, tech, gaming, coffee, travel, and personal productivity.</description>
     <language>en</language>
     <item>
+      <title>2025-05-20 13:23</title>
+      <link>https://metagame.hk/posts/2025-05-20-13-23/</link>
+      <description>&lt;p&gt;This whole drama surrounding Marathon is more interesting than the game itself, to be honest.&lt;/p&gt;
+</description>
+      <pubDate>Tue, 20 May 2025 13:23:19 GMT</pubDate>
+      <dc:creator>Chris Sobolewski</dc:creator>
+      <guid>https://metagame.hk/posts/2025-05-20-13-23/</guid>
+    </item>
+    <item>
       <title>2025-05-17 13:19</title>
       <link>https://metagame.hk/posts/2025-05-17-1319/</link>
       <description>&lt;p&gt;As an experiment in distancing myself away from US big tech, &lt;a href=&quot;https://metagame.hk/posts/2025-05-04-this-is-the-year-of-linux-on-desktop/&quot;&gt;I&#39;m trying out Linux&lt;/a&gt; on my laptop -- and it&#39;s surprisingly not-bad once you set it up.&lt;/p&gt;
@@ -140,27 +149,6 @@
       <pubDate>Thu, 03 Apr 2025 14:00:00 GMT</pubDate>
       <dc:creator>Chris Sobolewski</dc:creator>
       <guid>https://metagame.hk/posts/2025-04-03-a-lot-less-excited-about-nintendo-switch-2/</guid>
-    </item>
-    <item>
-      <title>Blogging Like It&#39;s 2015</title>
-      <link>https://metagame.hk/posts/2025-04-03-blogging-like-its-2015/</link>
-      <description>&lt;p&gt;Following up on my thoughts from &lt;a href=&quot;https://metagame.hk/posts/2025-03-31-is-apple-even-good-at-software/&quot;&gt;the previous post&lt;/a&gt; — I&#39;ll. be publishing shorter entries here. For a while — as an experiment. They would not go into the newsletter initially – instead they would wait their turn for the next monthly newsletter bundle-edition.&lt;/p&gt;
-&lt;p&gt;It&#39;s a bit of a manual process in Ghost, but I&#39;ll roll with it for now.&lt;/p&gt;
-&lt;p&gt;This way:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;I&#39;ll have less pressure and more flexibility&lt;/li&gt;
-&lt;li&gt;You can still follow the blog in &lt;em&gt;real-time&lt;/em&gt; through RSS or social media links (I&#39;ll be cross-posting them using &lt;a href=&quot;https://openvibe.social/?ref=metagame.hk&quot;&gt;Openvibe&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Your inbox won&#39;t get spammed with multiple short post newsletters&lt;/li&gt;
-&lt;li&gt;If you still prefer to receive updates via email, monthly newsletter edition will do just that&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Sounds like a worthwhile experiment to me! If it works out, it will encourage me to introduce more improvements (moving from Ghost to static pages, closer integration with the federated web, automating the newsletter digest, etc.)&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;Maybe it&#39;s the bubble I follow, but I&#39;m seeing a trend of &lt;a href=&quot;https://jasonsantamaria.com/blog/once-again-from-the-top?ref=metagame.hk&quot;&gt;returning to&lt;/a&gt; &lt;a href=&quot;https://ljpuk.net/?ref=metagame.hk&quot;&gt;small-scale&lt;/a&gt; &lt;a href=&quot;https://lmnt.me/blog/make-a-damn-website.html?ref=metagame.hk&quot;&gt;personal&lt;/a&gt; &lt;a href=&quot;https://rknight.me/blog/?ref=metagame.hk&quot;&gt;blogs&lt;/a&gt; and withdrawing from social media. Owning what you create instead of feeding it into the algorithm. Tinkering with your own website.&lt;/p&gt;
-&lt;p&gt;I was passionate about this format 10-ish years ago (I used to have a small-but-award-winning personal finance blog) — hope I can find this feeling again, here and now. This experiment with shorter but more frequent posts is a step in that direction.&lt;/p&gt;
-</description>
-      <pubDate>Thu, 03 Apr 2025 12:00:00 GMT</pubDate>
-      <dc:creator>Chris Sobolewski</dc:creator>
-      <guid>https://metagame.hk/posts/2025-04-03-blogging-like-its-2015/</guid>
     </item>
   </channel>
 </rss>

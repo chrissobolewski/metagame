@@ -13,4 +13,13 @@ Disallow: /
 User-agent: GoogleAI
 Disallow: /
 
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
 Sitemap: https://metagame.hk/sitemap.xml
