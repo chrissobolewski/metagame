@@ -1,8 +1,8 @@
 ---
-date: 2025-05-12 20:02:47
+date: 2025-05-20 19:58:47
 tags: long
 layout: layouts/post-standard.html
-title: Here's What Helped Me Build This Blog With 11ty/eleventy and GitHub Pages
+title: Here's What Helped Me Build This Blog With 11ty/Eleventy and GitHub Pages
 excerpt: Beginner problems and solutions. For those who come after.
 ---
 I am finally happy with my website set-up. It’s not much — just some HTML, CSS, and a few templates — but it’s mine, I can configure it however I want, and I own it.
@@ -18,7 +18,7 @@ Let’s begin with how I wanted to design Metagame. The choices here strongly in
 
 **Fast & lightweight**. It’s all static HTML, which should make it load quickly. There is no CMS and no database on someone’s platform that I need to query every time I want to navigate to a blog post.
 
-**[POSSE](https://indieweb.org/POSSE)**. My content and my updates — they all start on my website and *then* get syndicated elsewhere. For me, Metagame is the center of my online presence. Everything I post starts here.
+**[POSSE](https://www.citationneeded.news/posse/)**. My content and my updates — they all start on my website and *then* get syndicated elsewhere. For me, Metagame is the center of my online presence. Everything I post starts here.
 
 **Simple code**. I'm neither a programmer nor an app developer. I can work with basic code but don't talk to me about complex frameworks. Also, I don't mind vibe coding — as long as it returns something I can remotely understand.
 
@@ -88,4 +88,5 @@ The below have been hugely helpful in learning how all of this works:
 - [6 Minutes to Build a Blog from Scratch with Eleventy](https://www.youtube.com/watch?v=kzf9A9tkkl4)
 - [Eleventy Crash Course by Jaydan Urwin](https://www.youtube.com/playlist?list=PLtLXFsdHI8JTwScHvB924dY3PNwNJjjuW)
 - [How to Make a Damn Website](https://lmnt.me/blog/how-to-make-a-damn-website.html) was a good refresher.
+- [Robb Knight’s blog](https://rknight.me/) was an inspiration for using 11ty and many blogging principles.
 - [GitHub AI Copilot in VS Code](https://github.com/features/copilot) deserves a shout-out too. Things like the default two-column view on the front page or dark mode in style.css were all vibe-coded with a few prompts. As much of an AI skeptic that I am, I have to admint that this is a great use-case for AI.
