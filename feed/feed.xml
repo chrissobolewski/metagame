@@ -7,6 +7,17 @@
     <description>Blog about photography, tech, gaming, coffee, travel, and personal productivity.</description>
     <language>en</language>
     <item>
+      <title>2025-05-21 19:45</title>
+      <link>https://metagame.hk/posts/2025-05-21-1945/</link>
+      <description>&lt;p&gt;&lt;strong&gt;Apple Is Reinstating Fortnite to the App Store, and Because of the Malicious Compliance-Like Attitude That Apple Presents, App Store Policies Are Currently Under Scrutiny Around the World&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;There’s an old adage in poker: If you look around the table and you can’t tell who the fish is, that means you’re the fish.&lt;/p&gt;
+&lt;p&gt;If you’re surprised at how this malicious compliance stunt from Apple has turned out, especially if you’re a pundit who ran a piece applauding Apple’s stance as justified, then you are Tim Cook’s fish.&lt;/p&gt;
+</description>
+      <pubDate>Wed, 21 May 2025 19:45:14 GMT</pubDate>
+      <dc:creator>Chris Sobolewski</dc:creator>
+      <guid>https://metagame.hk/posts/2025-05-21-1945/</guid>
+    </item>
+    <item>
       <title>Here&#39;s What Helped Me Build This Blog With 11ty/Eleventy and GitHub Pages</title>
       <link>https://metagame.hk/posts/2025-05-20-personal-website-on-11ty-github-pages/</link>
       <description>&lt;p&gt;I am finally happy with my website set-up. It’s not much — just some HTML, CSS, and a few templates — but it’s mine, I can configure it however I want, and I own it.&lt;/p&gt;
@@ -173,19 +184,6 @@ But the relative link &lt;code&gt;/posts/2025-05-11-a-different-relationship-wit
       <pubDate>Sun, 04 May 2025 12:00:00 GMT</pubDate>
       <dc:creator>Chris Sobolewski</dc:creator>
       <guid>https://metagame.hk/posts/2025-05-04-this-is-the-year-of-linux-on-desktop/</guid>
-    </item>
-    <item>
-      <title>2025-05-08 12:00</title>
-      <link>https://metagame.hk/posts/2025-05-04-1200/</link>
-      <description>&lt;p&gt;&lt;strong&gt;Clair Obscur: Expedition 33 Is a Masterpiece.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;It’s been a while since a piece of art enamored me so completely.&lt;/p&gt;
-&lt;p&gt;I’m in love with this game. World, characters, story, visuals, gameplay, soundtrack — enchanting, captivating, unique.&lt;/p&gt;
-&lt;p&gt;The hype is real. Believe the &lt;a href=&quot;https://www.metacritic.com/game/clair-obscur-expedition-33/?ref=metagame.hk&quot;&gt;high metacritic scores&lt;/a&gt;, trust all the positive reviews. This game is special. It deserves the reverence it’s been met with so far.&lt;/p&gt;
-&lt;p&gt;I can sing its praises for many more paragraphs, but let me stop here. &lt;a href=&quot;https://www.expedition33.com/?ref=metagame.hk&quot;&gt;Just go and play it&lt;/a&gt;. The less say about it the better — it’s best to go in blind.&lt;/p&gt;
-</description>
-      <pubDate>Sun, 04 May 2025 12:00:00 GMT</pubDate>
-      <dc:creator>Chris Sobolewski</dc:creator>
-      <guid>https://metagame.hk/posts/2025-05-04-1200/</guid>
     </item>
   </channel>
 </rss>
