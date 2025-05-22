@@ -7,6 +7,15 @@
     <description>Blog about photography, tech, gaming, coffee, travel, and personal productivity.</description>
     <language>en</language>
     <item>
+      <title>2025-05-22 17:47</title>
+      <link>https://metagame.hk/posts/2025-05-22-1748/</link>
+      <description>&lt;p&gt;From the mind behind the butterfly keyboard, here comes the OpenAI Pin!&lt;/p&gt;
+</description>
+      <pubDate>Thu, 22 May 2025 17:47:45 GMT</pubDate>
+      <dc:creator>Chris Sobolewski</dc:creator>
+      <guid>https://metagame.hk/posts/2025-05-22-1748/</guid>
+    </item>
+    <item>
       <title>2025-05-21 19:45</title>
       <link>https://metagame.hk/posts/2025-05-21-1945/</link>
       <description>&lt;p&gt;&lt;strong&gt;Apple Is Reinstating Fortnite to the App Store, and Because of the Malicious Compliance-Like Attitude That Apple Presents, App Store Policies Are Currently Under Scrutiny Around the World&lt;/strong&gt;&lt;/p&gt;
@@ -157,33 +166,6 @@ But the relative link &lt;code&gt;/posts/2025-05-11-a-different-relationship-wit
       <pubDate>Thu, 08 May 2025 19:46:00 GMT</pubDate>
       <dc:creator>Chris Sobolewski</dc:creator>
       <guid>https://metagame.hk/posts/2025-05-08-1946/</guid>
-    </item>
-    <item>
-      <title>This Is the Year of Linux on Desktop</title>
-      <link>https://metagame.hk/posts/2025-05-04-this-is-the-year-of-linux-on-desktop/</link>
-      <description>&lt;p&gt;I have a restless mind. I constantly look for ways to tinker with stuff. And once something works, I can&#39;t just leave it be and enjoy it. I have to move on to something else.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://metagame.hk/posts/2025-03-31-is-apple-even-good-at-software/&quot;&gt;Last month&lt;/a&gt; it was (re-)introducing pen and paper to my note-taking system. Before that, it was the &lt;a href=&quot;https://metagame.hk/posts/2024-12-15-things-look-like-a-creative-goty/&quot;&gt;back-and-forth between Reminders and Things&lt;/a&gt; for my to-do system.&lt;/p&gt;
-&lt;p&gt;So you can imagine how dangerous &lt;a href=&quot;https://youtu.be/pVI_smLgTY0?si=BmXPv3MjrxTFV14Z&amp;amp;ref=metagame.hk&quot;&gt;this video&lt;/a&gt; is for me.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;s&gt;What’s stopping me right now is&lt;/s&gt; &lt;a href=&quot;https://frame.work/?ref=metagame.hk&quot;&gt;&lt;s&gt;Framework Laptops&lt;/s&gt;&lt;/a&gt; &lt;s&gt;not shipping to Hong Kong…&lt;/s&gt;&lt;/p&gt;
-&lt;p&gt;I actually installed Ubuntu on my gaming laptop today, alongside existing Windows 11 installation. Just to try it out.&lt;/p&gt;
-&lt;p&gt;I&#39;m sure I won&#39;t get far. I&#39;ll probably encounter some insurmountable barrier and give up. I will inevitably bump into some jankiness, critical apps with outdated design (looking at you, Libre Office), or things simply not working (as I write this I struggle to make my external monitor to work!) I just hope that some big disappointment happens before I manage to spend any extra money to plug Linux into my workflow. Because I would have to:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Restart my 1Password subscription for a cross-platform password manager (currently with Apple Passwords)&lt;/li&gt;
-&lt;li&gt;Move my email from iCloud back to Fastmail&lt;/li&gt;
-&lt;li&gt;Enable Obsidian sync, since my notes would no longer sync over iCloud&lt;/li&gt;
-&lt;li&gt;Find a new to-do app (Tick Tick looks like a decent candidate)&lt;/li&gt;
-&lt;li&gt;Probably subscribe to Spotify instead of Apple Music (or give YouTube Music another try?)&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Assuming I stick with YouTube for #5, which at the moment doesn&#39;t cost me anything beyond what I&#39;m already paying, items 1-4 still add up to USD 215 per year. That is not insignificant.&lt;/p&gt;
-&lt;p&gt;Then there&#39;s the cost of time required for setting everything up (though, let&#39;s be honest, that&#39;s the fun part) and moving my to-do&#39;s to some new app (switching mission-critical apps, assuming you even find a suitable replacement, &lt;a href=&quot;https://ljpuk.net/2025/05/04/tasks-out-of-sight-dont-get-done/?ref=metagame.hk&quot;&gt;can be a headache&lt;/a&gt;!)&lt;/p&gt;
-&lt;p&gt;Lastly, there&#39;s the sunk/opportunity cost in under-using (or not using at all) the devices I already own, primarily my iPad Pro and Mac mini.&lt;/p&gt;
-&lt;p&gt;And when I think about that last one – it raises the biggest question of all. Linux would primarily replace MacOS for me. But then, Mac is the only platform Apple has not fully locked down yet. So why even try to escape it now? With Mac, I don&#39;t have the same frustrations Windows users have. There is less incentive to switch.&lt;/p&gt;
-&lt;p&gt;What I can do is to lay the groundwork for eventually leaving Apple&#39;s lock-in. A decision I&#39;m inching closer and closer to every time Apple does something greedy, malicious, or when it ingratiates itself with Trump. Which is very often these days.&lt;/p&gt;
-</description>
-      <pubDate>Sun, 04 May 2025 12:00:00 GMT</pubDate>
-      <dc:creator>Chris Sobolewski</dc:creator>
-      <guid>https://metagame.hk/posts/2025-05-04-this-is-the-year-of-linux-on-desktop/</guid>
     </item>
   </channel>
 </rss>
