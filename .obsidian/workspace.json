@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/posts/2025-05-22-1748.md",
+                "file": "src/about.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-05-22-1748"
+              "title": "about"
             }
           }
         ],
@@ -185,11 +185,14 @@
   },
   "active": "ff4d36e3d800dddf",
   "lastOpenFiles": [
-    "src/posts/2025-05-21-1945.md",
+    "src/drafts/some good things.md",
     "src/posts/2025-05-22-1748.md",
+    "src/about.md",
+    "src/about.html",
+    "src/about.njk",
+    "src/posts/2025-05-21-1945.md",
     "src/drafts/2025-05-17-linux-text-expansion.md",
     "src/posts/2025-05-20-personal-website-on-11ty-github-pages.md",
-    "src/drafts/some good things.md",
     "src/drafts/tidbits.md",
     "src/posts/2025-05-20-13-23.md",
     "obs_templates/short-post.md",
@@ -205,7 +208,6 @@
     "src/updatefeed.njk",
     "src/sitemap.njk",
     "src/s01.njk",
-    "src/robots.txt",
     "src/posts/2025-05-11-a-different-relationship-with-tech.md",
     "src/posts/2025-05-11-2057.md",
     "src/posts/2025-05-10-1021.md",
@@ -219,8 +221,6 @@
     "src/posts/2025-01-20-2024-likes-and-dislikes.md",
     "src/posts/2025-01-09-default-apps-for-2025.md",
     "src/posts/2024-12-15-things-look-like-a-creative-goty.md",
-    "src/posts/2024-10-29-note-taking-advice-from-a-pro.md",
-    "src/eleventy-redirect.njk",
     "src/assets/images/www6.jpeg",
     "src/assets/images/www5.jpeg",
     "src/assets/images/www4.jpeg",
