@@ -2,7 +2,7 @@
 layout: layouts/layout.html
 title: About Metagame
 ---
-Hi, I'm Chris!
+# Hi, I'm Chris!
 
 At my day job I am a market researcher/consultant/manager. After work, I try to tend to my hobbies — and that last part is what I typically write about on Metagame.
 
@@ -18,7 +18,5 @@ I used to be a fan of tech and excited about trying out new devices. [But no mor
 Before Metagame, I was a community manager for a fintech startup and I ran a fairly-successful blog on personal finance called Metafinanse. It was in Polish and it’s now defunct after I moved to Hong Kong.
 
 Hong Kong has been my home for 8 years now. We have been through some stuff…
-
----
 
 Thank you for visiting my site.
