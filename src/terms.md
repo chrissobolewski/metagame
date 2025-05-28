@@ -2,11 +2,11 @@
 layout: layouts/layout.html
 title: Terms and Conditions
 ---
-{{ title }}
+# {{ title }}
 
 This page contains the terms and conditions for users of (and visitors to) this site, and for automated agents, web crawlers or robots, and any other software programs which access this site’s content.
 
-It was last updated on {{ page.date | date("MMMM Do, YYYY") }}.
+It was last updated on {{ page.date | htmlDateString }}.
 
 The content of this site is intended for your personal, non-commercial use. All materials published or available here (including, but not limited to text, photographs, images, illustrations, designs, audio clips, video clips, “look and feel”, metadata, data, or compilations) are protected by copyright, and owned or controlled by Chris Sobolewski unless explicitly indicated otherwise.
 
