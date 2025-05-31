@@ -397,6 +397,12 @@ pre code {
         padding-right: 0.5em;
         box-sizing: border-box;
     }
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 16px auto; /* Center images and reduce margin */
+    }
     header {
         position: relative;
         padding-left: 0;
