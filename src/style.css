@@ -51,17 +51,28 @@ li {
 
 a {
     color: var(--text-color-link);
-    text-decoration: none;
+    text-decoration: underline; /* Always underline links */
 }
 
 a:visited {
     color: var(--text-color-link-visited);
+    text-decoration: underline;
 }
 
 a:hover,
 a:active {
     color: var(--text-color-link-active);
     text-decoration: underline;
+}
+
+/* Remove underline from links in headings */
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    text-decoration: none !important;
 }
 
 /* Theme Colors */
