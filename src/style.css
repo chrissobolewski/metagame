@@ -51,6 +51,7 @@ li {
 
 a {
     color: var(--text-color-link);
+    text-decoration: none;
 }
 
 a:visited {
@@ -60,26 +61,22 @@ a:visited {
 a:hover,
 a:active {
     color: var(--text-color-link-active);
+    text-decoration: underline;
 }
 
 /* Theme Colors */
 :root {
     --font-family: 'Mulish', -apple-system, system-ui, sans-serif;
     --font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
-
     --color-gray-20: #e0e0e0;
     --color-gray-50: #C0C0C0;
     --color-gray-90: #333;
-
     --background-color: #fff;
-
     --text-color: var(--color-gray-90);
     --text-color-link: #082840;
     --text-color-link-active: #5f2b48;
     --text-color-link-visited: #17050F;
-
     --syntax-tab-size: 2;
-
     --font-family-header: 'Fira Code', Consolas, Menlo, Monaco, 'Courier New', monospace;
     --font-family-blogtitle: 'Rubik Mono One', Consolas, Menlo, Monaco, 'Courier New', monospace;
 }
@@ -89,11 +86,9 @@ a:active {
         --color-gray-20: #e0e0e0;
         --color-gray-50: #C0C0C0;
         --color-gray-90: #dad8d8;
-
         --text-color-link: #1493fb;
         --text-color-link-active: #6969f7;
         --text-color-link-visited: #a6a6f8;
-
         --background-color: #15202b;
     }
 }
@@ -107,6 +102,7 @@ header {
     align-items: center;
     padding: 1em 0;
     border-bottom: 1px dashed var(--color-gray-20);
+    position: relative;
 }
 
 .home-link {
@@ -217,44 +213,7 @@ header {
     margin-right: 1em;
 }
 
-/* Responsive Styles */
-@media (max-width: 768px) {
-    header {
-        position: relative;
-    }
-    .hamburger {
-        display: flex;
-        position: absolute;
-        top: 1em;
-        right: 1em;
-        margin: 0;
-    }
-    .nav {
-        display: none;
-        flex-direction: column;
-        align-items: flex-end;
-        position: absolute;
-        top: 60px;
-        right: 0;
-        left: auto;
-        width: 100vw;
-        background: var(--background-color);
-        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-        padding: 1em 1.5em 1em 1em;
-        z-index: 1000;
-    }
-    #nav-toggle:checked + .hamburger + .nav,
-    #nav-toggle:checked ~ nav .nav {
-        display: flex;
-    }
-    .nav li {
-        margin-bottom: 10px;
-        margin-right: 0;
-        width: 100%;
-        text-align: right;
-    }
-}
-
+/* Headings */
 h1, h1 a {
     font-family: var(--font-family-blogtitle); 
     text-transform: uppercase;
@@ -357,8 +316,6 @@ code {
     margin: 0 2px;
     white-space: pre-wrap;
     word-break: break-word;
-    background: var(--color-gray-20);
-    color: #2d2d2d;
 }
 
 pre {
@@ -366,8 +323,6 @@ pre {
     padding: 1em;
     margin: 1.5em 0;
     overflow-x: auto;
-    background: var(--color-gray-20);
-    color: #2d2d2d;
     border-radius: 6px;
     font-size: 0.98em;
     line-height: 1.6;
@@ -400,8 +355,8 @@ pre code {
     display: none;
     flex-direction: column;
     justify-content: center;
-    width: 40px;
-    height: 40px;
+    width: 32px;
+    height: 26px;      /* reduced height for a shorter icon */
     background: none;
     border: none;
     cursor: pointer;
@@ -411,9 +366,9 @@ pre code {
 
 .hamburger span {
     display: block;
-    height: 4px;
-    width: 28px;
-    margin: 5px auto;
+    height: 3px;
+    width: 22px;
+    margin: 3px auto;  /* reduced margin for tighter spacing */
     background: var(--text-color);
     border-radius: 2px;
     transition: 0.3s;
@@ -424,38 +379,67 @@ pre code {
     display: none;
 }
 
+/* Responsive Styles */
 @media (max-width: 768px) {
+    html, body {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        box-sizing: border-box;
+    }
     header {
         position: relative;
+        padding-left: 0;
+        padding-right: 0;
+        align-items: center; /* Ensure vertical alignment */
+    }
+    .blog-feed-container {
+        flex-direction: column;
+        gap: 1.5em;
+    }
+    .postlist,
+    .hero,
+    footer {
+        padding-left: 0;
+        padding-right: 0;
     }
     .hamburger {
         display: flex;
         position: absolute;
-        top: 1em;
+        top: 50%;
         right: 1em;
+        transform: translateY(-50%);
         margin: 0;
+        z-index: 1100;
+        flex-direction: column;
+        justify-content: center;
+        width: 32px;
+        height: 26px;
+        background: none;
+        border: none;
+        cursor: pointer;
     }
     .nav {
         display: none;
         flex-direction: column;
         align-items: flex-end;
-        position: absolute;
+        position: fixed;
         top: 60px;
-        right: 0;
-        left: auto;
-        width: 100vw;
+        right: 1em;
+        min-width: 180px;
+        max-width: 80vw;
         background: var(--background-color);
         box-shadow: 0 2px 8px rgba(0,0,0,0.08);
         padding: 1em 1.5em 1em 1em;
-        z-index: 1000;
+        z-index: 1100;
+        border-radius: 8px;
+        gap: 0.5em;
     }
-    #nav-toggle:checked + .hamburger + .nav,
+    #nav-toggle:checked + .hamburger + nav .nav,
     #nav-toggle:checked ~ nav .nav {
         display: flex;
     }
     .nav li {
         margin-bottom: 10px;
-        margin-right: 0;
         width: 100%;
         text-align: right;
     }
