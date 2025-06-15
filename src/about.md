@@ -9,7 +9,7 @@ At my day job I am a market researcher/consultant/manager. After work, I try to 
 My hobbies and interests change from time to time, but as of 2025 they include:
 - Running
 - Video games
-- [Moving to Linux](https://metagame.hk/posts/2025-05-04-this-is-the-year-of-linux-on-desktop/) and away from Apple ecosystem
+- [Exploring Linux](https://metagame.hk/posts/2025-05-04-this-is-the-year-of-linux-on-desktop/)
 - [Building this blog](https://metagame.hk/posts/2025-05-20-personal-website-on-11ty-github-pages/)
 - Photography (these days, mostly travel and less streetphoto)
 
