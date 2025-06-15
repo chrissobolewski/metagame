@@ -7,6 +7,28 @@
     <description>Blog about photography, tech, gaming, coffee, travel, and personal productivity.</description>
     <language>en</language>
     <item>
+      <title>Productively(?) Distracted</title>
+      <link>https://metagame.hk/posts/2025-06-15-distracted/</link>
+      <description>&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://metagame.hk/img/built/mZ_hdsFiYJ-2560.avif 2560w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://metagame.hk/img/built/mZ_hdsFiYJ-2560.webp 2560w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://metagame.hk/img/built/mZ_hdsFiYJ-2560.png&quot; alt=&quot;I use Arch, btw&quot; width=&quot;2560&quot; height=&quot;1440&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;I have to admit that this whole &lt;a href=&quot;https://metagame.hk/posts/2025-05-04-this-is-the-year-of-linux-on-desktop/&quot;&gt;switching-to-Linux thing&lt;/a&gt; has been an elaborate distraction. Much like &lt;a href=&quot;https://metagame.hk/posts/2025-01-09-default-apps-for-2025/&quot;&gt;switching to-do apps&lt;/a&gt; and &lt;a href=&quot;https://metagame.hk/posts/2023-05-23-my-new-way-of-taking-book-notes/&quot;&gt;note-taking systems&lt;/a&gt; before it — it’s just something to take me away from the scary reality of doing &lt;em&gt;real&lt;/em&gt; work. Like writing this blog post.&lt;/p&gt;
+&lt;p&gt;It’s a perfect excuse, really. Setting up your &lt;em&gt;productivity&lt;/em&gt; system is &lt;em&gt;being productive&lt;/em&gt;, right? — it’s right there in the name.&lt;/p&gt;
+&lt;p&gt;But then you find yourself in a constant state of getting ready to &lt;em&gt;do the thing&lt;/em&gt;. And you never actually get to it.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The fool, with all his other faults, has this also, he is always getting ready to live. — Seneca, Letters from a Stoic&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;That’s not to say it’s been entirely pointless. I’ve discovered a whole new (to me) paradigm of using a computer. I learned (okay, more like &lt;em&gt;experienced&lt;/em&gt; rather than &lt;em&gt;learned&lt;/em&gt;) a new operating system, terminal commands; I successfully installed Arch Linux, broke and fixed countless things, and I watched it all burn. I wrote scripts to pull weather and air quality index from publicly-available APIs and automatically put it into my daily note in Obsidian every morning. I scripted other small useful utilities: a service to optimize new images in Obsidian’s attachments folder, and one to sort files in a &lt;a href=&quot;https://www.noodlesoft.com&quot;&gt;Hazel&lt;/a&gt;-like fashion. I found replacements for most of my daily-use software. I vibe-terminal-commanded myself into completely breaking my system and then set it up again. It was fun! And I learned a lot in the process.&lt;/p&gt;
+&lt;p&gt;I think that’s part of the charm of Linux? There is no handholding. Instead, if you want to successfully install Steam and have it recognize all drivers (curse you, Nvidia!), &lt;a href=&quot;https://wiki.archlinux.org/title/Steam&quot;&gt;there’s a wiki page for that&lt;/a&gt;. Setting up your system means a lot Reddit browsing, googling, and AI-prompting to troubleshoot random stuff. It’s a lot of time spent trying to find a single post on some obscure forum where someone had a similar problem like you and managed to come up with a workaround. Jumping through hoops like that earns you nerd cred, but it costs a lot of time and frustration. (But once you figure it out, it’s so satisfying!)&lt;/p&gt;
+&lt;p&gt;But when I want to &lt;em&gt;do the thing&lt;/em&gt; instead of tinkering with the operating system, I’m back on the Mac (or iPad). It’s bland, sanitized, safe, and unfun — and not amount of &lt;a href=&quot;https://www.apple.com/os/macos/&quot;&gt;new shiny&lt;/a&gt; will change that —  but it gets out of the way and is not distracting.&lt;/p&gt;
+&lt;p&gt;Speaking of &lt;em&gt;new shiny&lt;/em&gt;, the WWDC announcements were kind of &lt;em&gt;meh&lt;/em&gt;. The new design invokes no feelings whatsoever. But I am looking forward to seeing the updates to iPadOS in action. Did they finally figure out the tablet multi-tasking? (I’ve been fooled so many times, though!)&lt;/p&gt;
+&lt;p&gt;Anyway… If I were switching from Windows, I would have definitely stayed with Linux. Easy choice. It’s just so much better. No bloat, no upsells, it looks nicer, it’s more efficient, it does not spy on you, and it’s farther from US big tech.&lt;/p&gt;
+&lt;p&gt;But Mac is… complicated. It does have upsells baked into the system, it is US big tech, it is trying too hard to pose as safe — but I have an efficient workflow here, it looks &lt;em&gt;fine&lt;/em&gt;, and it’s more elegant than Windows. Plus, the whole Apple ecosystem gives it an undeniable advantage, no matter how many open source app replacements I can find on Linux.&lt;/p&gt;
+&lt;p&gt;So… enough messing with .conf files. Time to get to work.&lt;/p&gt;
+</description>
+      <pubDate>Sun, 15 Jun 2025 15:58:47 GMT</pubDate>
+      <dc:creator>Chris Sobolewski</dc:creator>
+      <guid>https://metagame.hk/posts/2025-06-15-distracted/</guid>
+    </item>
+    <item>
       <title>Here&#39;s What Helped Me Build This Blog With 11ty/Eleventy and GitHub Pages</title>
       <link>https://metagame.hk/posts/2025-05-20-personal-website-on-11ty-github-pages/</link>
       <description>&lt;p&gt;I am finally happy with my website set-up. It’s not much — just some HTML, CSS, and a few templates — but it’s mine, I can configure it however I want, and I own it.&lt;/p&gt;
@@ -142,27 +164,6 @@ But the relative link &lt;code&gt;/posts/2025-05-11-a-different-relationship-wit
       <pubDate>Thu, 03 Apr 2025 14:00:00 GMT</pubDate>
       <dc:creator>Chris Sobolewski</dc:creator>
       <guid>https://metagame.hk/posts/2025-04-03-a-lot-less-excited-about-nintendo-switch-2/</guid>
-    </item>
-    <item>
-      <title>Blogging Like It&#39;s 2015</title>
-      <link>https://metagame.hk/posts/2025-04-03-blogging-like-its-2015/</link>
-      <description>&lt;p&gt;Following up on my thoughts from &lt;a href=&quot;https://metagame.hk/posts/2025-03-31-is-apple-even-good-at-software/&quot;&gt;the previous post&lt;/a&gt; — I&#39;ll. be publishing shorter entries here. For a while — as an experiment. They would not go into the newsletter initially – instead they would wait their turn for the next monthly newsletter bundle-edition.&lt;/p&gt;
-&lt;p&gt;It&#39;s a bit of a manual process in Ghost, but I&#39;ll roll with it for now.&lt;/p&gt;
-&lt;p&gt;This way:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;I&#39;ll have less pressure and more flexibility&lt;/li&gt;
-&lt;li&gt;You can still follow the blog in &lt;em&gt;real-time&lt;/em&gt; through RSS or social media links (I&#39;ll be cross-posting them using &lt;a href=&quot;https://openvibe.social/?ref=metagame.hk&quot;&gt;Openvibe&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Your inbox won&#39;t get spammed with multiple short post newsletters&lt;/li&gt;
-&lt;li&gt;If you still prefer to receive updates via email, monthly newsletter edition will do just that&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Sounds like a worthwhile experiment to me! If it works out, it will encourage me to introduce more improvements (moving from Ghost to static pages, closer integration with the federated web, automating the newsletter digest, etc.)&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;Maybe it&#39;s the bubble I follow, but I&#39;m seeing a trend of &lt;a href=&quot;https://jasonsantamaria.com/blog/once-again-from-the-top?ref=metagame.hk&quot;&gt;returning to&lt;/a&gt; &lt;a href=&quot;https://ljpuk.net/?ref=metagame.hk&quot;&gt;small-scale&lt;/a&gt; &lt;a href=&quot;https://lmnt.me/blog/make-a-damn-website.html?ref=metagame.hk&quot;&gt;personal&lt;/a&gt; &lt;a href=&quot;https://rknight.me/blog/?ref=metagame.hk&quot;&gt;blogs&lt;/a&gt; and withdrawing from social media. Owning what you create instead of feeding it into the algorithm. Tinkering with your own website.&lt;/p&gt;
-&lt;p&gt;I was passionate about this format 10-ish years ago (I used to have a small-but-award-winning personal finance blog) — hope I can find this feeling again, here and now. This experiment with shorter but more frequent posts is a step in that direction.&lt;/p&gt;
-</description>
-      <pubDate>Thu, 03 Apr 2025 12:00:00 GMT</pubDate>
-      <dc:creator>Chris Sobolewski</dc:creator>
-      <guid>https://metagame.hk/posts/2025-04-03-blogging-like-its-2015/</guid>
     </item>
   </channel>
 </rss>
