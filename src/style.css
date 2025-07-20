@@ -23,7 +23,8 @@ body {
 img {
     max-width: 100%;
     border-radius: 3px;
-    margin: 24px;
+    display: block;
+    margin: 24px auto;
 }
 
 img[width][height],

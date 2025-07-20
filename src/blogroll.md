@@ -1,6 +1,6 @@
 ---
 layout: layouts/layout.html
-title: About Metagame
+title: Blogroll
 ---
 This is a selection of *small web* blogs that I subscribe to in my RSS and like enough to recommend to others.
 
