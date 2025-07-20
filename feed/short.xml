@@ -7,6 +7,15 @@
     <description>Blog about photography, tech, gaming, coffee, travel, and personal productivity.</description>
     <language>en</language>
     <item>
+      <title>2025-07-20 16:03</title>
+      <link>https://metagame.hk/posts/2025-07-20-1603/</link>
+      <description>&lt;p&gt;Using the typhoon day in Hong Kong (T10!) to make some updates to my blog. POSSE and privacy explainers are up, so is a new blog post! Please check it out.&lt;/p&gt;
+</description>
+      <pubDate>Sun, 20 Jul 2025 16:03:50 GMT</pubDate>
+      <dc:creator>Chris Sobolewski</dc:creator>
+      <guid>https://metagame.hk/posts/2025-07-20-1603/</guid>
+    </item>
+    <item>
       <title>2025-07-12 16:03</title>
       <link>https://metagame.hk/posts/2025-07-12-1603/</link>
       <description>&lt;p&gt;Going back to tinkering with the blog after a series of unproductive personal life distractions. No new articles yet, but I put together a blogroll page today (blogging like it&#39;s 2015!) Rebuilding my own place on the web one step at a time.&lt;/p&gt;
@@ -90,16 +99,6 @@
       <pubDate>Sat, 10 May 2025 10:21:00 GMT</pubDate>
       <dc:creator>Chris Sobolewski</dc:creator>
       <guid>https://metagame.hk/posts/2025-05-10-1021/</guid>
-    </item>
-    <item>
-      <title>2025-05-08 19:46</title>
-      <link>https://metagame.hk/posts/2025-05-08-1946/</link>
-      <description>&lt;p&gt;Vibe-coding my way through setting up a static HTML blog on &lt;a href=&quot;https://www.11ty.dev&quot;&gt;11ty&lt;/a&gt;. I have time until October to migrate away from Ghost.&lt;/p&gt;
-&lt;p&gt;Now how do I publish this on GitHub pages? Oh my!&lt;/p&gt;
-</description>
-      <pubDate>Thu, 08 May 2025 19:46:00 GMT</pubDate>
-      <dc:creator>Chris Sobolewski</dc:creator>
-      <guid>https://metagame.hk/posts/2025-05-08-1946/</guid>
     </item>
   </channel>
 </rss>
