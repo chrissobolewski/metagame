@@ -6,7 +6,7 @@ title: Struggling With Gaming FOMO
 excerpt: I want my hobby back.
 ---
 
-I’ve just finished *Death Stranding 2*. Sadly, I could not enjoy it. I could not experience it the way it wanted me to. 
+I’ve just finished *Death Stranding 2*. Sadly, I could not enjoy it. I could not experience it the way it wanted me to.
 
 ![End of game summary](/assets/images/death-stranding-2-summary-screen.jpg)
 
