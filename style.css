@@ -78,8 +78,8 @@ h6 a {
 
 /* Theme Colors */
 :root {
-    --font-family: 'Mulish', -apple-system, system-ui, sans-serif;
-    --font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+    --font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, Adwaita Sans, Cantarell, Ubuntu, roboto, noto, helvetica, arial, sans-serif;
+    --font-family-monospace: Menlo, Consolas, Monaco, Adwaita Mono, Liberation Mono, Lucida Console, monospace;
     --color-gray-20: #e0e0e0;
     --color-gray-50: #C0C0C0;
     --color-gray-90: #333;
@@ -89,8 +89,8 @@ h6 a {
     --text-color-link-active: #5f2b48;
     --text-color-link-visited: #17050F;
     --syntax-tab-size: 2;
-    --font-family-header: 'Fira Code', Consolas, Menlo, Monaco, 'Courier New', monospace;
-    --font-family-blogtitle: 'Rubik Mono One', Consolas, Menlo, Monaco, 'Courier New', monospace;
+    --font-family-header: Menlo, Consolas, Monaco, Adwaita Mono, Liberation Mono, Lucida Console, monospace;
+    --font-family-blogtitle: Menlo, Consolas, Monaco, Adwaita Mono, Liberation Mono, Lucida Console, monospace;
 }
 
 @media (prefers-color-scheme: dark) {
