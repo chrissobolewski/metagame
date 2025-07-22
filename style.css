@@ -227,18 +227,22 @@ header {
 
 /* Headings */
 h1, h1 a {
-    font-family: var(--font-family-blogtitle); 
+    font-family: var(--font-family-header); 
     text-transform: uppercase;
     font-weight: normal;
     text-decoration: none !important;
+    font-size: 1.7em;
+}
+
+h1.blogtitle {
     font-size: 1.2em;
 }
 
 h2 {
     font-family: var(--font-family-header); 
     text-transform: uppercase;
-    font-weight: bolder;
-    font-size: 2em;
+    font-weight: normal;
+    font-size: 1.5em;
 }
 
 h3  {
@@ -246,7 +250,7 @@ h3  {
     text-transform: uppercase;
     font-weight: normal;
     text-decoration: none !important;
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-block-end: 0;
 }
 
