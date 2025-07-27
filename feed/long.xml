@@ -7,6 +7,46 @@
     <description>Blog about photography, tech, gaming, coffee, travel, and personal productivity.</description>
     <language>en</language>
     <item>
+      <title>Apple OS 26 Public Beta First Impressions</title>
+      <link>https://metagame.hk/posts/2025-07-27-apple-os26-public-beta-impressions/</link>
+      <description>&lt;p&gt;Some quick thoughts after the weekend with Apple’s OS 26 public betas (primarily iPad OS). Here&#39;s a selection of new features, how they work, how some of them are broken, and where does it leave the OS as a whole.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Add Reminder&lt;/em&gt; quick action from the lock screen is a convenient addition. I already use it a lot, on my iPhone in particular. It will likely replace &lt;a href=&quot;https://apps.apple.com/us/app/remind-me-faster/id985555908&quot;&gt;Remind Me Faster&lt;/a&gt; for me.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://metagame.hk/img/built/zPusSYW9r--1404.avif 1404w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://metagame.hk/img/built/zPusSYW9r--1404.webp 1404w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://metagame.hk/img/built/zPusSYW9r--1404.png&quot; alt=&quot;Quickly add new reminders from lock screen&quot; width=&quot;1404&quot; height=&quot;1316&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Journal&lt;/em&gt; got some nice improvements, but it’s buggy. I was looking forward to finally trying it on the iPad. iPhone has never been a place for mindful reflection for me. Somehow, I need a keyboard or a pen(cil) for that. And now that the app is finally cross-platform, I can start seriously considering it for my everyday journaling.&lt;/p&gt;
+&lt;p&gt;Thing is, it’s the buggiest Apple app I’ve seen on this beta:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Syncing journaling suggestions seems to happen only on Wi-Fi.&lt;/li&gt;
+&lt;li&gt;Sync seems broken in general. Changes, even entire entries don’t sync reliably across devices. That doesn’t inspire confidence to store my memories in &lt;em&gt;Apple Journal&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;The way it handles handwriting is just not good. Something’s wrong with the way it calculates the position of the “drawing” object as it goes all over the place when you change the device’s orientation, the app’s window width, or hide/reveal the sidebar. I have also seen &lt;a href=&quot;https://ljpuk.net/2025/07/23/giving-ipados-26-another-shot/&quot;&gt;reports of Apple Pencil input lag&lt;/a&gt;, but haven’t encountered it myself.&lt;/li&gt;
+&lt;li&gt;You can create new, separate journals now. But if you try to recategorize your old entries into one of those new ones you’ve just created, your selection will revert after a couple of minutes (syncing error?).&lt;/li&gt;
+&lt;li&gt;The longer the entry gets, the more laggy the typing experience becomes.&lt;/li&gt;
+&lt;li&gt;And it still doesn’t have &lt;em&gt;on this day&lt;/em&gt; — a feature which is critical for me.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://metagame.hk/img/built/dzKmv63Vfj-3816.avif 3816w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://metagame.hk/img/built/dzKmv63Vfj-3816.webp 3816w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://metagame.hk/img/built/dzKmv63Vfj-3816.png&quot; alt=&quot;Journal on iPad OS 26&quot; width=&quot;3816&quot; height=&quot;2173&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;So now I have to choose between &lt;em&gt;Journal, Day One, and Obsidian&lt;/em&gt; for my daily journaling. It’s hard! — and the trade-offs are real: security, data portability/ownership, attachment handling, UX, etc. And moving &lt;em&gt;years&lt;/em&gt; of entries from one app to another is way harder than moving some to-do’s between productivity apps! I&#39;ll keep agonizing over this, I&#39;m sure.&lt;/p&gt;
+&lt;p&gt;Other than that, I noticed small bugs here and there but nothing major.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://metagame.hk/img/built/wCa0A9aKdC-909.avif 909w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://metagame.hk/img/built/wCa0A9aKdC-909.webp 909w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://metagame.hk/img/built/wCa0A9aKdC-909.png&quot; alt=&quot;App Library on iPad OS 26&quot; width=&quot;909&quot; height=&quot;719&quot;&gt;&lt;/picture&gt;
+&lt;em&gt;WhatsApp is very happy to finally be available on the iPad. So eager to get noticed!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Liquid Glass&lt;/em&gt; is a miss for me. Some elements look nice, but it definitely does not achieve its goal of “interface just gets out of the way and leaves more room for your content”. If anything, it’s the opposite. It’s distracting. It’s like it’s shouting “hey, look at me and all the cool effects I can do!”. Yeah, light refractions are cool for the first 5 minutes, but then it would be nice to be able to read what’s on the buttons and panels. Liquid Glass makes it harder!&lt;/p&gt;
+&lt;p&gt;The switches between light and dark modes on the interface elements based on what’s behind it are also jarring. Things that were easily accessible before, now require additional taps (e.g., “all tabs” view in iOS Safari). Options are less visibile and more difficult to reach. That&#39;s not what I expect from a well-thought-out UI!&lt;/p&gt;
+&lt;p&gt;No. It’s making my devices look more toy-like and harder to use at the same time. Form over function at its “finest”. That&#39;s very bad!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Safari&lt;/em&gt; looks awful on some websites.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://metagame.hk/img/built/V_BpqQzdGF-2860.avif 2860w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://metagame.hk/img/built/V_BpqQzdGF-2860.webp 2860w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://metagame.hk/img/built/V_BpqQzdGF-2860.png&quot; alt=&quot;Safari in iPad OS 26&quot; width=&quot;2860&quot; height=&quot;1280&quot;&gt;&lt;/picture&gt;
+&lt;em&gt;Certain designs don&#39;t gel well with Safari&#39;s Liquid Glass. Notice the transition from glassy-transparent to almost-opaque to actual content at the top. I don&#39;t love it.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;App icons look straight bad on some backgrounds.&lt;/p&gt;
+&lt;p&gt;I’m still getting used to the new windowing system on the iPad. I like how with Stage Manager I can create separate spaces (e.g. a separate three-column view with all my social media), but now the &lt;em&gt;stages&lt;/em&gt; peek out from the edge of the screen (if you’re in a full-screen app like YouTube) all the time. That is distracting (and unnecessary?).&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://metagame.hk/img/built/Ivu2JcYcF4-3576.avif 3576w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://metagame.hk/img/built/Ivu2JcYcF4-3576.webp 3576w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://metagame.hk/img/built/Ivu2JcYcF4-3576.png&quot; alt=&quot;Stage Manager in iPad OS 26&quot; width=&quot;3576&quot; height=&quot;2896&quot;&gt;&lt;/picture&gt;
+&lt;em&gt;Notice the slivers of white to the left. They&#39;re tiny but visible enough to be distracting and annoying.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I like that &lt;em&gt;Command+Shift+/&lt;/em&gt; keyboard shortcut works with the new menu bar on the iPad.&lt;/p&gt;
+&lt;p&gt;Haven&#39;t tried the LLM model action in Shortcuts yet. Looking for a good use case.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Overall, I don&#39;t think I like where Apple is going with this. There are a few nice conveniences, but the new design language doesn&#39;t work for me, and features both new and old seem very buggy (yes, even for a beta). Here&#39;s to hoping that things improve before official release.&lt;/p&gt;
+</description>
+      <pubDate>Sun, 27 Jul 2025 18:12:56 GMT</pubDate>
+      <dc:creator>Chris Sobolewski</dc:creator>
+      <guid>https://metagame.hk/posts/2025-07-27-apple-os26-public-beta-impressions/</guid>
+    </item>
+    <item>
       <title>Struggling With Gaming FOMO</title>
       <link>https://metagame.hk/posts/2025-07-20-gaming-fomo/</link>
       <description>&lt;p&gt;I’ve just finished &lt;em&gt;Death Stranding 2&lt;/em&gt;. Sadly, I could not enjoy it. I could not experience it the way it wanted me to.&lt;/p&gt;
@@ -142,33 +182,6 @@ But the relative link &lt;code&gt;/posts/2025-05-11-a-different-relationship-wit
       <pubDate>Sun, 11 May 2025 09:20:16 GMT</pubDate>
       <dc:creator>Chris Sobolewski</dc:creator>
       <guid>https://metagame.hk/posts/2025-05-11-a-different-relationship-with-tech/</guid>
-    </item>
-    <item>
-      <title>This Is the Year of Linux on Desktop</title>
-      <link>https://metagame.hk/posts/2025-05-04-this-is-the-year-of-linux-on-desktop/</link>
-      <description>&lt;p&gt;I have a restless mind. I constantly look for ways to tinker with stuff. And once something works, I can&#39;t just leave it be and enjoy it. I have to move on to something else.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://metagame.hk/posts/2025-03-31-is-apple-even-good-at-software/&quot;&gt;Last month&lt;/a&gt; it was (re-)introducing pen and paper to my note-taking system. Before that, it was the &lt;a href=&quot;https://metagame.hk/posts/2024-12-15-things-look-like-a-creative-goty/&quot;&gt;back-and-forth between Reminders and Things&lt;/a&gt; for my to-do system.&lt;/p&gt;
-&lt;p&gt;So you can imagine how dangerous &lt;a href=&quot;https://youtu.be/pVI_smLgTY0?si=BmXPv3MjrxTFV14Z&amp;amp;ref=metagame.hk&quot;&gt;this video&lt;/a&gt; is for me.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;s&gt;What’s stopping me right now is&lt;/s&gt; &lt;a href=&quot;https://frame.work/?ref=metagame.hk&quot;&gt;&lt;s&gt;Framework Laptops&lt;/s&gt;&lt;/a&gt; &lt;s&gt;not shipping to Hong Kong…&lt;/s&gt;&lt;/p&gt;
-&lt;p&gt;I actually installed Ubuntu on my gaming laptop today, alongside existing Windows 11 installation. Just to try it out.&lt;/p&gt;
-&lt;p&gt;I&#39;m sure I won&#39;t get far. I&#39;ll probably encounter some insurmountable barrier and give up. I will inevitably bump into some jankiness, critical apps with outdated design (looking at you, Libre Office), or things simply not working (as I write this I struggle to make my external monitor to work!) I just hope that some big disappointment happens before I manage to spend any extra money to plug Linux into my workflow. Because I would have to:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Restart my 1Password subscription for a cross-platform password manager (currently with Apple Passwords)&lt;/li&gt;
-&lt;li&gt;Move my email from iCloud back to Fastmail&lt;/li&gt;
-&lt;li&gt;Enable Obsidian sync, since my notes would no longer sync over iCloud&lt;/li&gt;
-&lt;li&gt;Find a new to-do app (Tick Tick looks like a decent candidate)&lt;/li&gt;
-&lt;li&gt;Probably subscribe to Spotify instead of Apple Music (or give YouTube Music another try?)&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Assuming I stick with YouTube for #5, which at the moment doesn&#39;t cost me anything beyond what I&#39;m already paying, items 1-4 still add up to USD 215 per year. That is not insignificant.&lt;/p&gt;
-&lt;p&gt;Then there&#39;s the cost of time required for setting everything up (though, let&#39;s be honest, that&#39;s the fun part) and moving my to-do&#39;s to some new app (switching mission-critical apps, assuming you even find a suitable replacement, &lt;a href=&quot;https://ljpuk.net/2025/05/04/tasks-out-of-sight-dont-get-done/?ref=metagame.hk&quot;&gt;can be a headache&lt;/a&gt;!)&lt;/p&gt;
-&lt;p&gt;Lastly, there&#39;s the sunk/opportunity cost in under-using (or not using at all) the devices I already own, primarily my iPad Pro and Mac mini.&lt;/p&gt;
-&lt;p&gt;And when I think about that last one – it raises the biggest question of all. Linux would primarily replace MacOS for me. But then, Mac is the only platform Apple has not fully locked down yet. So why even try to escape it now? With Mac, I don&#39;t have the same frustrations Windows users have. There is less incentive to switch.&lt;/p&gt;
-&lt;p&gt;What I can do is to lay the groundwork for eventually leaving Apple&#39;s lock-in. A decision I&#39;m inching closer and closer to every time Apple does something greedy, malicious, or when it ingratiates itself with Trump. Which is very often these days.&lt;/p&gt;
-</description>
-      <pubDate>Sun, 04 May 2025 12:00:00 GMT</pubDate>
-      <dc:creator>Chris Sobolewski</dc:creator>
-      <guid>https://metagame.hk/posts/2025-05-04-this-is-the-year-of-linux-on-desktop/</guid>
     </item>
   </channel>
 </rss>
