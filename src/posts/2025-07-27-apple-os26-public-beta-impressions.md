@@ -18,6 +18,9 @@ Thing is, it’s the buggiest Apple app I’ve seen on this beta:
 - Syncing journaling suggestions seems to happen only on Wi-Fi.
 - Sync seems broken in general. Changes, even entire entries don’t sync reliably across devices. That doesn’t inspire confidence to store my memories in *Apple Journal*.
 - The way it handles handwriting is just not good. Something’s wrong with the way it calculates the position of the “drawing” object as it goes all over the place when you change the device’s orientation, the app’s window width, or hide/reveal the sidebar. I have also seen [reports of Apple Pencil input lag](https://ljpuk.net/2025/07/23/giving-ipados-26-another-shot/), but haven’t encountered it myself.
+
+    - [edit: day later] Oh no, LJPUK was totally right. After putting more than a couple of lines of handwriting into *Journal* everything slows down to a crawl. The Pencil becomes laggy and the whole app becomes unresponsive. If you were thinking of doing your handwritten *morning pages* in *Journal* on the iPad — I'm sorry to report, but it's totally unusable.
+
 - You can create new, separate journals now. But if you try to recategorize your old entries into one of those new ones you’ve just created, your selection will revert after a couple of minutes (syncing error?).
 - The longer the entry gets, the more laggy the typing experience becomes.
 - And it still doesn’t have *on this day* — a feature which is critical for me.
