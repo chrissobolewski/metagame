@@ -7,6 +7,15 @@
     <description>Blog about photography, tech, gaming, coffee, travel, and personal productivity.</description>
     <language>en</language>
     <item>
+      <title>2025-07-29 08:13</title>
+      <link>https://metagame.hk/posts/2025-07-29-0813/</link>
+      <description>&lt;p&gt;Apple Journal on OS 26 beta now lives in three different sync states between my iPad Pro, mini, and my iPhone. They refuse to reconcile, even after hours on Wi-Fi. Can’t believe this is the best a $3T company can come up with when tasked with designing a journaling app.&lt;/p&gt;
+</description>
+      <pubDate>Tue, 29 Jul 2025 08:13:50 GMT</pubDate>
+      <dc:creator>Chris Sobolewski</dc:creator>
+      <guid>https://metagame.hk/posts/2025-07-29-0813/</guid>
+    </item>
+    <item>
       <title>Apple OS 26 Public Beta First Impressions</title>
       <link>https://metagame.hk/posts/2025-07-27-apple-os26-public-beta-impressions/</link>
       <description>&lt;p&gt;Some quick thoughts after the weekend with Apple’s OS 26 public betas (primarily iPad OS). Here&#39;s a selection of new features, how they work, how some of them are broken, and where does it leave the OS as a whole.&lt;/p&gt;
@@ -223,15 +232,6 @@ But the relative link &lt;code&gt;/posts/2025-05-11-a-different-relationship-wit
       <pubDate>Tue, 20 May 2025 19:58:47 GMT</pubDate>
       <dc:creator>Chris Sobolewski</dc:creator>
       <guid>https://metagame.hk/posts/2025-05-20-personal-website-on-11ty-github-pages/</guid>
-    </item>
-    <item>
-      <title>2025-05-20 13:23</title>
-      <link>https://metagame.hk/posts/2025-05-20-13-23/</link>
-      <description>&lt;p&gt;This whole drama surrounding Marathon is more interesting than the game itself, to be honest.&lt;/p&gt;
-</description>
-      <pubDate>Tue, 20 May 2025 13:23:19 GMT</pubDate>
-      <dc:creator>Chris Sobolewski</dc:creator>
-      <guid>https://metagame.hk/posts/2025-05-20-13-23/</guid>
     </item>
   </channel>
 </rss>

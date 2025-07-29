@@ -233,62 +233,67 @@
     
         <url>
             <loc>/about/</loc>
-            <lastmod>2025-07-28T11:27:03.578Z</lastmod>
+            <lastmod>2025-07-29T00:15:36.880Z</lastmod>
         </url>
     
         <url>
             <loc>/archive/</loc>
-            <lastmod>2025-07-28T11:27:03.578Z</lastmod>
+            <lastmod>2025-07-29T00:15:36.880Z</lastmod>
         </url>
     
         <url>
             <loc>/blogroll/</loc>
-            <lastmod>2025-07-28T11:27:03.713Z</lastmod>
+            <lastmod>2025-07-29T00:15:37.024Z</lastmod>
         </url>
     
         <url>
             <loc>/</loc>
-            <lastmod>2025-07-28T11:27:03.713Z</lastmod>
+            <lastmod>2025-07-29T00:15:37.025Z</lastmod>
         </url>
     
         <url>
             <loc>/posse/</loc>
-            <lastmod>2025-07-28T11:27:03.713Z</lastmod>
+            <lastmod>2025-07-29T00:15:37.025Z</lastmod>
         </url>
     
         <url>
             <loc>/privacy-policy/</loc>
-            <lastmod>2025-07-28T11:27:03.715Z</lastmod>
+            <lastmod>2025-07-29T00:15:37.027Z</lastmod>
         </url>
     
         <url>
             <loc>/s01/</loc>
-            <lastmod>2025-07-28T11:27:03.715Z</lastmod>
+            <lastmod>2025-07-29T00:15:37.027Z</lastmod>
         </url>
     
         <url>
             <loc>/terms/</loc>
-            <lastmod>2025-07-28T11:27:03.716Z</lastmod>
+            <lastmod>2025-07-29T00:15:37.027Z</lastmod>
         </url>
     
         <url>
             <loc>/updatefeed/</loc>
-            <lastmod>2025-07-28T11:27:03.716Z</lastmod>
+            <lastmod>2025-07-29T00:15:37.027Z</lastmod>
         </url>
     
         <url>
             <loc>/feed/long.xml</loc>
-            <lastmod>2025-07-28T11:27:10.024Z</lastmod>
+            <lastmod>2025-07-29T00:15:46.028Z</lastmod>
         </url>
     
         <url>
             <loc>/feed/feed.xml</loc>
-            <lastmod>2025-07-28T11:27:10.024Z</lastmod>
+            <lastmod>2025-07-29T00:15:46.028Z</lastmod>
         </url>
     
         <url>
             <loc>/feed/short.xml</loc>
-            <lastmod>2025-07-28T11:27:10.024Z</lastmod>
+            <lastmod>2025-07-29T00:15:46.028Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/posts/2025-07-29-0813/</loc>
+            <lastmod>2025-07-29T08:13:50.000Z</lastmod>
         </url>
     
 </urlset>
