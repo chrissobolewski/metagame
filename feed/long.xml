@@ -7,6 +7,27 @@
     <description>Blog about photography, tech, gaming, coffee, travel, and personal productivity.</description>
     <language>en</language>
     <item>
+      <title>Google Zero, Small Web 1.0</title>
+      <link>https://metagame.hk/posts/2025-08-04-google-zero-small-web-one/</link>
+      <description>&lt;p&gt;It’s 2025. Internet is being flooded with AI slop and misinformation. Google doesn’t drive traffic anymore, &lt;a href=&quot;https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/&quot;&gt;it keeps it for itself&lt;/a&gt; instead — with AI summaries and top results reserved exclusively for ads. &lt;a href=&quot;https://www.washingtonpost.com/politics/2024/11/27/musk-x-throttle-links-threads-bluesky/&quot;&gt;Social media throttle links&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This is not a great environment to build a new website in. Building an audience is harder than ever. But maybe, &lt;em&gt;just maybe&lt;/em&gt; we can use this to our advantage.&lt;/p&gt;
+&lt;p&gt;There is value in independence from platforms and big tech. In maintaining a simple website that’s just files and folders — and not a database, scripts, and dynamic content. There is value in providing &lt;em&gt;a personal perspective on a personal website&lt;/em&gt; to a small group of readers. Not everything has to scale, not everything has to pursue infinite growth, not everything has to be ruthlessly monetized.&lt;/p&gt;
+&lt;p&gt;Maybe returning to the Web 1.0 formula — a collection of websites connected through hyperlinks instead of social graphs and algorithms — is the way to go for small creators like myself.&lt;/p&gt;
+&lt;p&gt;I enjoy linking out to other bloggers and pointing my readers to things that I &lt;em&gt;found elsewhere&lt;/em&gt; and &lt;em&gt;found interesting&lt;/em&gt;. &lt;a href=&quot;https://joelchrono.xyz/blog/links-make-the-web-great/&quot;&gt;Links are great&lt;/a&gt;! It’s so much better to send you into a rabbit-hole with a context-relevant link rather than stuffing this website with AI slop and SEO-optimized word salads. That’s where &lt;em&gt;small web&lt;/em&gt; really shines. You can enjoy the process of discovery, feel a sense of wonder, and get lost in the web — it’s fun!&lt;/p&gt;
+&lt;p&gt;METAGAME is a &lt;a href=&quot;https://www.theverge.com/24167865/google-zero-search-crash-housefresh-ai-overviews-traffic-data-audience&quot;&gt;Google Zero&lt;/a&gt; blog. I receive pretty much zero traffic from search engines (apart from a handful of people encountering &lt;a href=&quot;https://metagame.hk/posts/2024-09-29-leica-d-lux-8-as-a-travel-camera/&quot;&gt;my Leica D-Lux 8 post&lt;/a&gt; that way) and social media. My dream/goal/hope is that other websites and blogs that I value would eventually link to something interesting they found &lt;em&gt;here&lt;/em&gt;. That&#39;s how I want to build my audience.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Cutting our ability to reach more people sucks. But this might be a blessining in disguise. By denying us traffic, Google has set us free. We can write for humans again and care not for the SEO crawlers (and &lt;a href=&quot;https://www.theverge.com/news/695501/cloudflare-block-ai-crawlers-default&quot;&gt;block AI bots&lt;/a&gt;). Words once again flow from interest, values, and personality — not from a SEO manual.&lt;/p&gt;
+&lt;p&gt;So go ahead, &lt;a href=&quot;https://metagame.hk/blogroll/&quot;&gt;explore my blogroll&lt;/a&gt;. On top of that, here are two more blogs I’ve discovered just this past week. Diving into their archives now:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://bjhess.com&quot;&gt;Barry Hess&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://manuelmoreale.com&quot;&gt;Manuel “Manu” Moreale&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <pubDate>Tue, 05 Aug 2025 08:42:56 GMT</pubDate>
+      <dc:creator>Chris Sobolewski</dc:creator>
+      <guid>https://metagame.hk/posts/2025-08-04-google-zero-small-web-one/</guid>
+    </item>
+    <item>
       <title>Apple OS 26 Public Beta First Impressions</title>
       <link>https://metagame.hk/posts/2025-07-27-apple-os26-public-beta-impressions/</link>
       <description>&lt;p&gt;Some quick thoughts after the weekend with Apple’s OS 26 public betas (primarily iPad OS). Here&#39;s a selection of new features, how they work, how some of them are broken, and where does it leave the OS as a whole.&lt;/p&gt;
@@ -176,27 +197,6 @@ But the relative link &lt;code&gt;/posts/2025-05-11-a-different-relationship-wit
       <pubDate>Tue, 20 May 2025 19:58:47 GMT</pubDate>
       <dc:creator>Chris Sobolewski</dc:creator>
       <guid>https://metagame.hk/posts/2025-05-20-personal-website-on-11ty-github-pages/</guid>
-    </item>
-    <item>
-      <title>A different relationship with tech</title>
-      <link>https://metagame.hk/posts/2025-05-11-a-different-relationship-with-tech/</link>
-      <description>&lt;p&gt;My attitude towards &lt;em&gt;tech&lt;/em&gt; has changed considerably in the last five years.&lt;/p&gt;
-&lt;p&gt;No longer am I optimistic about where things are going. No longer am I excited about the new technology advancements. Because what are they, really?&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;We made a slightly better phone this year.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;We made a &lt;a href=&quot;https://metagame.hk/posts/2025-04-03-a-lot-less-excited-about-nintendo-switch-2/&quot;&gt;slightly bigger and slightly more performant Switch&lt;/a&gt; than the last one.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Great, thank you.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;Thing is, the latest and greatest is not much greater than last year’s.&lt;/p&gt;
-&lt;p&gt;I was so &lt;a href=&quot;https://metagame.hk/posts/2024-09-13-iphone-13-pro-exit-interview/&quot;&gt;ready to replace my iPhone 13 Pro&lt;/a&gt; last year that I wrote it an eulogy — yet, ultimately I kept it for another year. 16 Pro was incredibly disappointing and I passed. A camera button and some half-baked “AI” features? Come on.&lt;/p&gt;
-&lt;p&gt;I’m even thinking of skipping the 17s this year too. Just going to keep the 13 Pro until Apple finally releases a foldable. Hopefully next year! Now that would be something interesting — first time in a while.&lt;/p&gt;
-&lt;p&gt;But it’s a larger phenomenon than just a new iPhone being uninspiring. Tech just &lt;a href=&quot;https://www.youtube.com/watch?v=P-TANCVoHlc&quot;&gt;isn’t fun anymore&lt;/a&gt;. &lt;a href=&quot;https://youtu.be/ctM2TIXDFQs?si=lQd1XUx8ud5tHuvI&quot;&gt;Being online is tiring&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Enshittification and monetization are sucking all the joy out of everything. Websites, services, apps, platforms, games — getting worse every year while becoming more expensive at the same time. Finding new ways to squeeze out revenue instead of finding new ways of making a better product.&lt;/p&gt;
-&lt;p&gt;Just how long can this go on? There must be a limit where a product just becomes completely unusable under the weight of all that bullshit. At some point we won’t have any more money to spend on subscriptions, loot boxes, battle passes, micro-transactions, etc.&lt;/p&gt;
-&lt;p&gt;There must be a point where things finally break. When &lt;em&gt;people&lt;/em&gt; break and don’t accept this nonsense anymore. Am I there already? Maybe that’s why I’m so surprisingly open to &lt;a href=&quot;https://metagame.hk/posts/2025-05-04-this-is-the-year-of-linux-on-desktop/&quot;&gt;the idea of trying out Linux&lt;/a&gt;?&lt;/p&gt;
-</description>
-      <pubDate>Sun, 11 May 2025 09:20:16 GMT</pubDate>
-      <dc:creator>Chris Sobolewski</dc:creator>
-      <guid>https://metagame.hk/posts/2025-05-11-a-different-relationship-with-tech/</guid>
     </item>
   </channel>
 </rss>
